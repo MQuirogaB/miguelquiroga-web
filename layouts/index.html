@@ -6,10 +6,19 @@
 
 <div class="card-grid">
   {{ range .Params.sections }}
-  <a class="card" href="{{ .link | relURL }}">
+  {{ $target := $.Site.GetPage .link }}
+  {{ if $target }}
+  <a class="card" href="{{ $target.RelPermalink }}">
     <span class="card-icon">{{ .icon }}</span>
     <span class="card-title">{{ .title }}</span>
   </a>
+  {{ else }}
+  <div class="card card-soon">
+    <span class="card-icon">{{ .icon }}</span>
+    <span class="card-title">{{ .title }}</span>
+    <span class="tag">próximamente en el piloto</span>
+  </div>
+  {{ end }}
   {{ end }}
 </div>
 {{ end }}
