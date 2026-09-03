@@ -34,3 +34,10 @@ Mi objetivo radica en mostrar al alumnado que la ciencia está en todos los lado
 | Localización | Duración | Agrupamiento |
 |---|---|---|
 | Aula | 1 Sesión | Individual o parejas |
+
+<details>
+<summary>Solución (haz clic para desplegar)</summary>
+
+Aquí iría, por ejemplo, la solución o las respuestas al ejercicio, ocultas hasta que el alumno quiera verlas.
+
+</details>
