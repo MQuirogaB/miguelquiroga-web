@@ -11,6 +11,7 @@
     <span class="card-icon">{{ .Params.icon }}</span>
     <span class="card-title">{{ .Title }}</span>
     {{ if .Params.curso }}<span class="tag">{{ .Params.curso }}</span>{{ end }}
+    {{ if .Params.tipologia }}<span class="tag">{{ .Params.tipologia }}</span>{{ end }}
   </a>
   {{ end }}
 </div>
