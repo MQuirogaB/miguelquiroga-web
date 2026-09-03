@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="intro">
+  <div class="intro-icon">{{ .Params.intro_icon }}</div>
+  <p>{{ .Params.intro }}</p>
+</section>
+
+<div class="card-grid">
+  {{ range .Params.sections }}
+  <a class="card" href="{{ .link | relURL }}">
+    <span class="card-icon">{{ .icon }}</span>
+    <span class="card-title">{{ .title }}</span>
+  </a>
+  {{ end }}
+</div>
+{{ end }}

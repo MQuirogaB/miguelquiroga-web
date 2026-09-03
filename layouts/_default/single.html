@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="article">
+  <header class="article-head">
+    <div class="article-icon">{{ .Params.icon }}</div>
+    <h1>{{ .Title }}</h1>
+    <div class="meta">
+      {{ if .Params.curso }}<span class="tag">{{ .Params.curso }}</span>{{ end }}
+      {{ if .Params.bloque }}<span class="tag">{{ .Params.bloque }}</span>{{ end }}
+      {{ if .Params.tipo }}<span class="tag">{{ .Params.tipo }}</span>{{ end }}
+    </div>
+  </header>
+  <div class="content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

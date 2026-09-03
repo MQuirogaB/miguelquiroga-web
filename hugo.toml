@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "es-es"
+title = "Miguel Quiroga — Recursos de Física y Química"
+theme = ""
+
+[params]
+  description = "Materiales didácticos, prácticas de laboratorio, astronomía, impresión 3D y generadores para el aula de Física y Química."
