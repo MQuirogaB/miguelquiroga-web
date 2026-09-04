@@ -1,7 +1,7 @@
 ---
 title: La serpiente del faraón
 icon: 🐍
-foto: images/laboratorio/la-serpiente-del-faraon/1.gif
+foto: images/laboratorio/la-serpiente-del-faraon/1.jpg
 tematica:
 - Cambios químicos
 tipologia:

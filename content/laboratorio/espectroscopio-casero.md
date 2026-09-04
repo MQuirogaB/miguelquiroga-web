@@ -1,7 +1,7 @@
 ---
 title: Espectroscopio casero
 icon: 🔆
-foto: images/laboratorio/espectroscopio-casero/1.png
+foto: images/laboratorio/espectroscopio-casero/1.jpg
 tematica:
 - Electromagnetismo
 tipologia:

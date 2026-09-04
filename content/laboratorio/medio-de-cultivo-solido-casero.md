@@ -6,6 +6,7 @@ tipologia:
 - Investigación
 tematica:
 - Biología
+foto: images/laboratorio/medio-de-cultivo-solido-casero/1.jpg
 ---
 
 ## Introducción

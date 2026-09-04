@@ -1,7 +1,7 @@
 ---
 title: Hemisferios de Magdeburgo
 icon: 🍈
-foto: images/laboratorio/hemisferios-de-magdeburgo/1.jpg
+foto: images/laboratorio/hemisferios-de-magdeburgo/portada.jpg
 tematica:
 - Fluidos
 tipologia:

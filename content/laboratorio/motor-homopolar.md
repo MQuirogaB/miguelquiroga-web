@@ -1,7 +1,7 @@
 ---
 title: Motor homopolar
 icon: 🔋
-foto: images/laboratorio/motor-homopolar/1.png
+foto: images/laboratorio/motor-homopolar/1.jpg
 tipologia:
 - Maker
 tematica:

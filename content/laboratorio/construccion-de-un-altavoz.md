@@ -1,7 +1,7 @@
 ---
 title: Construcción de un altavoz
 icon: 🔊
-foto: images/laboratorio/construccion-de-un-altavoz/1.jpg
+foto: images/laboratorio/construccion-de-un-altavoz/portada.jpg
 tematica:
 - Electromagnetismo
 tipologia:

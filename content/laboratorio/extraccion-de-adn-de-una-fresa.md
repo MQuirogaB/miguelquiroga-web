@@ -5,6 +5,7 @@ tematica:
 - Biología
 tipologia:
 - Laboratorio
+foto: images/laboratorio/extraccion-de-adn-de-una-fresa/1.jpg
 ---
 
 ## Introducción

@@ -6,6 +6,7 @@ tipologia:
 - Investigación
 tematica:
 - Proyecto de investigación
+foto: images/laboratorio/cuantas-gotas-caben-en-una-moneda/1.jpg
 ---
 
 ## Introducción

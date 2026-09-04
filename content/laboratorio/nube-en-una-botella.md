@@ -5,6 +5,7 @@ tipologia:
 - Demostración
 tematica:
 - Leyes de los gases
+foto: images/laboratorio/nube-en-una-botella/1.jpg
 ---
 
 ## Introducción

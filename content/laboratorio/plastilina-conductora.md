@@ -5,6 +5,7 @@ tematica:
 tipologia:
 - Maker
 - STEAM
+foto: images/laboratorio/plastilina-conductora/1.jpg
 ---
 
 ## Introducción

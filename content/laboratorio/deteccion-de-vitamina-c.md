@@ -1,7 +1,7 @@
 ---
 title: Detección de vitamina C
 icon: 🍊
-foto: images/laboratorio/deteccion-de-vitamina-c/1.png
+foto: images/laboratorio/deteccion-de-vitamina-c/1.jpg
 tipologia:
 - Laboratorio
 - Investigación

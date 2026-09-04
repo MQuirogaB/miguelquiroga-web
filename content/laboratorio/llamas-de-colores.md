@@ -1,7 +1,7 @@
 ---
 title: Llamas de colores
 icon: 🔥
-foto: images/laboratorio/llamas-de-colores/1.png
+foto: images/laboratorio/llamas-de-colores/1.jpg
 tematica:
 - Color
 tipologia:

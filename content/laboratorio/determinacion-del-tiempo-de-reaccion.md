@@ -6,6 +6,7 @@ tematica:
 tipologia:
 - Investigación
 - Team Building
+foto: images/laboratorio/determinacion-del-tiempo-de-reaccion/1.jpg
 ---
 
 ## Introducción

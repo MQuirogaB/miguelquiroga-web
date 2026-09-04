@@ -1,7 +1,7 @@
 ---
 title: Copa del avaro
 icon: 🍷
-foto: images/laboratorio/copa-del-avaro/1.png
+foto: images/laboratorio/copa-del-avaro/1.jpg
 tipologia:
 - Maker
 tematica:

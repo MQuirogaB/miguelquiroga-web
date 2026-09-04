@@ -1,7 +1,7 @@
 ---
 title: Indicadores de pH con col lombarda
 icon: 🥦
-foto: images/laboratorio/indicadores-de-ph-con-col-lombarda/1.png
+foto: images/laboratorio/indicadores-de-ph-con-col-lombarda/1.jpg
 tipologia:
 - Laboratorio
 tematica:

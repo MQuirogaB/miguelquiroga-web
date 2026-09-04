@@ -1,7 +1,7 @@
 ---
 title: Detección de almidón en alimentos
 icon: 🥔
-foto: images/laboratorio/deteccion-de-almidon-en-alimentos/1.png
+foto: images/laboratorio/deteccion-de-almidon-en-alimentos/1.jpg
 tipologia:
 - Laboratorio
 - Investigación

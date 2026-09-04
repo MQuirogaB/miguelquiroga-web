@@ -1,6 +1,6 @@
 ---
 title: Construcción de un ludión
-foto: images/laboratorio/construccion-de-un-ludion/1.jpg
+foto: images/laboratorio/construccion-de-un-ludion/portada.jpg
 tematica:
 - Fluidos
 tipologia:

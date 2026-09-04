@@ -1,6 +1,6 @@
 ---
 title: Detector de conductividad
-foto: images/laboratorio/detector-de-conductividad/1.png
+foto: images/laboratorio/detector-de-conductividad/1.jpg
 tematica:
 - Electromagnetismo
 tipologia:

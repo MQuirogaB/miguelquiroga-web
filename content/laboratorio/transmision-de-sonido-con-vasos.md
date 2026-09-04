@@ -1,7 +1,7 @@
 ---
 title: Transmisión de sonido con vasos
 icon: 🥤
-foto: images/laboratorio/transmision-de-sonido-con-vasos/1.jpg
+foto: images/laboratorio/transmision-de-sonido-con-vasos/portada.jpg
 tematica:
 - Ondas
 tipologia:

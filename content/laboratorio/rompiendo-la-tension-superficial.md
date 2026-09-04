@@ -7,6 +7,7 @@ tipologia:
 tematica:
 - Fluidos
 - Color
+foto: images/laboratorio/rompiendo-la-tension-superficial/1.jpg
 ---
 
 ## Introducción

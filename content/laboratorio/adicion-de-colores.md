@@ -1,7 +1,7 @@
 ---
 title: Adición de colores
 icon: 💡
-foto: images/laboratorio/adicion-de-colores/1.jpg
+foto: images/laboratorio/adicion-de-colores/portada.jpg
 tematica:
 - Color
 tipologia:

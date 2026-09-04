@@ -1,6 +1,6 @@
 ---
 title: Fuente de Bernoulli
-foto: images/laboratorio/fuente-de-bernoulli/1.png
+foto: images/laboratorio/fuente-de-bernoulli/1.jpg
 tematica:
 - Fluidos
 tipologia:

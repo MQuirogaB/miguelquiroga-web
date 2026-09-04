@@ -1,7 +1,7 @@
 ---
 title: Cohetes de agua
 icon: 💧
-foto: images/laboratorio/cohetes-de-agua/1.png
+foto: images/laboratorio/cohetes-de-agua/1.jpg
 tipologia:
 - Investigación
 - STEAM

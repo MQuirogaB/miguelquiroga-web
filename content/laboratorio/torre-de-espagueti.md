@@ -6,6 +6,7 @@ tematica:
 tipologia:
 - Team Building
 - Investigación
+foto: images/laboratorio/torre-de-espagueti/1.jpg
 ---
 
 ## Introducción

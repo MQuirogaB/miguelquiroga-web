@@ -1,7 +1,7 @@
 ---
 title: Fuego en la mano
 icon: ✋
-foto: images/laboratorio/fuego-en-la-mano/1.jpeg
+foto: images/laboratorio/fuego-en-la-mano/1.jpg
 tipologia:
 - Demostración
 tematica:

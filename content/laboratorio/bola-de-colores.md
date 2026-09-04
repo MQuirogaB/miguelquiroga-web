@@ -1,7 +1,7 @@
 ---
 title: Bola de colores
 icon: 🌈
-foto: images/laboratorio/bola-de-colores/1.jpg
+foto: images/laboratorio/bola-de-colores/portada.jpg
 tipologia:
 - Demostración
 tematica:

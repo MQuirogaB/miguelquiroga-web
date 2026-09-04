@@ -5,6 +5,7 @@ tipologia:
 - Laboratorio
 tematica:
 - Biología
+foto: images/laboratorio/extraccion-de-adn-del-epitelio-bucal/1.jpg
 ---
 
 ## Introducción

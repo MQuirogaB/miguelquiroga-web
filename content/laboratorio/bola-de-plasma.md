@@ -1,7 +1,7 @@
 ---
 title: Bola de plasma
 icon: 🔮
-foto: images/laboratorio/bola-de-plasma/1.jpg
+foto: images/laboratorio/bola-de-plasma/portada.jpg
 tipologia:
 - Demostración
 - Investigación

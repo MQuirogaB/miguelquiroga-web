@@ -1,7 +1,7 @@
 ---
 title: No-ondas con un airzooka
 icon: 💨
-foto: images/laboratorio/no-ondas-con-un-airzooka/1.png
+foto: images/laboratorio/no-ondas-con-un-airzooka/1.jpg
 tipologia:
 - Demostración
 - Maker

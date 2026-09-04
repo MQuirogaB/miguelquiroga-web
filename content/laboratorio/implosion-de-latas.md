@@ -5,6 +5,7 @@ tematica:
 - Leyes de los gases
 tipologia:
 - Demostración
+foto: images/laboratorio/implosion-de-latas/1.jpg
 ---
 
 ## Introducción

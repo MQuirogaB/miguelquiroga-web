@@ -6,6 +6,7 @@ tipologia:
 - Demostración
 tematica:
 - Fluidos
+foto: images/laboratorio/atomizador-de-bernouilli/1.jpg
 ---
 
 ## Introducción

@@ -1,7 +1,7 @@
 ---
 title: Bengalas de colores
 icon: 🎇
-foto: images/laboratorio/bengalas-de-colores/1.png
+foto: images/laboratorio/bengalas-de-colores/1.jpg
 tipologia:
 - Demostración
 - Investigación

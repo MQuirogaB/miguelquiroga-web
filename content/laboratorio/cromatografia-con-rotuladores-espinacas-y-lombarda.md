@@ -1,7 +1,7 @@
 ---
 title: Cromatografía con rotuladores, espinacas y lombarda
 icon: ✒️
-foto: images/laboratorio/cromatografia-con-rotuladores-espinacas-y-lombarda/1.png
+foto: images/laboratorio/cromatografia-con-rotuladores-espinacas-y-lombarda/1.jpg
 tipologia:
 - Laboratorio
 - Investigación

@@ -6,6 +6,7 @@ tematica:
 tipologia:
 - Investigación
 - Team Building
+foto: images/laboratorio/egg-drop-challenge/1.jpg
 ---
 
 ## Introducción

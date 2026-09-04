@@ -1,7 +1,7 @@
 ---
 title: Envasar al vacío
 icon: 🌀
-foto: images/laboratorio/envasar-al-vacio/1.png
+foto: images/laboratorio/envasar-al-vacio/1.jpg
 tipologia:
 - Demostración
 tematica:

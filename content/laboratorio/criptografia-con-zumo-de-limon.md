@@ -1,7 +1,7 @@
 ---
 title: Criptografía con zumo de limón
 icon: 🍋
-foto: images/laboratorio/criptografia-con-zumo-de-limon/1.png
+foto: images/laboratorio/criptografia-con-zumo-de-limon/1.jpg
 tipologia:
 - STEAM
 tematica:

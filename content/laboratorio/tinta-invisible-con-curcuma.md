@@ -1,6 +1,6 @@
 ---
 title: Tinta invisible con cúrcuma
-foto: images/laboratorio/tinta-invisible-con-curcuma/1.jpg
+foto: images/laboratorio/tinta-invisible-con-curcuma/portada.jpg
 tematica:
 - Cambios químicos
 - pH

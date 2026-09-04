@@ -1,7 +1,7 @@
 ---
 title: Esferificaciones
 icon: ⚪
-foto: images/laboratorio/esferificaciones/1.png
+foto: images/laboratorio/esferificaciones/1.jpg
 tematica:
 - Alimentación
 tipologia:

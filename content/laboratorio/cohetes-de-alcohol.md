@@ -6,6 +6,7 @@ tipologia:
 tematica:
 - Leyes de los gases
 - Cambios químicos
+foto: images/laboratorio/cohetes-de-alcohol/1.jpg
 ---
 
 ## Introducción
