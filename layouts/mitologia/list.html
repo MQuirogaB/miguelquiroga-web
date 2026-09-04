@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section class="section-head">
+  <div class="cover-strip"></div>
+  <div class="page-icon">{{ .Params.icon }}</div>
+  <h1>{{ .Title }}</h1>
+  {{ if .Params.description }}<p class="section-desc">{{ .Params.description }}</p>{{ end }}
+</section>
+
+{{ range .Params.categorias }}
+<section class="myth-category">
+  <h2>{{ .icono }} {{ .nombre }}</h2>
+  <p class="myth-blurb">{{ .blurb }}</p>
+  <div class="card-grid">
+    {{ range .items }}
+    {{ $target := $.Site.GetPage (printf "astronomia/mitologia-de-las-constelaciones/%s" .link) }}
+    {{ if $target }}
+    <a class="card" href="{{ $target.RelPermalink }}">
+      <span class="card-icon">{{ .icono }}</span>
+      <span class="card-title">{{ .titulo }}</span>
+    </a>
+    {{ else }}
+    <div class="card card-soon">
+      <span class="card-icon">{{ .icono }}</span>
+      <span class="card-title">{{ .titulo }}</span>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}

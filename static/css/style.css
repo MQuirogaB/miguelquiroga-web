@@ -185,6 +185,21 @@ body {
 
 .card-title { font-weight: 600; font-size: 14.5px; }
 
+.myth-category { margin-bottom: 44px; }
+.myth-category h2 {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--accent-dark);
+  margin-bottom: 6px;
+}
+.myth-blurb {
+  font-family: var(--font-sans);
+  color: var(--ink-light);
+  font-size: 14.5px;
+  margin: 0 0 16px;
+}
+
 .card-soon { opacity: 0.55; cursor: default; }
 .card-soon:hover { box-shadow: none; transform: none; border-color: var(--border); }
 
