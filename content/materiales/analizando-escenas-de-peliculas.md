@@ -8,6 +8,7 @@ bloque:
 tipo:
 - Boletín
 - Investigación
+foto: images/materiales/analizando-escenas-de-peliculas/1.jpg
 ---
 
 🤖 En esta actividad el alumnado analizará dos escenas de películas, Up y Titanic, dos clásicos. La idea es que además de aplicar los conocimientos de dinámica y estática de fluidos aprendan a hacer estimaciones para poder obtener conclusiones.

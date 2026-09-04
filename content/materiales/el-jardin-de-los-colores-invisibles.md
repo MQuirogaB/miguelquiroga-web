@@ -9,6 +9,7 @@ tipo:
 - Ejercicio
 - Transversal
 - Curiosidad
+foto: images/materiales/el-jardin-de-los-colores-invisibles/1.jpg
 ---
 
 💕 Dedicado a todos los abuelos y abuelas del mundo y, en especial, a los míos.

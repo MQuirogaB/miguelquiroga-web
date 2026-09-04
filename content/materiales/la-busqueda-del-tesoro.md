@@ -8,6 +8,7 @@ bloque:
 tipo:
 - Juego
 - kinestésica
+foto: images/materiales/la-busqueda-del-tesoro/1.jpg
 ---
 
 🤖 Se propone una actividad para repasar la interpretación de las gráficas cinemáticas. Teniendo en cuenta la temática, se elige hacer una actividad kinestésica, que implique movimiento.

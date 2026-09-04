@@ -8,6 +8,7 @@ bloque:
 tipo:
 - Investigación
 - aventura
+foto: images/materiales/el-extrano-caso-del-vuelo-1023-de-mole-airlines/1.jpg
 ---
 
 

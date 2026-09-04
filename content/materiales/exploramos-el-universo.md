@@ -8,6 +8,7 @@ bloque:
 - Dinámica
 tipo:
 - TIC
+foto: images/materiales/exploramos-el-universo/1.jpg
 ---
 
 🤖 En esta actividad, el alumnado utilizará una aplicación móvil para explorar el sistema solar. Trabajarán la fuerza peso y buscarán datos curiosos sobre el sistema solar con la aplicación Solar Walk Lite.

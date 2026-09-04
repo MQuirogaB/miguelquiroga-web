@@ -7,6 +7,7 @@ bloque:
 - Dinámica
 tipo:
 - Laboratorio
+foto: images/materiales/determinacion-del-coeficiente-de-rozamiento-entre-una-lata-de-conservas-y-un-plano-inclinado/1.jpg
 ---
 
 🤖 Actividad de laboratorio en la que se determinará el coeficiente de rozamiento entre una lata de conservas (o similar) y un plano inclinado.

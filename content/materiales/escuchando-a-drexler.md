@@ -7,6 +7,7 @@ bloque:
 - Dinámica
 tipo:
 - Transversal
+foto: images/materiales/escuchando-a-drexler/1.jpg
 ---
 
 🤖 La actividad sirve para unir la ciencia con la música. En ella analizaremos la canción de Jorge Drexler: Todo se transforma.

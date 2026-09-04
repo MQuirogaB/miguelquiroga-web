@@ -7,6 +7,7 @@ bloque:
 - Física general
 tipo:
 - aventura
+foto: images/materiales/el-extrano-caso-de-lucia/1.jpg
 ---
 
 🤖 Os presento "El extraño caso de Lucía", una actividad de síntesis para trabajar los contenidos de cinemática, dinámica, fluidos y energía en 4.º ESO.

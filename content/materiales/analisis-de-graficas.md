@@ -7,6 +7,7 @@ bloque:
 - Cinemática
 tipo:
 - Boletín
+foto: images/materiales/analisis-de-graficas/1.jpg
 ---
 
 🤖 Boletín de ejercicios para tratar la interpretación de gráficas de cinemática. Incluye hoja para el alumnado y soluciones para el profesorado.

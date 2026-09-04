@@ -7,6 +7,7 @@ bloque:
 - Enlace Químico
 tipo:
 - ABJ
+foto: images/materiales/quien-es-quien/1.jpg
 ---
 
 🤖 Actividad basada en juegos consistente en una adaptación del juego quien es quien para que el alumnado repase los conceptos relacionados con el enlace químico.

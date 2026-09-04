@@ -10,6 +10,7 @@ tipo:
 - TIC
 - Investigación
 - Curiosidad
+foto: images/materiales/newton-el-principito-y-el-asteroide-b-612/1.jpg
 ---
 
 

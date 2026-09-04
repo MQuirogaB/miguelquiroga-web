@@ -8,6 +8,7 @@ bloque:
 tipo:
 - Ejercicio
 - Curiosidad
+foto: images/materiales/cinematica-de-mierda/1.jpg
 ---
 
 💩 ¿Te puede arruinar un pájaro la cita romántica? ¿Y qué pasa cuando un pingüino decide apuntar con precisión balística?

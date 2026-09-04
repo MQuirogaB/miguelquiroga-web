@@ -10,6 +10,7 @@ bloque:
 - Transversal
 tipo:
 - Transversal
+foto: images/materiales/la-tierra-y-la-luna/1.jpg
 ---
 
 **Actividad para trabajar la comprensión lectora y la relación entre las artes y las ciencias.**

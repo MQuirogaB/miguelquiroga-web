@@ -10,6 +10,7 @@ tipo:
 - Transversal
 - Ejercicio
 - Curiosidad
+foto: images/materiales/la-peste-del-estano/1.jpg
 ---
 
 Adaptado de [Scott, Napoleón y la peste del estaño.](http://starcnc.blogspot.com/2016/12/los-miembros-del-equipo-de-scott-en-el.html)

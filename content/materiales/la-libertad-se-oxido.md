@@ -9,6 +9,7 @@ bloque:
 tipo:
 - Ejercicio
 - Curiosidad
+foto: images/materiales/la-libertad-se-oxido/1.jpg
 ---
 
 🔬 La libertad se oxidó

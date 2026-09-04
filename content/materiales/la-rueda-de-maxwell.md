@@ -9,6 +9,7 @@ bloque:
 tipo:
 - Investigación
 - Laboratorio
+foto: images/materiales/la-rueda-de-maxwell/1.jpg
 ---
 
 🤖 Actividad manipulativa de laboratorio en la que el alumnado construye su propia rueda de Maxwell y estudia en ella las transferencias de energía que se producen durante su movimiento.

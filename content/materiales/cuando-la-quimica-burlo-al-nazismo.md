@@ -12,6 +12,7 @@ tipo:
 - Transversal
 - Ejercicio
 - Curiosidad
+foto: images/materiales/cuando-la-quimica-burlo-al-nazismo/1.jpg
 ---
 
 Esta actividad es una adaptación del artículo [Cuando la química venció al nazismo](https://radicalbarbatilo.blogspot.com/2015/07/cuando-la-quimica-burlo-al-nazismo.html)
