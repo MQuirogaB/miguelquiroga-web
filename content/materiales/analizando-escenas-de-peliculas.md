@@ -1,10 +1,15 @@
 ---
-title: "Analizando escenas de películas"
-icon: "🎬"
-curso: "4º ESO"
-bloque: "Fluidos"
-tipo: "Boletín (+1 más)"
+title: Analizando escenas de películas
+icon: 🎬
+curso:
+- 4º ESO
+bloque:
+- Fluidos
+tipo:
+- Boletín
 ---
+
+<!-- FILTRO INCOMPLETO: Notion mostraba más de un valor en curso/bloque/tipo/tipología/temática para esta página ("+N más") y la vista pública no deja ver los valores ocultos. Se ha guardado solo el valor visible; si quieres que aparezca también en los demás filtros, dime cuáles son los valores que faltan y los añado. -->
 
 🤖 En esta actividad el alumnado analizará dos escenas de películas, Up y Titanic, dos clásicos. La idea es que además de aplicar los conocimientos de dinámica y estática de fluidos aprendan a hacer estimaciones para poder obtener conclusiones.
 

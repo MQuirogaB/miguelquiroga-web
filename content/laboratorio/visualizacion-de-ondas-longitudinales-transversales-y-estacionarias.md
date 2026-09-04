@@ -1,8 +1,11 @@
 ---
-title: "Visualización de ondas longitudinales, transversales y estacionarias"
-icon: "🌊"
-bloque: "Ondas"
-tipo: "Demostración"
+title: Visualización de ondas longitudinales, transversales y estacionarias
+icon: 🌊
+foto: images/laboratorio/visualizacion-de-ondas-longitudinales-transversales-y-estacionarias/1.png
+tematica:
+- Ondas
+tipologia:
+- Demostración
 ---
 
 ## Introducción

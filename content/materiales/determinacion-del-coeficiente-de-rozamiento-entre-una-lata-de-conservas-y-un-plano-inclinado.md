@@ -1,9 +1,12 @@
 ---
-title: "Determinación del coeficiente de rozamiento entre una lata de conservas y un plano inclinado"
-icon: "🥫"
-curso: "4º ESO"
-bloque: "Dinámica"
-tipo: "Laboratorio"
+title: Determinación del coeficiente de rozamiento entre una lata de conservas y un plano inclinado
+icon: 🥫
+curso:
+- 4º ESO
+bloque:
+- Dinámica
+tipo:
+- Laboratorio
 ---
 
 🤖 Actividad de laboratorio en la que se determinará el coeficiente de rozamiento entre una lata de conservas (o similar) y un plano inclinado.

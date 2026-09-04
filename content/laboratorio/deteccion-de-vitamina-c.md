@@ -1,9 +1,14 @@
 ---
-title: "Detección de vitamina C"
-icon: "🍊"
-tipologia: "Laboratorio (+2 más)"
-tematica: "Alimentación (+1 más)"
+title: Detección de vitamina C
+icon: 🍊
+foto: images/laboratorio/deteccion-de-vitamina-c/1.png
+tipologia:
+- Laboratorio
+tematica:
+- Alimentación
 ---
+
+<!-- FILTRO INCOMPLETO: Notion mostraba más de un valor en curso/bloque/tipo/tipología/temática para esta página ("+N más") y la vista pública no deja ver los valores ocultos. Se ha guardado solo el valor visible; si quieres que aparezca también en los demás filtros, dime cuáles son los valores que faltan y los añado. -->
 
 ## Introducción
 

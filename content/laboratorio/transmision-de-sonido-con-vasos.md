@@ -1,8 +1,11 @@
 ---
-title: "Transmisión de sonido con vasos"
-icon: "🥤"
-bloque: "Ondas"
-tipo: "Maker"
+title: Transmisión de sonido con vasos
+icon: 🥤
+foto: images/laboratorio/transmision-de-sonido-con-vasos/1.jpg
+tematica:
+- Ondas
+tipologia:
+- Maker
 ---
 
 ## Introducción

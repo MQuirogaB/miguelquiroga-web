@@ -1,8 +1,11 @@
 ---
-title: "Fuente de Herón de Alejandría"
-icon: "⛲"
-bloque: "Fluidos"
-tipo: "Maker"
+title: Fuente de Herón de Alejandría
+icon: ⛲
+foto: images/laboratorio/fuente-de-heron-de-alejandria/1.jpg
+tematica:
+- Fluidos
+tipologia:
+- Maker
 ---
 
 ## Introducción

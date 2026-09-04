@@ -1,8 +1,11 @@
 ---
-title: "Criptografía con zumo de limón"
-icon: "🍋"
-tipologia: "STEAM"
-tematica: "pH"
+title: Criptografía con zumo de limón
+icon: 🍋
+foto: images/laboratorio/criptografia-con-zumo-de-limon/1.png
+tipologia:
+- STEAM
+tematica:
+- pH
 ---
 
 ## Introducción

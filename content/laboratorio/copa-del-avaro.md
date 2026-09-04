@@ -1,8 +1,11 @@
 ---
-title: "Copa del avaro"
-icon: "🍷"
-tipologia: "Maker"
-tematica: "Fluidos"
+title: Copa del avaro
+icon: 🍷
+foto: images/laboratorio/copa-del-avaro/1.png
+tipologia:
+- Maker
+tematica:
+- Fluidos
 ---
 
 ## Introducción

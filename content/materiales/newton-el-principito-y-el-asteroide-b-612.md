@@ -1,10 +1,15 @@
 ---
-title: "Newton, el Principito y el asteroide B-612"
-icon: "🌒"
-curso: "Física 2º Bach"
-bloque: "Gravitación (+1 más)"
-tipo: "TIC (+2 más)"
+title: Newton, el Principito y el asteroide B-612
+icon: 🌒
+curso:
+- Física 2º Bach
+bloque:
+- Gravitación
+tipo:
+- TIC
 ---
+
+<!-- FILTRO INCOMPLETO: Notion mostraba más de un valor en curso/bloque/tipo/tipología/temática para esta página ("+N más") y la vista pública no deja ver los valores ocultos. Se ha guardado solo el valor visible; si quieres que aparezca también en los demás filtros, dime cuáles son los valores que faltan y los añado. -->
 
 Esta actividad es una adaptación del artículo [Newton, el Principito y el asteroide B-612](https://dialnet.unirioja.es/servlet/articulo?codigo=8444862).
 

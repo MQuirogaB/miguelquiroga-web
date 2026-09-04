@@ -1,8 +1,11 @@
 ---
-title: "Fuego en la mano"
-icon: "✋"
-tipologia: "Demostración"
-tematica: "Cambios químicos"
+title: Fuego en la mano
+icon: ✋
+foto: images/laboratorio/fuego-en-la-mano/1.jpeg
+tipologia:
+- Demostración
+tematica:
+- Cambios químicos
 ---
 
 ## Introducción

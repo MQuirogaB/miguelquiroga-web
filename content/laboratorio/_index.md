@@ -1,5 +1,29 @@
 ---
 title: "Laboratorio"
 icon: "🥽"
-description: "Te recomiendo que antes de nada utilices las distintas vistas eligiendo aquella que más se adecúe a lo que necesites. Prueba también a utilizar los filtros para seleccionar aquello que más te interese."
+description: "Utiliza los filtros para encontrar experimentos por tipología o temática."
+type: "filterable"
+filtros:
+  - key: tipologia
+    label: "Tipología"
+    valores:
+      - "Demostración"
+      - "Investigación"
+      - "Laboratorio"
+      - "Maker"
+      - "STEAM"
+      - "Team Building"
+  - key: tematica
+    label: "Temática"
+    valores:
+      - "Alimentación"
+      - "Biología"
+      - "Cambios químicos"
+      - "Color"
+      - "Electromagnetismo"
+      - "Fluidos"
+      - "Leyes de los gases"
+      - "Ondas"
+      - "Proyecto de investigación"
+      - "pH"
 ---

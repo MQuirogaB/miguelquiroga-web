@@ -1,8 +1,11 @@
 ---
-title: "Esferificaciones"
-icon: "⚪"
-bloque: "Alimentación"
-tipo: "Laboratorio"
+title: Esferificaciones
+icon: ⚪
+foto: images/laboratorio/esferificaciones/1.png
+tematica:
+- Alimentación
+tipologia:
+- Laboratorio
 ---
 
 ## Introducción

@@ -1,8 +1,10 @@
 ---
-title: "Implosión de latas"
-icon: "🧨"
-bloque: "Leyes de los gases"
-tipo: "Demostración"
+title: Implosión de latas
+icon: 🧨
+tematica:
+- Leyes de los gases
+tipologia:
+- Demostración
 ---
 
 ## Introducción

@@ -1,9 +1,14 @@
 ---
-title: "Llamas de colores"
-icon: "🔥"
-bloque: "Color"
-tipo: "Demostración (+1 más)"
+title: Llamas de colores
+icon: 🔥
+foto: images/laboratorio/llamas-de-colores/1.png
+tematica:
+- Color
+tipologia:
+- Demostración
 ---
+
+<!-- FILTRO INCOMPLETO: Notion mostraba más de un valor en curso/bloque/tipo/tipología/temática para esta página ("+N más") y la vista pública no deja ver los valores ocultos. Se ha guardado solo el valor visible; si quieres que aparezca también en los demás filtros, dime cuáles son los valores que faltan y los añado. -->
 
 ## Introducción
 

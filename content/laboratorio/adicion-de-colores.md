@@ -1,8 +1,11 @@
 ---
-title: "Adición de colores"
-icon: "💡"
-bloque: "Color"
-tipo: "Demostración"
+title: Adición de colores
+icon: 💡
+foto: images/laboratorio/adicion-de-colores/1.jpg
+tematica:
+- Color
+tipologia:
+- Demostración
 ---
 
 ## Introducción

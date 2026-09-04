@@ -1,9 +1,13 @@
 ---
-title: "Torre de espagueti"
-icon: "🍝"
-bloque: "Proyecto de investigación"
-tipo: "Team Building (+1 más)"
+title: Torre de espagueti
+icon: 🍝
+tematica:
+- Proyecto de investigación
+tipologia:
+- Team Building
 ---
+
+<!-- FILTRO INCOMPLETO: Notion mostraba más de un valor en curso/bloque/tipo/tipología/temática para esta página ("+N más") y la vista pública no deja ver los valores ocultos. Se ha guardado solo el valor visible; si quieres que aparezca también en los demás filtros, dime cuáles son los valores que faltan y los añado. -->
 
 ## Introducción
 

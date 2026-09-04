@@ -1,8 +1,10 @@
 ---
-title: "Nube en una botella"
-icon: "⛅"
-tipologia: "Demostración"
-tematica: "Leyes de los gases"
+title: Nube en una botella
+icon: ⛅
+tipologia:
+- Demostración
+tematica:
+- Leyes de los gases
 ---
 
 ## Introducción

@@ -1,8 +1,11 @@
 ---
-title: "Bola de colores"
-icon: "🌈"
-tipologia: "Demostración"
-tematica: "Color"
+title: Bola de colores
+icon: 🌈
+foto: images/laboratorio/bola-de-colores/1.jpg
+tipologia:
+- Demostración
+tematica:
+- Color
 ---
 
 ## Introducción

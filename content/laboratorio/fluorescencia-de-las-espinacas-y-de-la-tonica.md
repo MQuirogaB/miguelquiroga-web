@@ -1,8 +1,11 @@
 ---
-title: "Fluorescencia de las espinacas y de la tónica"
-icon: "🥦"
-tipologia: "Laboratorio"
-tematica: "Alimentación"
+title: Fluorescencia de las espinacas y de la tónica
+icon: 🥦
+foto: images/laboratorio/fluorescencia-de-las-espinacas-y-de-la-tonica/1.png
+tipologia:
+- Laboratorio
+tematica:
+- Alimentación
 ---
 
 ## Introducción

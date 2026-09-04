@@ -1,9 +1,12 @@
 ---
-title: "Análisis de gráficas"
-icon: "📈"
-curso: "2º ESO"
-bloque: "Cinemática"
-tipo: "Boletín"
+title: Análisis de gráficas
+icon: 📈
+curso:
+- 2º ESO
+bloque:
+- Cinemática
+tipo:
+- Boletín
 ---
 
 🤖 Boletín de ejercicios para tratar la interpretación de gráficas de cinemática. Incluye hoja para el alumnado y soluciones para el profesorado.

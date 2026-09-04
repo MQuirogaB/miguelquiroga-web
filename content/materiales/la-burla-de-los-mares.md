@@ -1,9 +1,13 @@
 ---
-title: "La burla de los mares"
-icon: "🏴‍☠️"
-curso: "2º ESO"
-bloque: "Física general"
-tipo: "aventura"
+title: La burla de los mares
+icon: 🏴‍☠️
+foto: images/materiales/la-burla-de-los-mares/1.png
+curso:
+- 2º ESO
+bloque:
+- Física general
+tipo:
+- aventura
 ---
 
 Os presento **"La burla de los mares"**, una actividad de síntesis para trabajar los contenidos de cinemática, dinámica, fluidos y energía en 2.º ESO.

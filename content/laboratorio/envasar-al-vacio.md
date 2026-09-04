@@ -1,8 +1,11 @@
 ---
-title: "Envasar al vacío"
-icon: "🌀"
-tipologia: "Demostración"
-tematica: "Fluidos"
+title: Envasar al vacío
+icon: 🌀
+foto: images/laboratorio/envasar-al-vacio/1.png
+tipologia:
+- Demostración
+tematica:
+- Fluidos
 ---
 
 ## Introducción

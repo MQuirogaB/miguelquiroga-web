@@ -1,9 +1,12 @@
 ---
-title: "La tierra y la luna"
-icon: "🌔"
-curso: "2º ESO"
-bloque: "Transversal"
-tipo: "Transversal"
+title: La tierra y la luna
+icon: 🌔
+curso:
+- 2º ESO
+bloque:
+- Transversal
+tipo:
+- Transversal
 ---
 
 **Actividad para trabajar la comprensión lectora y la relación entre las artes y las ciencias.**

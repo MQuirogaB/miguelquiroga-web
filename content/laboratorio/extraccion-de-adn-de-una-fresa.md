@@ -1,8 +1,10 @@
 ---
-title: "Extracción de ADN de una fresa"
-icon: "🍓"
-bloque: "Biología"
-tipo: "Laboratorio"
+title: Extracción de ADN de una fresa
+icon: 🍓
+tematica:
+- Biología
+tipologia:
+- Laboratorio
 ---
 
 ## Introducción

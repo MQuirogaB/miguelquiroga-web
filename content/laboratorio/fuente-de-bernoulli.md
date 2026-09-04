@@ -1,7 +1,10 @@
 ---
-title: "Fuente de Bernoulli"
-bloque: "Fluidos"
-tipo: "Maker"
+title: Fuente de Bernoulli
+foto: images/laboratorio/fuente-de-bernoulli/1.png
+tematica:
+- Fluidos
+tipologia:
+- Maker
 ---
 
 ## Introducción

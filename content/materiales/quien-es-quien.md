@@ -1,9 +1,12 @@
 ---
-title: "¿Quién es quién?"
-icon: "🤷"
-curso: "4º ESO"
-bloque: "Enlace Químico"
-tipo: "ABJ"
+title: ¿Quién es quién?
+icon: 🤷
+curso:
+- 4º ESO
+bloque:
+- Enlace Químico
+tipo:
+- ABJ
 ---
 
 🤖 Actividad basada en juegos consistente en una adaptación del juego quien es quien para que el alumnado repase los conceptos relacionados con el enlace químico.

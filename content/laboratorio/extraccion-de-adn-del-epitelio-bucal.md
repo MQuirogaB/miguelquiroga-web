@@ -1,8 +1,10 @@
 ---
-title: "Extracción de ADN del epitelio bucal"
-icon: "🧬"
-tipologia: "Laboratorio"
-tematica: "Biología"
+title: Extracción de ADN del epitelio bucal
+icon: 🧬
+tipologia:
+- Laboratorio
+tematica:
+- Biología
 ---
 
 ## Introducción

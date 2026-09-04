@@ -1,9 +1,12 @@
 ---
-title: "Escuchando a Drexler"
-icon: "🎙️"
-curso: "2º ESO"
-bloque: "Dinámica"
-tipo: "Transversal"
+title: Escuchando a Drexler
+icon: 🎙️
+curso:
+- 2º ESO
+bloque:
+- Dinámica
+tipo:
+- Transversal
 ---
 
 🤖 La actividad sirve para unir la ciencia con la música. En ella analizaremos la canción de Jorge Drexler: Todo se transforma.

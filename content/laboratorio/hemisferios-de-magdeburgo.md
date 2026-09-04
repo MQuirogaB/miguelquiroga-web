@@ -1,8 +1,11 @@
 ---
-title: "Hemisferios de Magdeburgo"
-icon: "🍈"
-bloque: "Fluidos"
-tipo: "Demostración"
+title: Hemisferios de Magdeburgo
+icon: 🍈
+foto: images/laboratorio/hemisferios-de-magdeburgo/1.jpg
+tematica:
+- Fluidos
+tipologia:
+- Demostración
 ---
 
 ## Introducción

@@ -1,8 +1,11 @@
 ---
-title: "Motor homopolar"
-icon: "🔋"
-tipologia: "Maker"
-tematica: "Electromagnetismo"
+title: Motor homopolar
+icon: 🔋
+foto: images/laboratorio/motor-homopolar/1.png
+tipologia:
+- Maker
+tematica:
+- Electromagnetismo
 ---
 
 ## Introducción

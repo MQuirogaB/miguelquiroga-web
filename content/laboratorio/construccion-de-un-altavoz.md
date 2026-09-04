@@ -1,8 +1,11 @@
 ---
-title: "Construcción de un altavoz"
-icon: "🔊"
-bloque: "Electromagnetismo"
-tipo: "Maker"
+title: Construcción de un altavoz
+icon: 🔊
+foto: images/laboratorio/construccion-de-un-altavoz/1.jpg
+tematica:
+- Electromagnetismo
+tipologia:
+- Maker
 ---
 
 ## Introducción

@@ -1,9 +1,12 @@
 ---
-title: "El extraño caso de Lucía"
-icon: "💁‍♀️"
-curso: "4º ESO"
-bloque: "Física general"
-tipo: "aventura"
+title: El extraño caso de Lucía
+icon: 💁‍♀️
+curso:
+- 4º ESO
+bloque:
+- Física general
+tipo:
+- aventura
 ---
 
 🤖 Os presento "El extraño caso de Lucía", una actividad de síntesis para trabajar los contenidos de cinemática, dinámica, fluidos y energía en 4.º ESO.
