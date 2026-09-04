@@ -3,6 +3,7 @@ title: "Materiales"
 icon: "📚"
 description: "Utiliza los filtros para encontrar materiales por curso, temática o tipo."
 type: "filterable"
+sidebar_key: "curso"
 filtros:
   - key: curso
     label: "Curso"

@@ -1,18 +1,10 @@
 ---
 title: "Laboratorio"
 icon: "🥽"
-description: "Utiliza los filtros para encontrar experimentos por tipología o temática."
+description: "Utiliza los filtros para encontrar experimentos por temática o tipología."
 type: "filterable"
+sidebar_key: "tematica"
 filtros:
-  - key: tipologia
-    label: "Tipología"
-    valores:
-      - "Demostración"
-      - "Investigación"
-      - "Laboratorio"
-      - "Maker"
-      - "STEAM"
-      - "Team Building"
   - key: tematica
     label: "Temática"
     valores:
@@ -26,4 +18,13 @@ filtros:
       - "Ondas"
       - "Proyecto de investigación"
       - "pH"
+  - key: tipologia
+    label: "Tipología"
+    valores:
+      - "Demostración"
+      - "Investigación"
+      - "Laboratorio"
+      - "Maker"
+      - "STEAM"
+      - "Team Building"
 ---

@@ -6,11 +6,12 @@
   {{ if .Params.description }}<p class="section-desc">{{ .Params.description }}</p>{{ end }}
 </section>
 
-{{ $cursoGroup := false }}
+{{ $sidebarKey := .Params.sidebar_key }}
+{{ $sidebarGroup := false }}
 {{ $otherGroups := slice }}
 {{ range .Params.filtros }}
-  {{ if eq .key "curso" }}
-    {{ $cursoGroup = . }}
+  {{ if and $sidebarKey (eq .key $sidebarKey) }}
+    {{ $sidebarGroup = . }}
   {{ else }}
     {{ $otherGroups = $otherGroups | append . }}
   {{ end }}
@@ -21,17 +22,17 @@
 
 {{ $allPages := .Pages.ByTitle }}
 
-{{ if $cursoGroup }}
+{{ if $sidebarGroup }}
 <div class="filterable-layout">
-  <div class="curso-sidebar" id="curso-sidebar">
-    <button type="button" class="curso-item active" data-curso="">
+  <div class="curso-sidebar" id="curso-sidebar" data-sidebar-key="{{ $sidebarKey }}">
+    <button type="button" class="curso-item active" data-value="">
       <span>Todos</span><span class="curso-count">{{ len $allPages }}</span>
     </button>
-    {{ range $cursoGroup.valores }}
+    {{ range $sidebarGroup.valores }}
     {{ $v := . }}
     {{ $n := 0 }}
-    {{ range $allPages }}{{ if in (.Params.curso | default slice) $v }}{{ $n = add $n 1 }}{{ end }}{{ end }}
-    <button type="button" class="curso-item" data-curso="{{ $v }}">
+    {{ range $allPages }}{{ if in (index .Params $sidebarKey | default slice) $v }}{{ $n = add $n 1 }}{{ end }}{{ end }}
+    <button type="button" class="curso-item" data-value="{{ $v }}">
       <span>{{ $v }}</span><span class="curso-count">{{ $n }}</span>
     </button>
     {{ end }}
@@ -73,7 +74,7 @@
       </a>
       {{ end }}
     </div>
-    <p class="filter-empty" id="filter-empty" hidden>No hay materiales que coincidan con lo seleccionado.</p>
+    <p class="filter-empty" id="filter-empty" hidden>No hay páginas que coincidan con lo seleccionado.</p>
   </div>
 </div>
 
@@ -128,17 +129,18 @@
   var clearBtn = document.getElementById('filter-clear');
   var emptyMsg = document.getElementById('filter-empty');
   var sidebar = document.getElementById('curso-sidebar');
-  var active = {};       // key -> Set of values (chip groups)
-  var activeCurso = '';  // single value or '' for "Todos"
+  var sidebarKey = sidebar ? sidebar.getAttribute('data-sidebar-key') : null;
+  var active = {};        // key -> Set of values (chip groups)
+  var activeSidebar = ''; // single value or '' for "Todos"
 
   function apply() {
-    var anyActive = activeCurso !== '';
+    var anyActive = activeSidebar !== '';
     var visible = 0;
     cards.forEach(function (card) {
       var show = true;
-      if (activeCurso !== '') {
-        var cursoVals = (card.getAttribute('data-curso') || '').split('|');
-        if (cursoVals.indexOf(activeCurso) === -1) show = false;
+      if (activeSidebar !== '' && sidebarKey) {
+        var sideVals = (card.getAttribute('data-' + sidebarKey) || '').split('|');
+        if (sideVals.indexOf(activeSidebar) === -1) show = false;
       }
       Object.keys(active).forEach(function (key) {
         var vals = active[key];
@@ -177,14 +179,14 @@
   if (clearBtn) {
     clearBtn.addEventListener('click', function () {
       active = {};
-      activeCurso = '';
+      activeSidebar = '';
       if (chipBar) chipBar.querySelectorAll('.filter-chip.active').forEach(function (c) {
         c.classList.remove('active');
       });
       if (sidebar) sidebar.querySelectorAll('.curso-item.active').forEach(function (c) {
         c.classList.remove('active');
       });
-      if (sidebar) sidebar.querySelector('.curso-item[data-curso=""]').classList.add('active');
+      if (sidebar) sidebar.querySelector('.curso-item[data-value=""]').classList.add('active');
       apply();
     });
   }
@@ -193,7 +195,7 @@
     sidebar.addEventListener('click', function (e) {
       var item = e.target.closest ? e.target.closest('.curso-item') : null;
       if (!item) return;
-      activeCurso = item.getAttribute('data-curso');
+      activeSidebar = item.getAttribute('data-value');
       sidebar.querySelectorAll('.curso-item').forEach(function (c) { c.classList.remove('active'); });
       item.classList.add('active');
       apply();
