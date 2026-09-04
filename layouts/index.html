@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="intro">
   <div class="cover-strip"></div>
-  <div class="page-icon">{{ .Params.intro_icon }}</div>
+  <div class="page-icon">{{ if .Params.intro_logo }}<img src="{{ relURL .Params.intro_logo }}" alt="Logo de {{ .Site.Title }}">{{ else }}{{ .Params.intro_icon }}{{ end }}</div>
   <h1>{{ .Title }}</h1>
   <p>{{ .Params.intro }}</p>
 </section>
