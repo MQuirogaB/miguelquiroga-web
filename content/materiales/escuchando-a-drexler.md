@@ -18,9 +18,7 @@ La actividad consiste en la visualización del videoclip [https://www.youtube.co
 
 Videoclip: [https://www.youtube.com/watch?v=QfhEKpFiepM](https://www.youtube.com/watch?v=QfhEKpFiepM)
 
-<!-- MIGUEL: aquí va la letra de "Todo se transforma" con los huecos numerados (1) a (10), tal como está en la página original de Notion. No es un PDF aparte, es texto directo en la página, así que no lo puedo copiar yo (no puedo reproducir letras de canciones aunque ya las tengas publicadas tú mismo). Pégala aquí tal cual y listo. -->
-
-*(pendiente: pega aquí la letra con huecos)*
+{{< file src="files/materiales/escuchando-a-drexler/1.pdf" text="Actividad Drexler (PDF)" >}}
 
 ## Aspectos metodológicos
 
