@@ -28,7 +28,4 @@ sections:
   - icon: "🗞️"
     title: "Prensa, tv y radio"
     link: "prensa-tv-radio"
-  - icon: "👥"
-    title: "Páginas amigas"
-    link: "paginas-amigas"
 ---
