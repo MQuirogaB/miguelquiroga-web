@@ -1,0 +1,205 @@
+{{ define "main" }}
+<section class="section-head">
+  <div class="cover-strip"></div>
+  <div class="page-icon">{{ .Params.icon }}</div>
+  <h1>{{ .Title }}</h1>
+  {{ if .Params.description }}<p class="section-desc">{{ .Params.description }}</p>{{ end }}
+</section>
+
+{{ $cursoGroup := false }}
+{{ $otherGroups := slice }}
+{{ range .Params.filtros }}
+  {{ if eq .key "curso" }}
+    {{ $cursoGroup = . }}
+  {{ else }}
+    {{ $otherGroups = $otherGroups | append . }}
+  {{ end }}
+{{ end }}
+
+{{ $filterKeys := slice }}
+{{ range .Params.filtros }}{{ $filterKeys = $filterKeys | append .key }}{{ end }}
+
+{{ $allPages := .Pages.ByTitle }}
+
+{{ if $cursoGroup }}
+<div class="filterable-layout">
+  <div class="curso-sidebar" id="curso-sidebar">
+    <button type="button" class="curso-item active" data-curso="">
+      <span>Todos</span><span class="curso-count">{{ len $allPages }}</span>
+    </button>
+    {{ range $cursoGroup.valores }}
+    {{ $v := . }}
+    {{ $n := 0 }}
+    {{ range $allPages }}{{ if in (.Params.curso | default slice) $v }}{{ $n = add $n 1 }}{{ end }}{{ end }}
+    <button type="button" class="curso-item" data-curso="{{ $v }}">
+      <span>{{ $v }}</span><span class="curso-count">{{ $n }}</span>
+    </button>
+    {{ end }}
+  </div>
+
+  <div class="filterable-main">
+    {{ if $otherGroups }}
+    <div class="filter-bar" id="filter-bar">
+      {{ range $otherGroups }}
+      {{ $key := .key }}
+      <div class="filter-group">
+        <span class="filter-group-label">{{ .label }}</span>
+        {{ range .valores }}
+        <button type="button" class="filter-chip" data-key="{{ $key }}" data-value="{{ . }}">{{ . }}</button>
+        {{ end }}
+      </div>
+      {{ end }}
+      <button type="button" id="filter-clear" class="filter-clear" hidden>Quitar filtros ✕</button>
+    </div>
+    {{ end }}
+
+    <div class="photo-grid" id="card-grid">
+      {{ range $allPages }}
+      {{ $page := . }}
+      {{ $attrs := "" }}
+      {{ range $filterKeys }}
+        {{ $vals := index $page.Params . }}
+        {{ if $vals }}{{ $attrs = printf "%s data-%s=\"%s\"" $attrs . (htmlEscape (delimit $vals "|")) }}{{ end }}
+      {{ end }}
+      {{ $foto := $page.Params.foto }}
+      <a class="pcard"{{ $attrs | safeHTMLAttr }} href="{{ .RelPermalink }}">
+        <div class="pcard-thumb{{ if not $foto }} placeholder{{ end }}">
+          {{ if $foto }}<img src="{{ relURL $foto }}" alt="" loading="lazy">{{ else }}<span>{{ .Params.icon }}</span>{{ end }}
+        </div>
+        <div class="pcard-body">
+          <span class="pcard-title">{{ .Title }}</span>
+          <div class="tags">{{ partial "tags.html" . }}</div>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    <p class="filter-empty" id="filter-empty" hidden>No hay materiales que coincidan con lo seleccionado.</p>
+  </div>
+</div>
+
+{{ else }}
+
+{{ if .Params.filtros }}
+<div class="filter-bar" id="filter-bar">
+  {{ range .Params.filtros }}
+  {{ $key := .key }}
+  <div class="filter-group">
+    <span class="filter-group-label">{{ .label }}</span>
+    {{ range .valores }}
+    <button type="button" class="filter-chip" data-key="{{ $key }}" data-value="{{ . }}">{{ . }}</button>
+    {{ end }}
+  </div>
+  {{ end }}
+  <button type="button" id="filter-clear" class="filter-clear" hidden>Quitar filtros ✕</button>
+</div>
+{{ end }}
+
+<div class="photo-grid" id="card-grid">
+  {{ range $allPages }}
+  {{ $page := . }}
+  {{ $attrs := "" }}
+  {{ range $filterKeys }}
+    {{ $vals := index $page.Params . }}
+    {{ if $vals }}{{ $attrs = printf "%s data-%s=\"%s\"" $attrs . (htmlEscape (delimit $vals "|")) }}{{ end }}
+  {{ end }}
+  {{ $foto := $page.Params.foto }}
+  <a class="pcard"{{ $attrs | safeHTMLAttr }} href="{{ .RelPermalink }}">
+    <div class="pcard-thumb{{ if not $foto }} placeholder{{ end }}">
+      {{ if $foto }}<img src="{{ relURL $foto }}" alt="" loading="lazy">{{ else }}<span>{{ .Params.icon }}</span>{{ end }}
+    </div>
+    <div class="pcard-body">
+      <span class="pcard-title">{{ .Title }}</span>
+      <div class="tags">{{ partial "tags.html" . }}</div>
+    </div>
+  </a>
+  {{ end }}
+</div>
+<p class="filter-empty" id="filter-empty" hidden>No hay páginas que coincidan con los filtros seleccionados.</p>
+
+{{ end }}
+
+{{ if .Params.filtros }}
+<script>
+(function () {
+  var grid = document.getElementById('card-grid');
+  if (!grid) return;
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.pcard'));
+  var chipBar = document.getElementById('filter-bar');
+  var clearBtn = document.getElementById('filter-clear');
+  var emptyMsg = document.getElementById('filter-empty');
+  var sidebar = document.getElementById('curso-sidebar');
+  var active = {};       // key -> Set of values (chip groups)
+  var activeCurso = '';  // single value or '' for "Todos"
+
+  function apply() {
+    var anyActive = activeCurso !== '';
+    var visible = 0;
+    cards.forEach(function (card) {
+      var show = true;
+      if (activeCurso !== '') {
+        var cursoVals = (card.getAttribute('data-curso') || '').split('|');
+        if (cursoVals.indexOf(activeCurso) === -1) show = false;
+      }
+      Object.keys(active).forEach(function (key) {
+        var vals = active[key];
+        if (!vals || vals.size === 0) return;
+        anyActive = true;
+        var raw = card.getAttribute('data-' + key) || '';
+        var cardVals = raw.split('|');
+        var match = cardVals.some(function (v) { return vals.has(v); });
+        if (!match) show = false;
+      });
+      card.hidden = !show;
+      if (show) visible++;
+    });
+    if (clearBtn) clearBtn.hidden = !anyActive;
+    if (emptyMsg) emptyMsg.hidden = visible !== 0;
+  }
+
+  if (chipBar) {
+    chipBar.addEventListener('click', function (e) {
+      var chip = e.target.closest ? e.target.closest('.filter-chip') : null;
+      if (!chip) return;
+      var key = chip.getAttribute('data-key');
+      var value = chip.getAttribute('data-value');
+      active[key] = active[key] || new Set();
+      if (active[key].has(value)) {
+        active[key].delete(value);
+        chip.classList.remove('active');
+      } else {
+        active[key].add(value);
+        chip.classList.add('active');
+      }
+      apply();
+    });
+  }
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', function () {
+      active = {};
+      activeCurso = '';
+      if (chipBar) chipBar.querySelectorAll('.filter-chip.active').forEach(function (c) {
+        c.classList.remove('active');
+      });
+      if (sidebar) sidebar.querySelectorAll('.curso-item.active').forEach(function (c) {
+        c.classList.remove('active');
+      });
+      if (sidebar) sidebar.querySelector('.curso-item[data-curso=""]').classList.add('active');
+      apply();
+    });
+  }
+
+  if (sidebar) {
+    sidebar.addEventListener('click', function (e) {
+      var item = e.target.closest ? e.target.closest('.curso-item') : null;
+      if (!item) return;
+      activeCurso = item.getAttribute('data-curso');
+      sidebar.querySelectorAll('.curso-item').forEach(function (c) { c.classList.remove('active'); });
+      item.classList.add('active');
+      apply();
+    });
+  }
+})();
+</script>
+{{ end }}
+{{ end }}

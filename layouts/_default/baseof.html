@@ -20,7 +20,7 @@
     <span class="sep">›</span><span class="current">{{ with .Params.icon }}{{ . }} {{ end }}{{ .Title }}</span>
   </nav>
   {{ end }}
-  <main class="wrap">
+  <main{{ if not .IsHome }} class="wrap"{{ end }}>
     {{ block "main" . }}{{ end }}
   </main>
   <footer class="foot">

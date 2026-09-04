@@ -1,0 +1,6 @@
+{{ $p := . }}
+{{ with $p.Params.curso }}{{ range . }}<span class="tag">{{ . }}</span>{{ end }}{{ end }}
+{{ with $p.Params.bloque }}{{ range . }}<span class="tag tag-bloque">{{ . }}</span>{{ end }}{{ end }}
+{{ with $p.Params.tipo }}{{ range . }}<span class="tag tag-tipo">{{ . }}</span>{{ end }}{{ end }}
+{{ with $p.Params.tipologia }}{{ range . }}<span class="tag tag-tipologia">{{ . }}</span>{{ end }}{{ end }}
+{{ with $p.Params.tematica }}{{ range . }}<span class="tag tag-tematica">{{ . }}</span>{{ end }}{{ end }}

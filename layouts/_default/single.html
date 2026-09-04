@@ -5,11 +5,7 @@
     <div class="page-icon">{{ .Params.icon }}</div>
     <h1>{{ .Title }}</h1>
     <div class="meta">
-      {{ if .Params.curso }}<span class="tag">{{ .Params.curso }}</span>{{ end }}
-      {{ if .Params.bloque }}<span class="tag tag-bloque">{{ .Params.bloque }}</span>{{ end }}
-      {{ if .Params.tipo }}<span class="tag tag-tipo">{{ .Params.tipo }}</span>{{ end }}
-      {{ if .Params.tipologia }}<span class="tag tag-tipologia">{{ .Params.tipologia }}</span>{{ end }}
-      {{ if .Params.tematica }}<span class="tag tag-tematica">{{ .Params.tematica }}</span>{{ end }}
+      {{ partial "tags.html" . }}
     </div>
   </header>
   <div class="content">

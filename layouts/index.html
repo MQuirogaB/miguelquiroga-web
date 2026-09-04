@@ -1,26 +1,34 @@
 {{ define "main" }}
-<section class="intro">
-  <div class="cover-strip"></div>
-  <div class="page-icon">{{ if .Params.intro_logo }}<img src="{{ relURL .Params.intro_logo }}" alt="Logo de {{ .Site.Title }}">{{ else }}{{ .Params.intro_icon }}{{ end }}</div>
-  <h1>{{ .Title }}</h1>
-  <p>{{ .Params.intro }}</p>
+<section class="hero">
+  <div class="hero-inner">
+    <div class="page-icon">{{ if .Params.intro_logo }}<img src="{{ relURL .Params.intro_logo }}" alt="Logo de {{ .Site.Title }}">{{ else }}{{ .Params.intro_icon }}{{ end }}</div>
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.intro }}</p>
+  </div>
 </section>
 
-<div class="card-grid">
-  {{ range .Params.sections }}
-  {{ $target := $.Site.GetPage .link }}
-  {{ if $target }}
-  <a class="card" href="{{ $target.RelPermalink }}">
-    <span class="card-icon">{{ .icon }}</span>
-    <span class="card-title">{{ .title }}</span>
-  </a>
-  {{ else }}
-  <div class="card card-soon">
-    <span class="card-icon">{{ .icon }}</span>
-    <span class="card-title">{{ .title }}</span>
-    <span class="tag">próximamente en el piloto</span>
+<div class="wrap">
+  <div class="section-list">
+    {{ range .Params.sections }}
+    {{ $target := $.Site.GetPage .link }}
+    {{ if $target }}
+    <a class="section-row" href="{{ $target.RelPermalink }}">
+      <span class="section-row-icon">{{ .icon }}</span>
+      <span class="section-row-text">
+        <span class="section-row-title">{{ .title }}</span>
+        {{ if .desc }}<span class="section-row-desc">{{ .desc }}</span>{{ end }}
+      </span>
+    </a>
+    {{ else }}
+    <div class="section-row section-row-soon">
+      <span class="section-row-icon">{{ .icon }}</span>
+      <span class="section-row-text">
+        <span class="section-row-title">{{ .title }}</span>
+        <span class="section-row-desc">Próximamente en el piloto</span>
+      </span>
+    </div>
+    {{ end }}
+    {{ end }}
   </div>
-  {{ end }}
-  {{ end }}
 </div>
 {{ end }}
