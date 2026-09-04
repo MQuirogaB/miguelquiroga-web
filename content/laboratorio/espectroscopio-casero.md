@@ -17,7 +17,7 @@ En esta actividad los participantes construirán un espectroscopio casero utiliz
 
 ## Materiales
 
-- [Plantilla](https://file.notion.so/f/f/fc2773fc-d249-4d65-9b8d-6c4a50825742/cf1ae793-68a6-445d-96f1-3bada1a24c9c/foldable-2.0.7(1).pdf?id=751d41f6-724f-415d-b40e-41bdf8cae4da&table=block&spaceId=fc2773fc-d249-4d65-9b8d-6c4a50825742&expirationTimestamp=1697068800000&signature=pQZ4MyFnMrLMYb_f1A0CsNMpDAwF9Kwl_owAZgtpbzA&downloadName=Espectroscopio.pdf)
+- {{< file src="files/laboratorio/espectroscopio-casero/1.pdf" text="Plantilla (PDF)" >}}
 - Pegamento de barra
 - Cello
 - CD
@@ -52,6 +52,6 @@ Como cada elemento tiene un espectro de emisión propio y diferente de los demá
 
 ## Recursos externos
 
-- [Espectroscopio.pdf](https://file.notion.so/f/f/fc2773fc-d249-4d65-9b8d-6c4a50825742/cf1ae793-68a6-445d-96f1-3bada1a24c9c/foldable-2.0.7(1).pdf?id=751d41f6-724f-415d-b40e-41bdf8cae4da&table=block&spaceId=fc2773fc-d249-4d65-9b8d-6c4a50825742&expirationTimestamp=1697068800000&signature=pQZ4MyFnMrLMYb_f1A0CsNMpDAwF9Kwl_owAZgtpbzA&downloadName=Espectroscopio.pdf) (204.4KB)
+- {{< file src="files/laboratorio/espectroscopio-casero/1.pdf" text="Espectroscopio.pdf (204.4KB)" >}}
 - [ESPECTROSCOPIO CASERO](https://www.instructables.com/ESPECTROSCOPIO-CASERO/) — En este tutorial encontrarán una forma muy sencilla de hacer un espectroscopio casero.
 - [Una mirada nueva a la luz: construye tu propio espectrómetro](https://scienceinschool.org/es/article/2012/spectrometer-es/) — Traducido por Elisa Inés López Schiaffino. ¿Qué puedes hacer con una caja de cereal y un CD? Con un poquito de ayuda de Mark Tiele Westra ¡tu propio espectrómetro!
