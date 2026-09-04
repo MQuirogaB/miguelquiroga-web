@@ -20,4 +20,4 @@ A partir de ahí, el alumnado se mete en harina con ejercicios de estequiometrí
 
 Ideal para repasar o aplicar contenidos del bloque de reacciones químicas con un enfoque narrativo que engancha. ¿Quién dijo que la Química era aburrida?
 
-<!-- DOCUMENTO: archivo incrustado (visor embebido) que no terminó de cargar durante la migración automatizada; revisar directamente en la página original -->
+{{< file src="files/materiales/cuando-la-quimica-burlo-al-nazismo/1.pdf" text="Cuando la química burló al nazismo (PDF)" >}}

@@ -54,7 +54,7 @@ Cuando la pajita está elevada, h será positiva y por tanto, habrá velocidad d
 5. Colocar la pajita superior.
 6. Aislarla con plastilina.
 
-<!-- IMAGEN: Visualización del efecto -->
+{{< video src="videos/laboratorio/fuente-de-bernoulli/1.mp4" >}}
 
 ## Referencias
 

@@ -51,4 +51,4 @@ Donde E es la energía del fotón, h, la constante de Planck y ν, la frecuencia
 4. Encender una llama de alcohol.
 5. Poner la brocheta sobre la llama para ver el color.
 
-<!-- VÍDEO: había un vídeo o recurso incrustado al final de la página que no llegó a cargar en la migración (se quedó mostrando "Cargando…"); revisar directamente en Notion. -->
+{{< youtube id="gaXWdHFg1dE" title="Bengalas de colores" >}}

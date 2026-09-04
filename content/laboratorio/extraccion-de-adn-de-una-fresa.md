@@ -50,4 +50,4 @@ El jabón ayuda a disolver las membranas celulares, liberando el ADN del interio
 
 ## Recursos externos
 
-<!-- ENLACE: archivo adjunto "Cómo extraer ADN de una fresa.pdf" (951.4KB) — no se pudo extraer la URL del PDF, ya que el bloque de archivo de Notion no expone un enlace directo en el HTML renderizado -->
+{{< file src="files/laboratorio/extraccion-de-adn-de-una-fresa/1.pdf" text="Cómo extraer ADN de una fresa.pdf" >}}

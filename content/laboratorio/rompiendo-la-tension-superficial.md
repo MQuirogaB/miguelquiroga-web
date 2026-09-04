@@ -37,4 +37,4 @@ La tensión superficial es una propiedad de los líquidos que hace que la capa s
 3. Utilizando un bastoncillo de algodón, aplica detergente líquido sobre la superficie de la leche.
 4. Observa como los anillos de color se expanden.
 
-<!-- IMAGEN/VÍDEO: Visualización del efecto. -->
+{{< video src="videos/laboratorio/rompiendo-la-tension-superficial/1.mp4" >}}

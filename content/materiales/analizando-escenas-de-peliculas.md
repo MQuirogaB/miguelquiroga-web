@@ -23,7 +23,9 @@ Para ello, como de costumbre, haremos una suposición, el peso de la casa. Norma
 - ¿Cuánto costaría levantar tu casa en globos?
 - ¿Cuántos harían falta para levantarte?
 
-<!-- DOCUMENTO: segundo documento del alumnado (probablemente sobre la escena del Titanic) incrustado como visor que no terminó de cargar durante la migración automatizada; revisar directamente en la página original -->
+### ¿Murió Jack por no saber física?
+
+{{< file src="files/materiales/analizando-escenas-de-peliculas/2.pdf" text="¿Murió Jack por no saber física? (actividad)" >}}
 
 ## Documentos para el Profesorado
 

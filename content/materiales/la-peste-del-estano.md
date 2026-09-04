@@ -20,4 +20,4 @@ Tras leer un texto breve pero muy curioso, el alumnado deberá aplicar lo aprend
 
 ⏱️ Ocupa una sesión de clase o puede utilizarse como ejercicio de cierre o ampliación.
 
-<!-- DOCUMENTO: archivo incrustado (visor embebido) que no terminó de cargar durante la migración automatizada; revisar directamente en la página original -->
+{{< file src="files/materiales/la-peste-del-estano/1.pdf" text="La peste del estaño (actividad)" >}}

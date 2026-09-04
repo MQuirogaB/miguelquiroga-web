@@ -22,4 +22,4 @@ La actividad incluye una parte narrativa que sirve como enganche y contexto, seg
 
 🧠 Una forma diferente de enseñar química redox… con historia, con emoción y con sentido.
 
-<!-- DOCUMENTO: archivo incrustado (visor embebido) que no terminó de cargar durante la migración automatizada; revisar directamente en la página original -->
+{{< file src="files/materiales/la-libertad-se-oxido/1.pdf" text="La libertad se oxidó (PDF)" >}}

@@ -20,13 +20,13 @@ En ella deberán investigar a quién pertenece cada cuerpo basándose en la comp
 
 ### Versión para el alumnado
 
-<!-- DOCUMENTO: PDF incrustado (visor embebido) que no terminó de cargar durante la migración automatizada; revisar directamente en la página original -->
+{{< file src="files/materiales/el-extrano-caso-del-vuelo-1023-de-mole-airlines/1.pdf" text="Caso del vuelo 1023 - versión para el alumnado (PDF)" >}}
 
 ## Documentos para el profesorado
 
 ### Solucionario
 
-<!-- DOCUMENTO: PDF incrustado (visor embebido) que no terminó de cargar durante la migración automatizada; revisar directamente en la página original -->
+{{< file src="files/materiales/el-extrano-caso-del-vuelo-1023-de-mole-airlines/2.pdf" text="Caso del vuelo 1023 - solucionario para el profesorado (PDF)" >}}
 
 ## Aspectos metodológicos
 

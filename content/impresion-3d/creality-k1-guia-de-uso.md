@@ -63,7 +63,7 @@ Thank you for choosing our products. For the best experience, please read this U
 
 ### Cambio de filamento
 
-<!-- EMBED: vídeo/recurso incrustado sobre el cambio de filamento — no se pudo extraer la URL, la plataforma de origen (Notion) carga el embed bajo demanda -->
+{{< youtube id="y1FPRb2H0oo" title="Service Tutorial K1: Replace the Filament (Creality After-sale)" >}}
 
 ## Preguntas frecuentes y soluciones a cuestiones habituales
 
@@ -81,4 +81,4 @@ Thank you for choosing our products. For the best experience, please read this U
 
 ### Tengo la impresora atascada. Cómo solucionarlo
 
-<!-- EMBED: vídeo/recurso incrustado sobre cómo solucionar un atasco de la impresora — no se pudo extraer la URL, la plataforma de origen (Notion) carga el embed bajo demanda -->
+{{< youtube id="B8WteTtEigA" title="Solucionar atasco Creality K1 Max, impresión 3D (Anexs3D)" >}}

@@ -23,7 +23,7 @@ En esta página encontrarás una guía enfocada para docentes para utilizar la c
 
 En este vídeo encontrarás explicado paso a paso cómo desempaquetar y configurar tu equipo para que funcione correctamente.
 
-<!-- EMBED: vídeo de desembalaje y puesta a punto — no se pudo extraer la URL, la plataforma de origen (Notion) carga el embed bajo demanda -->
+{{< youtube id="_HICnjCpURY" title="Mr BEAM II: Grabado y corte láser para todos" >}}
 
 ### Encender y conectar la cortadora
 
@@ -42,7 +42,7 @@ En este vídeo encontrarás explicado paso a paso cómo desempaquetar y configur
 
 ## Manuales
 
-<!-- IMAGEN/EMBED: manual de instrucciones (PDF) dreamcut & dreamcut [S] & [X] -->
+{{< file src="files/corte-laser/mr-beam-dreamcut-guia/1.pdf" text="Manual de instrucciones dreamcut & dreamcut [S] & [X] (PDF)" >}}
 
 **dreamcut & dreamcut [S] & [X] — MANUAL DE INSTRUCCIONES**
 

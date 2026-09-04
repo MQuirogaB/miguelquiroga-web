@@ -19,4 +19,4 @@ Os presento esta actividad de cinemática 100% contextualizada (y algo escatoló
 
 ⏱️ Se resuelve en una o dos sesiones, dependiendo del nivel del grupo y las risas.
 
-<!-- DOCUMENTO: archivo incrustado (visor embebido) que no terminó de cargar durante la migración automatizada; revisar directamente en la página original -->
+{{< file src="files/materiales/cinematica-de-mierda/1.pdf" text="Cinemática de mierda (actividad)" >}}

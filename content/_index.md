@@ -1,6 +1,7 @@
 ---
 title: "miguelquiroga.es"
 intro_icon: "👨‍⚕️"
+intro_logo: "images/logo.png"
 intro: "En esta página encontrarás recursos didácticos para la materia de física y química que he ido elaborando y recopilando con el tiempo. Siéntete libre de explorar y utilizar todo aquello que necesites."
 sections:
   - icon: "📚"

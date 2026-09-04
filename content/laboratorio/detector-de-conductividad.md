@@ -46,7 +46,7 @@ Este dispositivo dispone de un LED que, cuando el circuito esté cerrado, se ilu
 4. Conectar el LED.
 5. Conectar la pila.
 
-<!-- IMAGEN/VÍDEO: recurso incrustado adicional (bloque "Cargando…" en la página original, posiblemente un vídeo o archivo) -->
+{{< youtube id="FVnKzWDiWpU" title="Detector de conductividad" >}}
 
 ## Ampliación
 

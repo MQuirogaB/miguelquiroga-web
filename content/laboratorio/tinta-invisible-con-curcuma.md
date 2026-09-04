@@ -42,7 +42,7 @@ La cúrcuma presenta un compuesto químico, la curcumina, que es sensible al pH.
 4. Con otro pincel o bastoncillo, pinta sobre la cartulina con la disolución de cúrcuma.
 5. Ahora se revelará gracias a la reacción ácido-base el mensaje secreto.
 
-<!-- VÍDEO: demostración del revelado del mensaje secreto (bloque "Cargando…" en la página original) -->
+{{< youtube id="ZMmFEZZezh4" title="Tinta invisible con cúrcuma" >}}
 
 ## Recursos externos
 

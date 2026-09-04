@@ -27,4 +27,4 @@ A partir de este relato, se plantea una serie de ejercicios en los que el alumna
 
 ⏱️ Duración estimada: una sesión de 50 min.
 
-<!-- DOCUMENTO: archivo incrustado (visor embebido) que no terminó de cargar durante la migración automatizada; revisar directamente en la página original -->
+{{< file src="files/materiales/el-jardin-de-los-colores-invisibles/1.pdf" text="El jardín de los colores invisibles (PDF)" >}}
