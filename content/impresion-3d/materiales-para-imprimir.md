@@ -15,11 +15,11 @@ icon: "🧵"
 
 ## Galería
 
-<!-- IMAGEN: foto de una pieza impresa en PLA -->
-<!-- IMAGEN: foto de una pieza impresa en PETG -->
-<!-- IMAGEN: foto de una pieza impresa en ABS -->
-<!-- IMAGEN: foto de una pieza impresa en ASA -->
-<!-- IMAGEN: foto de una pieza impresa en Flexible (TPU) -->
+{{< img src="images/impresion-3d/materiales-para-imprimir/1.jpg" alt="foto de una pieza impresa en PLA" >}}
+{{< img src="images/impresion-3d/materiales-para-imprimir/2.jpg" alt="foto de una pieza impresa en PETG" >}}
+{{< img src="images/impresion-3d/materiales-para-imprimir/3.jpg" alt="foto de una pieza impresa en ABS" >}}
+{{< img src="images/impresion-3d/materiales-para-imprimir/4.jpg" alt="foto de una pieza impresa en ASA" >}}
+{{< img src="images/impresion-3d/materiales-para-imprimir/5.jpg" alt="foto de una pieza impresa en Flexible (TPU)" >}}
 
 🌐 Adaptado de:
 

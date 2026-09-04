@@ -9,7 +9,7 @@ tipo: "Demostración (+1 más)"
 
 En esta actividad los participantes experimentarán con la visualización de llamas de diferentes colores mediante la adición de sales al combustible. El objetivo es comprender como las diferentes sales afectan al color de la llama.
 
-<!-- IMAGEN: Llamas de diferentes sales -->
+{{< img src="images/laboratorio/llamas-de-colores/1.png" alt="Llamas de diferentes sales" >}}
 
 ## Objetivos
 
@@ -31,7 +31,7 @@ Las sales son compuestos inorgánicos que se forman cuando se combinan un metal 
 
 Los electrones de un átomo tienden a distribuirse de tal forma que la energía del átomo sea la menor posible. A esto se le conoce como estado de mínima energía o basal. Cuando un átomo recibe energía, por ejemplo, calor, los electrones la absorben y suben a niveles energéticos superiores. El átomo pasa por tanto a estar en un estado excitado.
 
-<!-- IMAGEN: Tránsitos electrónicos -->
+{{< img src="images/laboratorio/llamas-de-colores/2.png" alt="Tránsitos electrónicos" >}}
 
 Los diferentes niveles de energía están cuantizados. La energía del electrón no puede subir o bajar de forma continua sino a saltos entre niveles cuánticos. Ya que el estado excitado no es un estado estable, el electrón vuelve a su estado basal. Cuando esto ocurre, se libera un fotón, es decir, radiación electromagnética que formará el espectro de emisión.
 
@@ -51,7 +51,7 @@ Donde E es la energía del fotón, h, la constante de Planck y ν, la frecuencia
 
 **Nota:** Puede añadirse esa disolución a un atomizador y pulverizar sobre una llama.
 
-<!-- IMAGEN: Cloruro de sodio -->
-<!-- IMAGEN: Cloruro de litio -->
-<!-- IMAGEN: Ácido bórico -->
-<!-- IMAGEN: Ácido bórico -->
+{{< img src="images/laboratorio/llamas-de-colores/3.jpeg" alt="Cloruro de sodio" >}}
+{{< img src="images/laboratorio/llamas-de-colores/4.jpeg" alt="Cloruro de litio" >}}
+{{< img src="images/laboratorio/llamas-de-colores/5.jpeg" alt="Ácido bórico" >}}
+<!-- IMAGEN: Ácido bórico (no se encontró una segunda imagen real en la página original; el texto tenía esta descripción duplicada sin imagen asociada) -->

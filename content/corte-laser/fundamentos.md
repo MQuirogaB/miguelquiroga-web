@@ -3,7 +3,7 @@ title: "Fundamentos del corte láser"
 icon: "🔥"
 ---
 
-<!-- IMAGEN: foto de portada relacionada con corte láser -->
+{{< img src="images/corte-laser/fundamentos/1.jpg" alt="foto de portada relacionada con corte láser" >}}
 
 ## Como funciona el corte láser
 
@@ -32,7 +32,7 @@ Cuando usamos un cortador láser, el color del material afecta directamente a su
 - ✔ Los colores complementarios al azul (amarillo, naranja, rojo) → Absorben bien la luz azul y facilitan el corte.
 - ✔ Los objetos blancos → Reflejan gran parte de la luz y necesitan más energía para ser cortados.
 
-<!-- IMAGEN: gráfico/ilustración sobre la absorción de luz láser según el color del material -->
+{{< img src="images/corte-laser/fundamentos/2.png" alt="gráfico/ilustración sobre la absorción de luz láser según el color del material" >}}
 
 *Adaptado de [mrbeam support](https://support.mr-beam.org/en/support/solutions/articles/43000579632-materials-general-information)*
 
@@ -44,7 +44,7 @@ Si usamos un láser azul (450 nm):
 - El fieltro blanco necesita más energía porque refleja gran parte de la luz.
 - El papel blanco grueso se corta mejor que el fieltro blanco, porque su textura y densidad ayudan a absorber parte de la energía.
 
-<!-- IMAGEN: comparativa de materiales de distinto color cortados con láser -->
+{{< img src="images/corte-laser/fundamentos/3.png" alt="comparativa de materiales de distinto color cortados con láser" >}}
 
 **✅ Conclusión**
 

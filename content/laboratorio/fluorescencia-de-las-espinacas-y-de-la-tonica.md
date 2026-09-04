@@ -36,7 +36,7 @@ La fluorescencia es un fenómeno en el que una molécula absorbe una cantidad es
 
 La tónica es una bebida que contiene entre 25 y 60 ppm de quinina, que es la sustancia responsable del sabor amargo de la bebida. La quinina es una molécula orgánica en la que se observa fluorescencia cuando se ilumina con luz ultravioleta y se encuentra en medio ácido, como el agua tónica.
 
-<!-- IMAGEN: Molécula de quinina. -->
+{{< img src="images/laboratorio/fluorescencia-de-las-espinacas-y-de-la-tonica/1.png" alt="Molécula de quinina" >}}
 
 Para anular la fluorescencia de la quina se puede realizar una reacción ácido-base. Si se le añade a la tónica unas gotas de amoníaco, esta deja de ser fluorescente ya que se produce la siguiente reacción química:
 
@@ -48,7 +48,7 @@ Donde R representa la molécula de quinina a excepción del grupo OH. Cuando est
 
 Las plantas contienen unos pigmentos llamados clorofilas, responsables de su color verde. En la naturaleza se pueden encontrar varios tipos de clorofilas, siendo la clorofila-a la que se encuentra de forma universal en todas las plantas. Las clorofilas son moléculas orgánicas complejas que presentan fluorescencia cuando se iluminan con luz ultravioleta.
 
-<!-- IMAGEN: Molécula de clorofila. -->
+{{< img src="images/laboratorio/fluorescencia-de-las-espinacas-y-de-la-tonica/2.png" alt="Molécula de clorofila" >}}
 
 ## Procedimiento
 

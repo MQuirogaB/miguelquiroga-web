@@ -9,7 +9,7 @@ En esta página encontrarás una guía enfocada para docentes para utilizar la c
 
 ## Características del equipo
 
-<!-- IMAGEN: esquema del equipo Mr Beam II Dreamcut -->
+{{< img src="images/corte-laser/mr-beam-dreamcut-guia/1.png" alt="esquema del equipo Mr Beam II Dreamcut" >}}
 *Esquema del equipo. Tomado de [https://support.mr-beam.org/](https://support.mr-beam.org/)*
 
 - Se trata de un equipo de corte láser equipado con láser de onda corta de 5W o 10W, dependiendo del modelo.

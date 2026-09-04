@@ -31,7 +31,7 @@ Al poner en contacto las disoluciones de alginato de sodio y de cloruro de calci
 
 A diferencia de los iones de sodio, que forman un único enlace con las cadenas del polímero, los iones de calcio pueden formar dos enlaces con dos cadenas distintas. Cuanto más tiempo ocurra entre ambas disoluciones, más rígidas se volverán las esferas ya que habrá más intercambio iónico y, por tanto, más entrecruzamiento.
 
-<!-- IMAGEN: Alginato en presencia de sodio y de calcio -->
+{{< img src="images/laboratorio/esferificaciones/1.png" alt="Alginato en presencia de sodio y de calcio" >}}
 
 El proceso es reversible, pueden redisolverse las esferas en una disolución con sodio, como cloruro de sodio.
 

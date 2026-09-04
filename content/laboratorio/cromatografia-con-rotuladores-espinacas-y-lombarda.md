@@ -37,12 +37,12 @@ La tinta de rotulador está formada por distintas sustancias químicas que, al j
 3. Añade un poco de etanol en el vaso, aproximadamente 1 cm.
 4. Coloca la tira con la mancha en la parte inferior en el vaso y deja que el alcohol vaya subiendo y separando las partes de la tinta.
 
-<!-- IMAGEN: Detalle del montaje. -->
+{{< img src="images/laboratorio/cromatografia-con-rotuladores-espinacas-y-lombarda/1.png" alt="Detalle del montaje" >}}
 
-<!-- IMAGEN: Ejemplo del efecto (colores elegidos aleatoriamente). -->
+{{< img src="images/laboratorio/cromatografia-con-rotuladores-espinacas-y-lombarda/2.png" alt="Ejemplo del efecto (colores elegidos aleatoriamente)" >}}
 
 **Nota:** Se puede hacer con extracto de espinacas para separar clorofila, xantofila y carotenos y con lombarda para separar clorofila, xantofila y antocianinas.
 
-<!-- IMAGEN: Separación de espinaca y lombarda. Tomado de @biologiayartes -->
+{{< img src="images/laboratorio/cromatografia-con-rotuladores-espinacas-y-lombarda/3.png" alt="Separación de espinaca y lombarda. Tomado de @biologiayartes" >}}
 
 > 💡 También puede hacerse este experimento utilizando caramelos como M&Ns y una mezcla de agua y sal como eluyente con una concentración de 1g/L.

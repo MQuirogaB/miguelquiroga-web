@@ -9,7 +9,7 @@ tematica: "Ondas"
 
 En este experimento se utilizará un cañón de aire para generar paquetes de fluido. Para visualizar el movimiento, se utilizará una máquina de humo.
 
-<!-- IMAGEN: Figura 1: Airzooka. -->
+{{< img src="images/laboratorio/no-ondas-con-un-airzooka/1.png" alt="Figura 1: Airzooka." >}}
 
 ## Objetivos
 

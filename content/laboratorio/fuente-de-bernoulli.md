@@ -8,7 +8,7 @@ tipo: "Maker"
 
 El principio de Bernoulli es un de los conceptos fundamentales de la física, describiendo la relación entre la presión y el flujo de fluidos. En esta actividad se presenta una experiencia práctica en el laboratorio para demostrar este principio a través de la construcción de una fuente simple utilizando una botella y dos pajitas.
 
-<!-- IMAGEN: Figura 1 - Fuente de Bernouilli -->
+{{< img src="images/laboratorio/fuente-de-bernoulli/1.png" alt="Figura 1 - Fuente de Bernouilli" >}}
 
 La experiencia ofrece una forma efectiva de visualizar y comprender el principio de Bernoulli.
 

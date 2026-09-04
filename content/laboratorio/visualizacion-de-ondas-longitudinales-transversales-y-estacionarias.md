@@ -9,7 +9,7 @@ tipo: "Demostración"
 
 En esta actividad se utilizará un muelle para comparar las diferencias entre las ondas longitudinales y transversales y una taladradora adaptada para generar ondas estacionarias.
 
-<!-- IMAGEN: Tipos de ondas en función de su propagación -->
+{{< img src="images/laboratorio/visualizacion-de-ondas-longitudinales-transversales-y-estacionarias/1.png" alt="Tipos de ondas en función de su propagación" >}}
 
 ## Objetivos
 

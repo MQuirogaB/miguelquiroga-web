@@ -32,7 +32,7 @@ Al reaccionar la vitamina C con el yodo se produce una reacción red-ox que hace
 
 > C₆H₈O₆ + I₂ → C₆H₆O₆ + 2H⁺ + 2I⁻
 
-<!-- IMAGEN: imagen sin descripción visible en la página original. -->
+{{< img src="images/laboratorio/deteccion-de-vitamina-c/1.png" alt="Detector de vitamina C con papel reactivo" >}}
 
 ## Procedimiento
 

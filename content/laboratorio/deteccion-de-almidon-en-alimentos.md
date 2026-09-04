@@ -30,19 +30,19 @@ En esta actividad se va a utilizar la técnica de la tinción de betadine para d
 
 El almidón es un polisacárido formado, como la celulosa, por condensación de miles de moléculas de glucosa mediante enlace glucosídico.
 
-<!-- IMAGEN: Almidón. -->
+{{< img src="images/laboratorio/deteccion-de-almidon-en-alimentos/1.png" alt="Almidón" >}}
 
 Contiene dos tipos de polisacáridos distintos: la amilosa y la amilopectina. La amilosa presenta una cadena lineal, no ramificada, formada por unidades de glucosa con enlaces α-(1→4), con una disposición helicoidal de seis monómeros por cada vuelta de hélice. Por otro lado, la amilopectina tiene una cadena lineal base con el mismo tipo de enlace α-(1→4), pero también presenta gran cantidad de ramificaciones con enlace α-(1→6).
 
-<!-- IMAGEN: Estructura de la amilosa, presente en el almidón en torno al 25%. -->
+{{< img src="images/laboratorio/deteccion-de-almidon-en-alimentos/2.png" alt="Estructura de la amilosa, presente en el almidón en torno al 25%" >}}
 
 La prueba del yodo, es decir, la reacción entre el yodo y el almidón, es la que nos permite detectar su presencia en algunos alimentos. Esta reacción es el resultado de la formación de cadenas de poliyoduro (generalmente triyoduro, I₃⁻) que se enlazan con el almidón en las hélices del polímero.
 
-<!-- IMAGEN: Estructura de la amilopectina, presente en el almidón en torno al 75%. -->
+{{< img src="images/laboratorio/deteccion-de-almidon-en-alimentos/3.png" alt="Estructura de la amilopectina, presente en el almidón en torno al 75%" >}}
 
 En concreto, es la amilosa del almidón la que se une a las moléculas de yodo formando un color azul oscuro, prácticamente negro. La amilopectina, sin embargo, apenas reacciona con el yodo.
 
-<!-- IMAGEN: Complejo amidón-triyoduro. -->
+{{< img src="images/laboratorio/deteccion-de-almidon-en-alimentos/4.png" alt="Complejo amidón-triyoduro" >}}
 
 ## Procedimiento
 
@@ -50,4 +50,4 @@ En concreto, es la amilosa del almidón la que se une a las moléculas de yodo f
 2. Aplicar unas gotas de betadine sobre cada muestra (puede ser necesario rebajarla con agua).
 3. En caso de tener almidón, la disolución de betadine se tornará azulada.
 
-<!-- IMAGEN/VÍDEO: Visualización del experimento. -->
+{{< img src="images/laboratorio/deteccion-de-almidon-en-alimentos/5.jpg" alt="Visualización del experimento" >}}

@@ -9,7 +9,7 @@ tipo: "Maker"
 
 La fuente de Herón es un objeto que permite obtener un flujo de agua constante, independientemente de la altura de la reserva de agua o de la presión ejercida sobre ella. En esta actividad se creará una fuente de Herón para entender como funciona y experimentar con diferentes parámetros.
 
-<!-- IMAGEN: Figura 1 - Fuente de Herón -->
+{{< img src="images/laboratorio/fuente-de-heron-de-alejandria/1.jpg" alt="Figura 1 - Fuente de Herón" >}}
 
 ## Objetivos
 

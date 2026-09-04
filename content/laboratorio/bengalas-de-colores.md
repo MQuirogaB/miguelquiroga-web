@@ -9,7 +9,7 @@ tematica: "Color (+1 más)"
 
 En esta actividad los participantes experimentarán haciendo bengalas de diferentes colores para poder ver las llamas de diferentes metales.
 
-<!-- IMAGEN: Llamas de diferentes sales. -->
+{{< img src="images/laboratorio/bengalas-de-colores/1.png" alt="Llamas de diferentes sales." >}}
 
 ## Objetivos
 
@@ -33,7 +33,7 @@ Las sales son compuestos inorgánicos que se forman cuando se combinan un metal 
 
 Los electrones de un átomo tienden a distribuirse de tal forma que la energía del átomo sea la menor posible. A esto se le conoce como estado de mínima energía o basal. Cuando un átomo recibe energía, por ejemplo, calor, los electrones la absorben y suben a niveles energéticos superiores. El átomo pasa por tanto a estar en un estado excitado.
 
-<!-- IMAGEN: Tránsitos electrónicos. -->
+{{< img src="images/laboratorio/bengalas-de-colores/2.png" alt="Tránsitos electrónicos." >}}
 
 Los diferentes niveles de energía están cuantizados. La energía del electrón no puede subir o bajar de forma continua sino a saltos entre niveles cuánticos. Ya que el estado excitado no es un estado estable, el electrón vuelve a su estado basal. Cuando esto ocurre, se libera un fotón, es decir, radiación electromagnética que formará el espectro de emisión.
 

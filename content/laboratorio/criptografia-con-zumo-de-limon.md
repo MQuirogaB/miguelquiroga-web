@@ -29,7 +29,7 @@ La criptografía es el estudio de la seguridad de la información y la privacida
 
 La fenolftaleína es un indicador de pH que cambia de color en función del pH del medio en el que se encuentra. Inicialmente, la fenolftaleína es incolora, pero a medida que el pH aumenta y se acerca el punto de neutralidad (pH=7) esta comienza a tornarse de color rosa, claro. Si el pH se desvía más hacia el medio básico, el color va cambiando a rosa más oscuro. Esto permite que se pueda utilizar la fenolftaleína para medir el pH de una disolución y determinar si es ácida o básica.
 
-<!-- IMAGEN: Figura 1: Estructura de la fenolftaleína. -->
+{{< img src="images/laboratorio/criptografia-con-zumo-de-limon/1.png" alt="Figura 1: Estructura de la fenolftaleína." >}}
 
 ## Procedimiento
 

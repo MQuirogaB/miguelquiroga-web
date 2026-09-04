@@ -9,7 +9,7 @@ tipo: "Demostración"
 
 En esta actividad se utilizarán tres luces de colores diferentes para crear sombras con diferentes tonalidades. Se estudiará como influye la interferencia de la luz en el color de las sombras.
 
-<!-- IMAGEN: Visualización del efecto -->
+{{< img src="images/laboratorio/adicion-de-colores/1.jpg" alt="Visualización del efecto" >}}
 
 ## Objetivos
 
@@ -24,15 +24,15 @@ En esta actividad se utilizarán tres luces de colores diferentes para crear som
 - Regleta.
 - Objeto opaco para crear la sombra (puede ser una mano)
 
-<!-- IMAGEN: Montaje -->
+{{< img src="images/laboratorio/adicion-de-colores/2.jpg" alt="Montaje" >}}
 
 ## Fundamento científico
 
 La interferencia de la luz es un fenómeno óptico en el que dos o más ondas de luz se combinan para crear una onda resultante. Esta interferencia posibilita crear diferentes colores.
 
-<!-- IMAGEN: Superposición de colores -->
+{{< img src="images/laboratorio/adicion-de-colores/3.png" alt="Superposición de colores" >}}
 
-<!-- IMAGEN: Análisis del efecto -->
+{{< img src="images/laboratorio/adicion-de-colores/4.jpg" alt="Análisis del efecto" >}}
 
 ## Procedimiento
 

@@ -9,7 +9,7 @@ tematica: "Cambios químicos"
 
 En esta actividad los participantes visualizarán una reacción de combustión directamente sobre la mano.
 
-<!-- IMAGEN/VÍDEO: Visualización del efecto. -->
+{{< img src="images/laboratorio/fuego-en-la-mano/1.jpeg" alt="Visualización del efecto." >}}
 
 ## Objetivos
 
@@ -44,4 +44,4 @@ la mano no se quema ya que el agua tiene una capacidad calorífica Ce elevada, l
 4. Coger con la mano.
 5. Prender fuego.
 
-<!-- IMAGEN/VÍDEO: Visualización del efecto. -->
+{{< img src="images/laboratorio/fuego-en-la-mano/2.jpeg" alt="Visualización del efecto." >}}

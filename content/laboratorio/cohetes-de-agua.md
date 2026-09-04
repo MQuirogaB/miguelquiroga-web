@@ -31,7 +31,7 @@ En esta actividad los participantes tendrán la oportunidad de crear y lanzar un
 
 Los cohetes funcionan gracias a la ley de acción y reacción de Newton, que establece que para cada acción hay una reacción igual y opuesta. En el caso de los cohetes, la presión del aire y del agua dentro de la botella crea una fuerza de reacción que impulsa el cohete para el cielo.
 
-<!-- IMAGEN: Cohete de agua. -->
+{{< img src="images/laboratorio/cohetes-de-agua/1.png" alt="Cohete de agua" >}}
 
 ## Procedimiento
 

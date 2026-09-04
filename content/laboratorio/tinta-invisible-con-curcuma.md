@@ -32,7 +32,7 @@ La cúrcuma es un pigmento amarillo que se encuentra en la raíz de la planta Cu
 
 La cúrcuma presenta un compuesto químico, la curcumina, que es sensible al pH. En soluciones ácidas y neutras, la curcumina se vuelve amarilla, mientras que en soluciones alcalinas, la cúrcuma se vuelve marrón.
 
-<!-- IMAGEN: Cúrcuma en su forma ácida (arriba) y en su forma básica (abajo) -->
+{{< img src="images/laboratorio/tinta-invisible-con-curcuma/1.jpg" alt="Cúrcuma en su forma ácida (arriba) y en su forma básica (abajo)" >}}
 
 ## Procedimiento
 

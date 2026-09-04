@@ -94,7 +94,7 @@ Caer en medio de una serpiente o escalera no tiene ningún efecto.
 
 ### Material
 
-<!-- IMAGEN: tablero de juego de serpientes y escaleras (casillas del 1 al 30) -->
+{{< img src="images/materiales/serpientes-y-escaleras-energias-2-eso/1.png" alt="tablero de juego de serpientes y escaleras (casillas del 1 al 30)" >}}
 
 ## Aspectos metodológicos
 

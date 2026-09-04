@@ -37,7 +37,7 @@ En esta actividad se utilizará el extracto de col lombarda como indicador de pH
 
 El extracto de col lombarda a presenta unas sustancias conocidas como antocianinas, las cuales cambian de color en función del pH, es decir, de la acidez del medio.
 
-<!-- IMAGEN: Colores de la antocianina. Adaptado de compoundchem.com -->
+{{< img src="images/laboratorio/indicadores-de-ph-con-col-lombarda/1.png" alt="Colores de la antocianina. Adaptado de compoundchem.com" >}}
 
 ## Procedimiento
 

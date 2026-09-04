@@ -30,7 +30,7 @@ La sensación de abrazo puede ser bastante sustancial. La presión es causada po
 
 Cuando la persona de la bolsa entra por primera vez dentro de ella, la presión del aire externa e interna es la misma. Al nivel del mar, la presión del aire suele ser de 1 atm.
 
-<!-- IMAGEN: Figura 1: Esquema de presiones. -->
+{{< img src="images/laboratorio/envasar-al-vacio/1.png" alt="Figura 1: Esquema de presiones" >}}
 
 Una vez encendido, la presión interna e reducirá entre un 5 y un 20%. La mayor presión del aire externo empujará la superficie exterior de la bolsa hacia zonas de menor presión.
 

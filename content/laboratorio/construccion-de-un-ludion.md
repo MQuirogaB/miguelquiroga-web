@@ -8,7 +8,7 @@ tipo: "Maker (+1 más)"
 
 El ludión o diablillo de Descartes es un dispositivo que sirve para demostrar el efecto de la presión sobre un cuerpo sumergido. En esta actividad se creará un ludión y se estudiará su flotabilidad.
 
-<!-- IMAGEN: Figura 1 - Esquema del ludión -->
+{{< img src="images/laboratorio/construccion-de-un-ludion/1.jpg" alt="Figura 1 - Esquema del ludión" >}}
 
 ## Objetivos
 

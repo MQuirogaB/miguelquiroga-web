@@ -24,7 +24,7 @@ En este experimento, construiremos un instrumento que nos permita detectar si un
 - Destornillador
 - Adaptador de pila
 
-<!-- IMAGEN: diseño/esquema del montaje del detector de conductividad -->
+{{< img src="images/laboratorio/detector-de-conductividad/1.png" alt="Diseño/esquema del montaje del detector de conductividad" >}}
 
 ## Fundamento científico
 

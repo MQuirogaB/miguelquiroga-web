@@ -11,7 +11,7 @@ Los hemisferios de Magdeburgo son un experimento clásico de física que demuest
 
 El experimento consiste en dos hemisferios de latón que encajan perfectamente para formar una esfera. Una de las semiesferas tiene un tubo que se conecta a una bomba de vacío. Cuando se extrae el aire del interior de los hemisferios, la presión atmosférica exterior empuja las dos mitades hacia adentro, manteniéndolas unidas.
 
-<!-- IMAGEN: Figura 1 - Hemisferios de Magdeburgo -->
+{{< img src="images/laboratorio/hemisferios-de-magdeburgo/1.jpg" alt="Figura 1 - Hemisferios de Magdeburgo" >}}
 
 Es casi imposible separar los hemisferios cuando están vacíos. Una vez que se deja entrar el aire, las dos mitades se separan fácilmente.
 

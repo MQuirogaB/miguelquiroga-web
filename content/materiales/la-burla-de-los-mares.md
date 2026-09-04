@@ -16,7 +16,7 @@ Espero que os guste y la disfrutéis.
 
 ### Capítulos
 
-<!-- IMAGEN: portada/logo "La burla de los mares" — aplicación interactiva embebida con los capítulos de la aventura -->
+{{< img src="images/materiales/la-burla-de-los-mares/1.png" alt="portada de \"La burla de los mares\" — aplicación interactiva embebida con los capítulos de la aventura" >}}
 
 ### Mapas
 

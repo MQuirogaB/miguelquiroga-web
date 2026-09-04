@@ -9,7 +9,7 @@ tipo: "Maker"
 
 En esta actividad se experimentará con la transmisión de sonido a través de dos vasos de plástico y una goma elástica.
 
-<!-- IMAGEN: Diseño del experimento -->
+{{< img src="images/laboratorio/transmision-de-sonido-con-vasos/1.jpg" alt="Diseño del experimento" >}}
 
 ## Objetivos
 
