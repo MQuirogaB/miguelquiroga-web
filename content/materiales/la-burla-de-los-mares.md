@@ -1,7 +1,7 @@
 ---
 title: La burla de los mares
 icon: 🏴‍☠️
-foto: images/materiales/la-burla-de-los-mares/1.png
+foto: images/materiales/la-burla-de-los-mares/portada.jpg
 curso:
 - 2º ESO
 bloque:

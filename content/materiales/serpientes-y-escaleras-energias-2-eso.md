@@ -1,7 +1,7 @@
 ---
 title: Serpientes y escaleras Energías 2º ESO
 icon: 🐍
-foto: images/materiales/serpientes-y-escaleras-energias-2-eso/1.png
+foto: images/materiales/serpientes-y-escaleras-energias-2-eso/portada.jpg
 curso:
 - 2º ESO
 bloque:
