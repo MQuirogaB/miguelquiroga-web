@@ -25,6 +25,7 @@ filtros:
       - "Investigación"
       - "Laboratorio"
       - "Maker"
+      - "Materiales caseros"
       - "STEAM"
       - "Team Building"
 ---

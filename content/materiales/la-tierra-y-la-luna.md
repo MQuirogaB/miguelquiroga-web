@@ -3,6 +3,9 @@ title: La tierra y la luna
 icon: 🌔
 curso:
 - 2º ESO
+- 3º ESO
+- 4º ESO
+- 1º Bach
 bloque:
 - Transversal
 tipo:

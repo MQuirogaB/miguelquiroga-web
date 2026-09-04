@@ -5,11 +5,12 @@ curso:
 - Química 2º Bach
 bloque:
 - Termoquímica
+- Curiosidades históricas
 tipo:
 - Transversal
+- Ejercicio
+- Curiosidad
 ---
-
-<!-- FILTRO INCOMPLETO: Notion mostraba más de un valor en curso/bloque/tipo/tipología/temática para esta página ("+N más") y la vista pública no deja ver los valores ocultos. Se ha guardado solo el valor visible; si quieres que aparezca también en los demás filtros, dime cuáles son los valores que faltan y los añado. -->
 
 Adaptado de [Scott, Napoleón y la peste del estaño.](http://starcnc.blogspot.com/2016/12/los-miembros-del-equipo-de-scott-en-el.html)
 

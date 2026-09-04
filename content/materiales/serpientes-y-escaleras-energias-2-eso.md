@@ -8,9 +8,8 @@ bloque:
 - Energías
 tipo:
 - Juego
+- Boletín
 ---
-
-<!-- FILTRO INCOMPLETO: Notion mostraba más de un valor en curso/bloque/tipo/tipología/temática para esta página ("+N más") y la vista pública no deja ver los valores ocultos. Se ha guardado solo el valor visible; si quieres que aparezca también en los demás filtros, dime cuáles son los valores que faltan y los añado. -->
 
 🤖 Actividad muy divertida para hacer un repaso del tema de energías. La actividad está basada en el juego serpientes y escaleras. La mecánica es muy sencilla.
 
