@@ -1,0 +1,4 @@
+<div class="callout">
+  <span class="callout-icon">{{ with .Get "icon" }}<img src="{{ relURL . }}" alt="">{{ else }}🤖{{ end }}</span>
+  <div class="callout-text">{{ .Inner | $.Page.RenderString }}</div>
+</div>

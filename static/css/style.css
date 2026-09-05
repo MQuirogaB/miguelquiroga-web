@@ -607,6 +607,57 @@ body {
   border: 0;
 }
 
+.callout {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 20px 0;
+  font-family: var(--font-sans);
+}
+.callout-icon {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 6px rgba(55, 53, 47, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  overflow: hidden;
+}
+.callout-icon img {
+  width: 72%;
+  height: 72%;
+  object-fit: contain;
+}
+.callout-text {
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.55;
+}
+.callout-text > *:first-child { margin-top: 0; }
+.callout-text > *:last-child { margin-bottom: 0; }
+
+.pdf-embed {
+  margin: 18px 0;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.pdf-embed iframe {
+  width: 100%;
+  height: 640px;
+  border: 0;
+  display: block;
+}
+
 .file-link {
   display: inline-flex;
   align-items: center;
@@ -623,6 +674,63 @@ body {
   font-size: 14.5px;
 }
 .file-link:hover { border-color: var(--accent-soft2); background: var(--accent-soft); }
+
+.linkcard {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  margin: 18px 0;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  min-height: 110px;
+}
+.linkcard:hover { border-color: var(--accent-dark); }
+.linkcard-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  font-family: var(--font-sans);
+}
+.linkcard-title {
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.35;
+}
+.linkcard-desc {
+  color: var(--ink-light);
+  font-size: 13px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.linkcard-url {
+  color: var(--ink-light);
+  font-size: 12px;
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.linkcard-image {
+  flex: 0 0 160px;
+  background: var(--card-bg);
+}
+.linkcard-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 /* ---------- footer ---------- */
 
