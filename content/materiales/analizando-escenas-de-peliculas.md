@@ -11,13 +11,17 @@ tipo:
 foto: images/materiales/analizando-escenas-de-peliculas/1.jpg
 ---
 
-🤖 En esta actividad el alumnado analizará dos escenas de películas, Up y Titanic, dos clásicos. La idea es que además de aplicar los conocimientos de dinámica y estática de fluidos aprendan a hacer estimaciones para poder obtener conclusiones.
+{{< callout icon="images/logo.png" >}}
+En esta actividad el alumnado analizará dos escenas de películas, Up y Titanic, dos clásicos. La idea es que además de aplicar los conocimientos de dinámica y estática de fluidos aprendan a hacer estimaciones para poder obtener conclusiones.
+{{< /callout >}}
 
 ## Documentos para el alumnado
 
 ### ¿Es posible la peli de UP?
 
-<!-- ARCHIVO: Es_posible_la_peli_de_UP.pdf — enunciado de la actividad sobre la escena de los globos de Up -->
+{{< pdf src="files/materiales/analizando-escenas-de-peliculas/1.pdf" title="¿Es posible la peli de UP?" >}}
+
+{{< file src="files/materiales/analizando-escenas-de-peliculas/1.pdf" text="¿Es posible la peli de UP? (PDF)" >}}
 
 En la película de UP (Si no la habéis visto, no os la perdáis) se ve como una casa sale volando sustentada por globos. Como físicos, nos viene una duda a la cabeza al instante, ¿Es esto posible? ¿Cuántos globos harían falta? ¡Investiguemos! Y sobre todo, ¿Podríamos escapar de nuestra casa así?, ¿cuánto nos costaría hacerlo?
 
@@ -32,13 +36,21 @@ Para ello, como de costumbre, haremos una suposición, el peso de la casa. Norma
 
 ### ¿Murió Jack por no saber física?
 
-{{< file src="files/materiales/analizando-escenas-de-peliculas/2.pdf" text="¿Murió Jack por no saber física? (actividad)" >}}
+{{< pdf src="files/materiales/analizando-escenas-de-peliculas/2.pdf" title="¿Murió Jack por no saber física?" >}}
+
+{{< file src="files/materiales/analizando-escenas-de-peliculas/2.pdf" text="¿Murió Jack por no saber física? (PDF)" >}}
 
 ## Documentos para el Profesorado
 
-<!-- VIDEO: escena de los globos de la película Up -->
+### Escena de los globos de Up
 
-<!-- VIDEO: momento más triste de Titanic -->
+{{< gdrive id="1rfLAbdWkBSxRSHHKlDbOZ7R5iNr8PN_t" title="Escena de los globos de Up" >}}
+
+### Momento más triste de Titanic
+
+{{< video src="videos/materiales/analizando-escenas-de-peliculas/2.mp4" >}}
+
+{{< file src="videos/materiales/analizando-escenas-de-peliculas/2.mp4" text="Descargar vídeo: momento más triste de Titanic (MP4)" >}}
 
 ## Aspectos metodológicos
 
