@@ -13,7 +13,9 @@ tipo:
 foto: images/materiales/la-peste-del-estano/1.jpg
 ---
 
+{{< callout icon="images/logo.png" >}}
 Adaptado de [Scott, Napoleón y la peste del estaño.](http://starcnc.blogspot.com/2016/12/los-miembros-del-equipo-de-scott-en-el.html)
+{{< /callout >}}
 
 🧊 ¿Puede el frío romper un metal? ¿Y dejar al ejército de Napoleón con las chaquetas abiertas en plena campaña rusa?
 
@@ -26,5 +28,7 @@ Tras leer un texto breve pero muy curioso, el alumnado deberá aplicar lo aprend
 👥 Se puede hacer en parejas o individualmente.
 
 ⏱️ Ocupa una sesión de clase o puede utilizarse como ejercicio de cierre o ampliación.
+
+{{< pdf src="files/materiales/la-peste-del-estano/1.pdf" title="La peste del estaño" >}}
 
 {{< file src="files/materiales/la-peste-del-estano/1.pdf" text="La peste del estaño (actividad)" >}}

@@ -12,7 +12,9 @@ foto: images/materiales/el-extrano-caso-del-vuelo-1023-de-mole-airlines/1.jpg
 ---
 
 
+{{< callout icon="images/logo.png" >}}
 Esta actividad es una traducción/adaptación de [The Strange Case of Mole Airlines Flight 1023](https://pubs.acs.org/doi/10.1021/ed080p407).
+{{< /callout >}}
 
 Me gustaría compartir esta actividad pensada para 1.º de Bachillerato. Se trata de una actividad cooperativa en la que el alumnado deberá resolver un caso de un accidente de avión.
 
@@ -26,11 +28,15 @@ En ella deberán investigar a quién pertenece cada cuerpo basándose en la comp
 
 ### Versión para el alumnado
 
+{{< pdf src="files/materiales/el-extrano-caso-del-vuelo-1023-de-mole-airlines/1.pdf" title="Caso del vuelo 1023 — versión para el alumnado" >}}
+
 {{< file src="files/materiales/el-extrano-caso-del-vuelo-1023-de-mole-airlines/1.pdf" text="Caso del vuelo 1023 - versión para el alumnado (PDF)" >}}
 
 ## Documentos para el profesorado
 
 ### Solucionario
+
+{{< pdf src="files/materiales/el-extrano-caso-del-vuelo-1023-de-mole-airlines/2.pdf" title="Caso del vuelo 1023 — solucionario" >}}
 
 {{< file src="files/materiales/el-extrano-caso-del-vuelo-1023-de-mole-airlines/2.pdf" text="Caso del vuelo 1023 - solucionario para el profesorado (PDF)" >}}
 

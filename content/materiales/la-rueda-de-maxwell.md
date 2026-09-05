@@ -12,7 +12,9 @@ tipo:
 foto: images/materiales/la-rueda-de-maxwell/1.jpg
 ---
 
-🤖 Actividad manipulativa de laboratorio en la que el alumnado construye su propia rueda de Maxwell y estudia en ella las transferencias de energía que se producen durante su movimiento.
+{{< callout icon="images/logo.png" >}}
+Actividad manipulativa de laboratorio en la que el alumnado construye su propia rueda de Maxwell y estudia en ella las transferencias de energía que se producen durante su movimiento.
+{{< /callout >}}
 
 A partir de materiales sencillos (hilo, tapones, palitos...), el alumnado analiza cómo la energía potencial inicial se transforma en energía cinética de traslación y rotación, y cómo parte de esa energía se disipa por rozamiento. Todo ello desde una perspectiva experimental y cualitativa, pero también con preguntas cuantitativas que invitan a pensar con cabeza.
 
@@ -25,7 +27,9 @@ A partir de materiales sencillos (hilo, tapones, palitos...), el alumnado analiz
 
 ## Documentos para el alumnado
 
-[https://drive.google.com/file/d/1MFTeewx728l4a42V6q9NeXOj_ag3WBoC/view?usp=sharing](https://drive.google.com/file/d/1MFTeewx728l4a42V6q9NeXOj_ag3WBoC/view?usp=sharing)
+{{< pdf src="files/materiales/la-rueda-de-maxwell/1.pdf" title="La rueda de Maxwell" >}}
+
+{{< file src="files/materiales/la-rueda-de-maxwell/1.pdf" text="La rueda de Maxwell (PDF)" >}}
 
 ## Aspectos metodológicos
 

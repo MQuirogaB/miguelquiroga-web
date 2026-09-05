@@ -10,9 +10,9 @@ tipo:
 foto: images/materiales/escuchando-a-drexler/1.jpg
 ---
 
-🤖 La actividad sirve para unir la ciencia con la música. En ella analizaremos la canción de Jorge Drexler: Todo se transforma.
-
-La canción hace una analogía fantástica de las transformaciones energéticas y resulta en una actividad muy entretenida como introducción del tema de dinámica.
+{{< callout icon="images/logo.png" >}}
+La actividad sirve para unir la ciencia con la música. En ella analizaremos la canción de Jorge Drexler: Todo se transforma. La canción hace una analogía fantástica de las transformaciones energéticas y resulta en una actividad muy entretenida como introducción del tema de dinámica.
+{{< /callout >}}
 
 La actividad consiste en la visualización del videoclip [https://www.youtube.com/watch?v=QfhEKpFiepM](https://www.youtube.com/watch?v=QfhEKpFiepM) y la posterior puesta en común de unos ejercicios.
 
@@ -21,6 +21,8 @@ La actividad consiste en la visualización del videoclip [https://www.youtube.co
 ### Todo se Transforma. Jorge Drexler
 
 Videoclip: [https://www.youtube.com/watch?v=QfhEKpFiepM](https://www.youtube.com/watch?v=QfhEKpFiepM)
+
+{{< pdf src="files/materiales/escuchando-a-drexler/1.pdf" title="Actividad Drexler" >}}
 
 {{< file src="files/materiales/escuchando-a-drexler/1.pdf" text="Actividad Drexler (PDF)" >}}
 

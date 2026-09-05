@@ -10,7 +10,9 @@ tipo:
 foto: images/materiales/el-extrano-caso-de-lucia/1.jpg
 ---
 
-🤖 Os presento "El extraño caso de Lucía", una actividad de síntesis para trabajar los contenidos de cinemática, dinámica, fluidos y energía en 4.º ESO.
+{{< callout icon="images/logo.png" >}}
+Os presento "El extraño caso de Lucía", una actividad de síntesis para trabajar los contenidos de cinemática, dinámica, fluidos y energía en 4.º ESO.
+{{< /callout >}}
 
 La historia cuenta el caso de Lucía, una chica que presuntamente se suicidó y el alumnado tiene que ir avanzando capítulo a capítulo para descifrar la verdad.
 
@@ -20,12 +22,41 @@ Espero que os guste y la disfrutéis.
 
 ## Documentos para el alumnado
 
-- [Capítulos 1 y 2](https://drive.google.com/file/d/1ULFFO4T-a6EiL2QJyeaiRf0JyuZT6s8i/view?usp=sharing)
-- [Capítulo 3](https://drive.google.com/file/d/19f3mXIl08cn_yX6yyfzs8z8J_I5923h0/view?usp=sharing)
-- [Capítulo 4](https://drive.google.com/file/d/1EQaS2sI9GoFD9BTFixrcqvfC2BvtjCkH/view?usp=sharing)
-- [Capítulo 5](https://drive.google.com/file/d/1UrTeyPdZGwkoCsmJ0WOwe_8XpJke5Y6R/view?usp=sharing)
-- [Capítulo final](https://drive.google.com/file/d/1WWIh0HvvNzn3jERwBO-ooMPy9HKd0d3q/view?usp=sharing)
-- [Informe policial](https://drive.google.com/file/d/1hudGS1CtWnsanXH3-soYwwlzQI0QZ-Q6/view?usp=sharing)
+### Capítulos 1 y 2
+
+{{< pdf src="files/materiales/el-extrano-caso-de-lucia/1.pdf" title="Capítulos 1 y 2" >}}
+
+{{< file src="files/materiales/el-extrano-caso-de-lucia/1.pdf" text="Capítulos 1 y 2 (PDF)" >}}
+
+### Capítulo 3
+
+{{< pdf src="files/materiales/el-extrano-caso-de-lucia/2.pdf" title="Capítulo 3" >}}
+
+{{< file src="files/materiales/el-extrano-caso-de-lucia/2.pdf" text="Capítulo 3 (PDF)" >}}
+
+### Capítulo 4
+
+{{< pdf src="files/materiales/el-extrano-caso-de-lucia/3.pdf" title="Capítulo 4" >}}
+
+{{< file src="files/materiales/el-extrano-caso-de-lucia/3.pdf" text="Capítulo 4 (PDF)" >}}
+
+### Capítulo 5
+
+{{< pdf src="files/materiales/el-extrano-caso-de-lucia/4.pdf" title="Capítulo 5" >}}
+
+{{< file src="files/materiales/el-extrano-caso-de-lucia/4.pdf" text="Capítulo 5 (PDF)" >}}
+
+### Capítulo final
+
+{{< pdf src="files/materiales/el-extrano-caso-de-lucia/5.pdf" title="Capítulo final" >}}
+
+{{< file src="files/materiales/el-extrano-caso-de-lucia/5.pdf" text="Capítulo final (PDF)" >}}
+
+### Informe policial
+
+{{< pdf src="files/materiales/el-extrano-caso-de-lucia/6.pdf" title="Informe policial" >}}
+
+{{< file src="files/materiales/el-extrano-caso-de-lucia/6.pdf" text="Informe policial (PDF)" >}}
 
 ## Documentos para el profesorado
 
@@ -33,9 +64,13 @@ Espero que os guste y la disfrutéis.
 
 ### Solucionario
 
+{{< callout icon="images/logo.png" >}}
 Solucionario cortesía de Rosa Martí Centelles. Mil gracias por tu aportación 🫂
+{{< /callout >}}
 
-[Solucionario](https://drive.google.com/file/d/11UcQf3ZPIyZx9zF0u7QUWhIIFg9-pKTo/view?usp=sharing)
+{{< pdf src="files/materiales/el-extrano-caso-de-lucia/7.pdf" title="Solucionario" >}}
+
+{{< file src="files/materiales/el-extrano-caso-de-lucia/7.pdf" text="Solucionario (PDF)" >}}
 
 ## Aspectos metodológicos
 

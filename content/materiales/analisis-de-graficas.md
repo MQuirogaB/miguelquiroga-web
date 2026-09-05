@@ -10,7 +10,9 @@ tipo:
 foto: images/materiales/analisis-de-graficas/1.jpg
 ---
 
-🤖 Boletín de ejercicios para tratar la interpretación de gráficas de cinemática. Incluye hoja para el alumnado y soluciones para el profesorado.
+{{< callout icon="images/logo.png" >}}
+Boletín de ejercicios para tratar la interpretación de gráficas de cinemática. Incluye hoja para el alumnado y soluciones para el profesorado.
+{{< /callout >}}
 
 ## Documentos para el alumnado
 
@@ -24,7 +26,9 @@ foto: images/materiales/analisis-de-graficas/1.jpg
 
 <!-- IMAGEN: gráficas velocidad-tiempo del ejercicio 2 -->
 
-<!-- ARCHIVO: Interpretacin_de_grficas_2_ESO.pdf — boletín para el alumnado [nombre de archivo tal cual aparece en Notion, sin tildes] -->
+{{< pdf src="files/materiales/analisis-de-graficas/1.pdf" title="Interpretación de gráficas: 2º ESO" >}}
+
+{{< file src="files/materiales/analisis-de-graficas/1.pdf" text="Interpretación de gráficas: 2º ESO (PDF)" >}}
 
 Actividad adaptada por Miguel Quiroga @Quirogafyq de [Science Doctor](https://sciencedoctor.school.blog/)
 
@@ -40,7 +44,9 @@ Actividad adaptada por Miguel Quiroga @Quirogafyq de [Science Doctor](https://sc
 
 <!-- IMAGEN: gráficas con soluciones del ejercicio 2 -->
 
-<!-- ARCHIVO: Interpretacin_de_grficas_2_ESO_RESUELTO.pdf — solucionario para el profesorado [nombre de archivo tal cual aparece en Notion, sin tildes] -->
+{{< pdf src="files/materiales/analisis-de-graficas/2.pdf" title="Interpretación de gráficas: 2º ESO (solucionario)" >}}
+
+{{< file src="files/materiales/analisis-de-graficas/2.pdf" text="Interpretación de gráficas: 2º ESO — solucionario (PDF)" >}}
 
 Actividad adaptada por Miguel Quiroga @Quirogafyq de [Science Doctor](https://sciencedoctor.school.blog/)
 

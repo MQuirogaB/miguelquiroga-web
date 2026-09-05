@@ -13,7 +13,9 @@ tipo:
 foto: images/materiales/la-tierra-y-la-luna/1.jpg
 ---
 
-**Actividad para trabajar la comprensión lectora y la relación entre las artes y las ciencias.**
+{{< callout icon="images/logo.png" >}}
+Actividad para trabajar la comprensión lectora y la relación entre las artes y las ciencias.
+{{< /callout >}}
 
 Desde que vi esta actuación supe que había que hacer algo con ella en clase. Pues bien, este es el resultado.
 
@@ -34,11 +36,15 @@ Mi objetivo radica en mostrar al alumnado que la ciencia está en todos los lado
 
 *(poema completo)*
 
-<!-- ARCHIVO: Actividad_Tierra_y_Luna.pdf — actividad para el alumnado (preguntas sobre el poema y el recital) -->
+{{< pdf src="files/materiales/la-tierra-y-la-luna/1.pdf" title="Actividad Tierra y Luna" >}}
+
+{{< file src="files/materiales/la-tierra-y-la-luna/1.pdf" text="Actividad Tierra y Luna (PDF)" >}}
 
 ## Documentos para el profesorado
 
-<!-- VIDEO: actuación/recital que motivó la actividad -->
+{{< video src="videos/materiales/la-tierra-y-la-luna/1.mp4" >}}
+
+{{< file src="videos/materiales/la-tierra-y-la-luna/1.mp4" text="Descargar vídeo: recital de la Tierra y la Luna (MP4)" >}}
 
 ### Aspectos metodológicos
 

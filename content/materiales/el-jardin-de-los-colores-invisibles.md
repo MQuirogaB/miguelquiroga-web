@@ -12,9 +12,9 @@ tipo:
 foto: images/materiales/el-jardin-de-los-colores-invisibles/1.jpg
 ---
 
-💕 Dedicado a todos los abuelos y abuelas del mundo y, en especial, a los míos.
-
-Por llevar por bandera la forma mas pura de amor.
+{{< callout icon="images/logo.png" >}}
+Dedicado a todos los abuelos y abuelas del mundo y, en especial, a los míos. Por llevar por bandera la forma mas pura de amor.
+{{< /callout >}}
 
 🌸 Esta actividad de Química para 2º de Bachillerato une emoción, memoria y equilibrio ácido-base. A través de una historia íntima y cercana, el alumnado se adentra en el jardín de unos abuelos y en una pregunta tan sencilla como poderosa:
 
@@ -32,5 +32,7 @@ A partir de este relato, se plantea una serie de ejercicios en los que el alumna
 👥 Puede hacerse individualmente o en parejas.
 
 ⏱️ Duración estimada: una sesión de 50 min.
+
+{{< pdf src="files/materiales/el-jardin-de-los-colores-invisibles/1.pdf" title="El jardín de los colores invisibles" >}}
 
 {{< file src="files/materiales/el-jardin-de-los-colores-invisibles/1.pdf" text="El jardín de los colores invisibles (PDF)" >}}

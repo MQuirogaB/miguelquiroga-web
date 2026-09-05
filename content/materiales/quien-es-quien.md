@@ -10,13 +10,17 @@ tipo:
 foto: images/materiales/quien-es-quien/1.jpg
 ---
 
-🤖 Actividad basada en juegos consistente en una adaptación del juego quien es quien para que el alumnado repase los conceptos relacionados con el enlace químico.
+{{< callout icon="images/logo.png" >}}
+Actividad basada en juegos consistente en una adaptación del juego quien es quien para que el alumnado repase los conceptos relacionados con el enlace químico.
+{{< /callout >}}
 
 ## Documentos para el alumnado
 
 ### ¿Quién es quién? — Versión enlace químico
 
-<!-- ARCHIVO: Quen_es_quien_.pdf — tarjetas del juego con dibujos de los distintos tipos de enlace (iónico, metálico, covalente cristalino, etc.) [nombre de archivo tal cual aparece en Notion, con errata] -->
+{{< pdf src="files/materiales/quien-es-quien/1.pdf" title="¿Quién es quién? — tarjetas del juego" >}}
+
+{{< file src="files/materiales/quien-es-quien/1.pdf" text="¿Quién es quién? — tarjetas del juego (PDF)" >}}
 
 **Instrucciones de impresión**
 

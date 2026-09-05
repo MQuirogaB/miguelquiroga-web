@@ -11,7 +11,9 @@ tipo:
 foto: images/materiales/cinematica-de-mierda/1.jpg
 ---
 
-💩 ¿Te puede arruinar un pájaro la cita romántica? ¿Y qué pasa cuando un pingüino decide apuntar con precisión balística?
+{{< callout icon="images/logo.png" >}}
+¿Te puede arruinar un pájaro la cita romántica? ¿Y qué pasa cuando un pingüino decide apuntar con precisión balística?
+{{< /callout >}}
 
 Os presento esta actividad de cinemática 100% contextualizada (y algo escatológica) que repasa conceptos como el tiempo de vuelo, alcance, descomposición de velocidades y trayectoria parabólica, todo ello envuelto en dos situaciones tan improbables como inolvidables:
 
@@ -23,5 +25,7 @@ Os presento esta actividad de cinemática 100% contextualizada (y algo escatoló
 👥 Se puede hacer en parejas o de forma individual.
 
 ⏱️ Se resuelve en una o dos sesiones, dependiendo del nivel del grupo y las risas.
+
+{{< pdf src="files/materiales/cinematica-de-mierda/1.pdf" title="Cinemática de mierda" >}}
 
 {{< file src="files/materiales/cinematica-de-mierda/1.pdf" text="Cinemática de mierda (actividad)" >}}

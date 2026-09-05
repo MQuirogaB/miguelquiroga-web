@@ -14,7 +14,9 @@ foto: images/materiales/newton-el-principito-y-el-asteroide-b-612/1.jpg
 ---
 
 
-Esta actividad es una adaptación del artículo [Newton, el Principito y el asteroide B-612](https://dialnet.unirioja.es/servlet/articulo?codigo=8444862).
+{{< callout icon="images/logo.png" >}}
+Esta actividad es una adaptación del artículo [Newton, el Principito y el asteroide B-612.](https://dialnet.unirioja.es/servlet/articulo?codigo=8444862)
+{{< /callout >}}
 
 Comparto con vosotros esta actividad centrada en la Física de 2º de Bachillerato, en concreto en el bloque de gravitación.
 
@@ -26,4 +28,4 @@ En ella, el alumnado deberá investigar las características del mismo y razonar
 
 ⏱️ La duración es de dos sesiones de 50 min.
 
-[Newton, el Principito y el asteroide B-612 — Actividad pensada para la asignatura de Física de 2º de Bachillerato sobre la ley de gravitación universal y el Principito](https://teacher.desmos.com/activitybuilder/custom/67e43d680d5ce5da8da08681?utm_campaign=share&utm_content=activity&lang=es)
+{{< linkcard href="https://classroom.amplify.com/activity/67e43d680d5ce5da8da08681?utm_campaign=share&utm_content=activity&lang=es" title="Newton, el Principito y el asteroide B-612" description="Actividad pensada para la asignatura de Física de 2º de Bachillerato sobre la ley de gravitación universal y el Principito" image="images/materiales/newton-el-principito-y-el-asteroide-b-612/2.jpg" >}}

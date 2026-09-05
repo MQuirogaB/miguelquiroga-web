@@ -15,7 +15,9 @@ tipo:
 foto: images/materiales/cuando-la-quimica-burlo-al-nazismo/1.jpg
 ---
 
+{{< callout icon="images/logo.png" >}}
 Esta actividad es una adaptación del artículo [Cuando la química venció al nazismo](https://radicalbarbatilo.blogspot.com/2015/07/cuando-la-quimica-burlo-al-nazismo.html)
+{{< /callout >}}
 
 🚨 Química, nazis y medallas Nobel disueltas en ácido… ¿Se puede pedir más?
 
@@ -28,5 +30,7 @@ A partir de ahí, el alumnado se mete en harina con ejercicios de estequiometrí
 ⏱️ Ocupa unas dos sesiones de 50 min.
 
 Ideal para repasar o aplicar contenidos del bloque de reacciones químicas con un enfoque narrativo que engancha. ¿Quién dijo que la Química era aburrida?
+
+{{< pdf src="files/materiales/cuando-la-quimica-burlo-al-nazismo/1.pdf" title="Cuando la química burló al nazismo" >}}
 
 {{< file src="files/materiales/cuando-la-quimica-burlo-al-nazismo/1.pdf" text="Cuando la química burló al nazismo (PDF)" >}}

@@ -10,9 +10,11 @@ tipo:
 foto: images/materiales/determinacion-del-coeficiente-de-rozamiento-entre-una-lata-de-conservas-y-un-plano-inclinado/1.jpg
 ---
 
-🤖 Actividad de laboratorio en la que se determinará el coeficiente de rozamiento entre una lata de conservas (o similar) y un plano inclinado.
+{{< callout icon="images/logo.png" >}}
+Actividad de laboratorio en la que se determinará el coeficiente de rozamiento entre una lata de conservas (o similar) y un plano inclinado.
+{{< /callout >}}
 
-🥫 La física de las conservas
+## 🥫 La física de las conservas
 
 ¿Y si en vez de laboratorio usamos… la cocina?
 
@@ -33,11 +35,13 @@ A través de una práctica sencilla (pero no trivial), el alumnado tendrá que:
 
 🧠 Una forma práctica, cercana y divertida de aplicar la teoría del rozamiento y comprobar que la física no está solo en los libros.
 
-<!-- ARCHIVO: Determinacin_del_coeficiente_de_rozamiento_entre_lata_de_conservas_y_un_plano_inclinado.pdf — enunciado original de la actividad [nombre de archivo tal cual aparece en Notion, sin tilde en "Determinación" ni en "gráficas"] -->
-
 ## Documentos para el alumnado
 
 ### Determinación del coeficiente de rozamiento entre una lata de conservas y un plano inclinado
+
+{{< pdf src="files/materiales/determinacion-del-coeficiente-de-rozamiento-entre-una-lata-de-conservas-y-un-plano-inclinado/1.pdf" title="Determinación del coeficiente de rozamiento entre una lata de conservas y un plano inclinado" >}}
+
+{{< file src="files/materiales/determinacion-del-coeficiente-de-rozamiento-entre-una-lata-de-conservas-y-un-plano-inclinado/1.pdf" text="Determinación del coeficiente de rozamiento (PDF)" >}}
 
 Durante esta práctica en casa deberás determinar experimentalmente el coeficiente de rozamiento de una lata de conservas que tengas por casa.
 

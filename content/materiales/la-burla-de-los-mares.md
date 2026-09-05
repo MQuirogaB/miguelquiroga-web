@@ -10,7 +10,11 @@ tipo:
 - aventura
 ---
 
+{{< callout icon="images/logo.png" >}}
 Os presento **"La burla de los mares"**, una actividad de síntesis para trabajar los contenidos de cinemática, dinámica, fluidos y energía en 2.º ESO.
+{{< /callout >}}
+
+{{< img src="images/materiales/la-burla-de-los-mares/1.png" alt="Ilustración de un capitán pirata esqueleto en la cubierta de un barco" >}}
 
 La historia se centra en una aventura de piratas en la que se va avanzando paso a paso, obteniendo cada capítulo posterior al resolver el anterior.
 
@@ -20,13 +24,15 @@ Espero que os guste y la disfrutéis.
 
 ### Capítulos
 
-{{< img src="images/materiales/la-burla-de-los-mares/1.png" alt="portada de \"La burla de los mares\" — aplicación interactiva embebida con los capítulos de la aventura" >}}
+{{< pdf src="files/materiales/la-burla-de-los-mares/1.pdf" title="La burla de los mares — capítulos" >}}
 
-<!-- ARCHIVO: burla-mares-capitulos.pdf — capítulos de la aventura de piratas -->
+{{< file src="files/materiales/la-burla-de-los-mares/1.pdf" text="La burla de los mares — capítulos (PDF)" >}}
 
 ### Mapas
 
-<!-- ARCHIVO: burla-mares-mapas.pdf — mapa de la aventura con las localizaciones Medafoss, Gorgoth, Elianel, Ilvair, Vineyard, Dalia, Vigaden, Moryen, y escala en km (100/200/400) -->
+{{< pdf src="files/materiales/la-burla-de-los-mares/2.pdf" title="La burla de los mares — mapas" >}}
+
+{{< file src="files/materiales/la-burla-de-los-mares/2.pdf" text="La burla de los mares — mapas (PDF)" >}}
 
 ## Aspectos metodológicos
 

@@ -12,9 +12,9 @@ tipo:
 foto: images/materiales/la-libertad-se-oxido/1.jpg
 ---
 
-🔬 La libertad se oxidó
-
+{{< callout icon="images/logo.png" >}}
 Os presento esta actividad de Química para 2º de Bachillerato, que combina narrativa histórica, contexto social y reacciones redox de forma memorable.
+{{< /callout >}}
 
 A través de la historia de Anna Kowalska (personaje ficticio), una joven inmigrante que llega a Nueva York en 1907, el alumnado se adentra en la Isla de Ellis, la Estatua de la Libertad… y en una pregunta química clave:
 
@@ -27,5 +27,7 @@ La actividad incluye una parte narrativa que sirve como enganche y contexto, seg
 ⏱️ Duración estimada: una sesión de 50 min (más si se amplía con experimental o debate).
 
 🧠 Una forma diferente de enseñar química redox… con historia, con emoción y con sentido.
+
+{{< pdf src="files/materiales/la-libertad-se-oxido/1.pdf" title="La libertad se oxidó" >}}
 
 {{< file src="files/materiales/la-libertad-se-oxido/1.pdf" text="La libertad se oxidó (PDF)" >}}
