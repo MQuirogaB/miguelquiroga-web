@@ -13,11 +13,17 @@ foto: images/materiales/exploramos-el-universo/1.jpg
 
 🤖 En esta actividad, el alumnado utilizará una aplicación móvil para explorar el sistema solar. Trabajarán la fuerza peso y buscarán datos curiosos sobre el sistema solar con la aplicación Solar Walk Lite.
 
+<!-- IMAGEN: captura introductoria de la app Solar Walk Lite -->
+
 Para empezar, descargaremos la aplicación Solar Walk Lite.
+
+<!-- IMAGEN: interfaz de un objeto celeste en la app Solar Walk Lite -->
 
 En ella encontraremos muchísima información sobre objetos celestes, tales como planetas y satélites.
 
 Para encontrar la información sobre un objeto celeste, basta con seleccionarlo y hacer clic en el botón de información. A continuación, se desplegarán unos menús con toda la información que buscas.
+
+<!-- IMAGEN: desplegable de información de un objeto celeste en la app Solar Walk Lite -->
 
 Aprovecha esta aplicación para responder a las siguientes preguntas:
 
@@ -45,6 +51,8 @@ En esta actividad exploraremos el sistema solar con ayuda de nuestro teléfono m
 En ella encontraremos muchísima información sobre objetos celestes, tales como planetas y satélites.
 
 Para encontrar la información sobre un objeto celeste, basta con seleccionarlo y pinchar en el botón de información. A continuación se te desplegarán unos menús con toda la información que buscas.
+
+<!-- ARCHIVO: Exploramos_el_universo_(1).pdf — hoja de preguntas para el alumnado -->
 
 ## Aspectos metodológicos
 

@@ -47,3 +47,7 @@ Tanto el limón como el agua son conductores de la electricidad. Al hacer una ma
 6. Opcionalmente, añade colorante alimentario.
 
 Se propone hacer los siguientes dibujos añadiendo plastilina sobre el papel.
+
+<!-- IMAGEN: plantilla de dibujo (bombilla) para plastilina conductora -->
+
+<!-- IMAGEN: plantilla de dibujo (circuito) para plastilina conductora -->

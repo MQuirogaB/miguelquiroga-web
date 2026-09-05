@@ -16,7 +16,7 @@ foto: images/materiales/quien-es-quien/1.jpg
 
 ### ¿Quién es quién? — Versión enlace químico
 
-<!-- IMAGEN: tarjetas de juego con dibujos de los distintos tipos de enlace (iónico, metálico, covalente cristalino, etc.) -->
+<!-- ARCHIVO: Quen_es_quien_.pdf — tarjetas del juego con dibujos de los distintos tipos de enlace (iónico, metálico, covalente cristalino, etc.) [nombre de archivo tal cual aparece en Notion, con errata] -->
 
 **Instrucciones de impresión**
 

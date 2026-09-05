@@ -6,6 +6,12 @@
   {{ if .Params.description }}<p class="section-desc">{{ .Params.description }}</p>{{ end }}
 </section>
 
+{{ if .Content }}
+<div class="content">
+  {{ .Content }}
+</div>
+{{ end }}
+
 <div class="card-grid">
   {{ range .Pages.ByTitle }}
   <a class="card" href="{{ .RelPermalink }}">

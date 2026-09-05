@@ -13,6 +13,8 @@ tipo:
 
 🤖 Actividad muy divertida para hacer un repaso del tema de energías. La actividad está basada en el juego serpientes y escaleras. La mecánica es muy sencilla.
 
+<!-- IMAGEN: captura general del tablero de serpientes y escaleras -->
+
 ## Documentos para el alumnado
 
 ### Serpientes y escaleras Hoja 1

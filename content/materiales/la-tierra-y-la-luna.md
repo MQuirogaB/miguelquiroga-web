@@ -34,17 +34,14 @@ Mi objetivo radica en mostrar al alumnado que la ciencia está en todos los lado
 
 *(poema completo)*
 
+<!-- ARCHIVO: Actividad_Tierra_y_Luna.pdf — actividad para el alumnado (preguntas sobre el poema y el recital) -->
+
 ## Documentos para el profesorado
+
+<!-- VIDEO: actuación/recital que motivó la actividad -->
 
 ### Aspectos metodológicos
 
 | Localización | Duración | Agrupamiento |
 |---|---|---|
 | Aula | 1 Sesión | Individual o parejas |
-
-<details>
-<summary>Solución (haz clic para desplegar)</summary>
-
-Aquí iría, por ejemplo, la solución o las respuestas al ejercicio, ocultas hasta que el alumno quiera verlas.
-
-</details>

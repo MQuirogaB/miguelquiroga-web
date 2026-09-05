@@ -22,9 +22,11 @@ Espero que os guste y la disfrutéis.
 
 {{< img src="images/materiales/la-burla-de-los-mares/1.png" alt="portada de \"La burla de los mares\" — aplicación interactiva embebida con los capítulos de la aventura" >}}
 
+<!-- ARCHIVO: burla-mares-capitulos.pdf — capítulos de la aventura de piratas -->
+
 ### Mapas
 
-<!-- IMAGEN: mapa de la aventura con las localizaciones Medafoss, Gorgoth, Elianel, Ilvair, Vineyard, Dalia, Vigaden, Moryen, y escala en km (100/200/400) -->
+<!-- ARCHIVO: burla-mares-mapas.pdf — mapa de la aventura con las localizaciones Medafoss, Gorgoth, Elianel, Ilvair, Vineyard, Dalia, Vigaden, Moryen, y escala en km (100/200/400) -->
 
 ## Aspectos metodológicos
 

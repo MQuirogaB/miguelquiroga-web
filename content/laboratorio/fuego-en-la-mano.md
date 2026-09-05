@@ -48,3 +48,5 @@ la mano no se quema ya que el agua tiene una capacidad calorífica Ce elevada, l
 5. Prender fuego.
 
 {{< img src="images/laboratorio/fuego-en-la-mano/2.jpeg" alt="Visualización del efecto." >}}
+
+<!-- VIDEO: demostración completa del efecto de fuego en la mano -->

@@ -24,6 +24,8 @@ foto: images/materiales/analisis-de-graficas/1.jpg
 
 <!-- IMAGEN: gráficas velocidad-tiempo del ejercicio 2 -->
 
+<!-- ARCHIVO: Interpretacin_de_grficas_2_ESO.pdf — boletín para el alumnado [nombre de archivo tal cual aparece en Notion, sin tildes] -->
+
 Actividad adaptada por Miguel Quiroga @Quirogafyq de [Science Doctor](https://sciencedoctor.school.blog/)
 
 ## Documentos para el profesorado
@@ -37,6 +39,8 @@ Actividad adaptada por Miguel Quiroga @Quirogafyq de [Science Doctor](https://sc
 **Ejercicio 2:** Calcula la distancia recorrida para cada una de las gráficas (usando el área bajo la función).
 
 <!-- IMAGEN: gráficas con soluciones del ejercicio 2 -->
+
+<!-- ARCHIVO: Interpretacin_de_grficas_2_ESO_RESUELTO.pdf — solucionario para el profesorado [nombre de archivo tal cual aparece en Notion, sin tildes] -->
 
 Actividad adaptada por Miguel Quiroga @Quirogafyq de [Science Doctor](https://sciencedoctor.school.blog/)
 

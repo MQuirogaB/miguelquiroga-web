@@ -17,6 +17,8 @@ foto: images/materiales/analizando-escenas-de-peliculas/1.jpg
 
 ### ¿Es posible la peli de UP?
 
+<!-- ARCHIVO: Es_posible_la_peli_de_UP.pdf — enunciado de la actividad sobre la escena de los globos de Up -->
+
 En la película de UP (Si no la habéis visto, no os la perdáis) se ve como una casa sale volando sustentada por globos. Como físicos, nos viene una duda a la cabeza al instante, ¿Es esto posible? ¿Cuántos globos harían falta? ¡Investiguemos! Y sobre todo, ¿Podríamos escapar de nuestra casa así?, ¿cuánto nos costaría hacerlo?
 
 Para ello, como de costumbre, haremos una suposición, el peso de la casa. Normalmente, los globos que podemos comprar están rellenos de Helio y suelen costar 0.8€ cada uno. Con esta información intenta responder a las siguientes preguntas. Desprecia para estos cálculos la masa del globo y del helio, supón que no pesan nada.
@@ -34,7 +36,9 @@ Para ello, como de costumbre, haremos una suposición, el peso de la casa. Norma
 
 ## Documentos para el Profesorado
 
-<!-- NOTA DE MIGRACIÓN: esta sección aparecía vacía en la página original en el momento de la migración -->
+<!-- VIDEO: escena de los globos de la película Up -->
+
+<!-- VIDEO: momento más triste de Titanic -->
 
 ## Aspectos metodológicos
 

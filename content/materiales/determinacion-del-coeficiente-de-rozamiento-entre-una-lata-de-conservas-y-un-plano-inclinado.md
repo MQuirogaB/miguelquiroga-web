@@ -33,6 +33,8 @@ A través de una práctica sencilla (pero no trivial), el alumnado tendrá que:
 
 🧠 Una forma práctica, cercana y divertida de aplicar la teoría del rozamiento y comprobar que la física no está solo en los libros.
 
+<!-- ARCHIVO: Determinacin_del_coeficiente_de_rozamiento_entre_lata_de_conservas_y_un_plano_inclinado.pdf — enunciado original de la actividad [nombre de archivo tal cual aparece en Notion, sin tilde en "Determinación" ni en "gráficas"] -->
+
 ## Documentos para el alumnado
 
 ### Determinación del coeficiente de rozamiento entre una lata de conservas y un plano inclinado

@@ -9,6 +9,8 @@ J.K. Rowling no dejó nada al azar al nombrar a la familia más aristocrática d
 
 La ironía es perfecta: una familia que cree estar por encima de los demás lleva escritas en el nombre las mismas estrellas que iluminan a todo el mundo.
 
+<!-- IMAGEN: imagen ilustrativa de apertura, comprobar contenido exacto en Notion -->
+
 ## 🐕 Sirius Black
 
 **Estrella:** Sirio — Alpha Canis Majoris
