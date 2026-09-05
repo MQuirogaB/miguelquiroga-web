@@ -1,0 +1,50 @@
+---
+title: "Materiales"
+icon: "📚"
+description: "Utiliza los filtros para encontrar materiales por curso, temática o tipo."
+type: "filterable"
+sidebar_key: "curso"
+filtros:
+  - key: curso
+    label: "Curso"
+    valores:
+      - "2º ESO"
+      - "3º ESO"
+      - "4º ESO"
+      - "1º Bach"
+      - "Química 2º Bach"
+      - "Física 2º Bach"
+  - key: bloque
+    label: "Temática"
+    valores:
+      - "Cinemática"
+      - "Curiosidades históricas"
+      - "Cálculo químico"
+      - "Dinámica"
+      - "Energías"
+      - "Enlace Químico"
+      - "Estequiometría"
+      - "Fluidos"
+      - "Física general"
+      - "Gravitación"
+      - "Literatura"
+      - "Redox"
+      - "Termoquímica"
+      - "Transversal"
+      - "Ácido-Base"
+  - key: tipo
+    label: "Tipo"
+    valores:
+      - "ABJ"
+      - "Boletín"
+      - "Curiosidad"
+      - "Ejercicio"
+      - "Investigación"
+      - "Juego"
+      - "Laboratorio"
+      - "Resumen"
+      - "TIC"
+      - "Transversal"
+      - "aventura"
+      - "kinestésica"
+---
