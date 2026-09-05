@@ -164,11 +164,17 @@
       if (!chip) return;
       var key = chip.getAttribute('data-key');
       var value = chip.getAttribute('data-value');
-      active[key] = active[key] || new Set();
-      if (active[key].has(value)) {
-        active[key].delete(value);
-        chip.classList.remove('active');
-      } else {
+      var group = chip.closest('.filter-group');
+      var wasActive = chip.classList.contains('active');
+      // Selección única por grupo: al elegir una opción se deselecciona
+      // cualquier otra del mismo grupo (Curso, Bloque, Tipo...).
+      if (group) {
+        group.querySelectorAll('.filter-chip.active').forEach(function (c) {
+          c.classList.remove('active');
+        });
+      }
+      active[key] = new Set();
+      if (!wasActive) {
         active[key].add(value);
         chip.classList.add('active');
       }
