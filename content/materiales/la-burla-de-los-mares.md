@@ -14,7 +14,7 @@ tipo:
 Os presento **"La burla de los mares"**, una actividad de síntesis para trabajar los contenidos de cinemática, dinámica, fluidos y energía en 2.º ESO.
 {{< /callout >}}
 
-{{< img src="images/materiales/la-burla-de-los-mares/1.png" alt="Ilustración de un capitán pirata esqueleto en la cubierta de un barco" >}}
+{{< img src="images/materiales/la-burla-de-los-mares/1.png" alt="Ilustración de un capitán pirata esqueleto en la cubierta de un barco" align="center" >}}
 
 La historia se centra en una aventura de piratas en la que se va avanzando paso a paso, obteniendo cada capítulo posterior al resolver el anterior.
 

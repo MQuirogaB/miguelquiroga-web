@@ -1,1 +1,1 @@
-<img src="{{ relURL (.Get "src") }}" alt="{{ .Get "alt" }}" loading="lazy" class="content-img">
+<img src="{{ relURL (.Get "src") }}" alt="{{ .Get "alt" }}" loading="lazy" class="content-img{{ with .Get "align" }} content-img-{{ . }}{{ end }}">
