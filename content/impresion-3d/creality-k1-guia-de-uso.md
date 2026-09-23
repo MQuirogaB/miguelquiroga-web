@@ -5,6 +5,8 @@ icon: "🖨️"
 
 ## Desempaquetado e instalación
 
+{{< youtube id="1dwYTLTHucA" title="Desempaquetado e instalación Creality K1" >}}
+
 > Recomiendo encarecidamente el apartado 2 de esta wiki
 
 **User Manual**
