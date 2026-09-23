@@ -1,6 +1,6 @@
 ---
 title: "Llavero en Inkscape"
-icon: "🪧"
+icon: "🔑"
 ---
 
 <!-- IMAGEN: 1 de 5 — llavero terminado con el nombre "Ledicia" grabado y cortado -->
