@@ -3,7 +3,7 @@ title: "Creación de carteles en braille con impresión 3D"
 icon: "🧑‍🦯"
 ---
 
-<!-- IMAGEN: foto de autoría propia de un cartel en braille impreso en 3D -->
+{{< img src="images/impresion-3d/proyectos-didacticos/braille/1.jpg" alt="Cartel en braille impreso en 3D" >}}
 
 Hoy te propongo una actividad que no solo te permitirá aprender sobre impresión 3D, sino que también tendrá un impacto positivo en la accesibilidad de nuestro centro educativo. Vamos a crear carteles en braille utilizando la tecnología de impresión 3D, para ayudar a que el espacio sea más inclusivo para todas las personas. Este proyecto no solo es educativo, sino también solidario y útil para mejorar la vida de quienes nos rodean. ¿Te animas a hacer del aprendizaje algo que realmente marque la diferencia?
 
