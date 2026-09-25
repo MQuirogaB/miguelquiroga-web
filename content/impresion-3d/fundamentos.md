@@ -5,7 +5,8 @@ icon: "🖨️"
 
 {{< img src="images/impresion-3d/fundamentos/1.jpg" alt="esquema/foto genérica de una impresora 3D FDM" >}}
 
-## Cómo funciona una impresora 3D. Introducción.
+<summary>## Cómo funciona una impresora 3D. Introducción.</summary>
+
 
 Una impresora 3D de tipo FDM (que significa "Modelado por Deposición Fundida") funciona básicamente como una pistola de pegamento caliente, pero mucho más precisa y automatizada.
 
