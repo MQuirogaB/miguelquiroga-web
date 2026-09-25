@@ -15,7 +15,10 @@ Una impresora 3D de tipo FDM (que significa "Modelado por Deposición Fundida") 
 - **La base:** Las capas se colocan sobre una base plana (la "cama" o plataforma de impresión), que suele calentarse un poco para que el plástico se quede bien pegado.
 - **El resultado:** Imagina que haces un pastel por pisos, colocando uno encima del otro. Así funciona: la impresora construye el objeto desde abajo hacia arriba hasta que está completo.
 <\details>
-## Cómo damos las instrucciones a la impresora 3D. El laminado.
+
+<details>
+<summary> Cómo damos las instrucciones a la impresora 3D. El laminado.</summary>
+
 
 Cuando quieres imprimir algo en 3D, el archivo que tienes (que suele ser un modelo en 3D) no le dice directamente a la impresora cómo hacerlo. Necesitamos un paso intermedio, y ahí es donde entra el laminado. Vamos a verlo por partes.
 
@@ -69,3 +72,4 @@ También puedes elegir el patrón del relleno, que afecta la resistencia y el ti
 - **Cuadrícula o líneas:** Rápidos y básicos.
 - **Triangular o hexagonal (panal):** Más resistentes, ideales para piezas que soportan carga.
 - **Concentrado o giroide:** Perfectos para diseños complejos o que necesitan flexibilidad.
+ <\details>
