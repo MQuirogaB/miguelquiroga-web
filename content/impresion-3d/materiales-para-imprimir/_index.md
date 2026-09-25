@@ -13,13 +13,6 @@ icon: "🧵"
 | [ASA](asa) | Rígido, resistencia a impactos, Resistencia química, Resistencia a UV | 6 | 200-245 | Obligatoria | Recomendada | 90-110 | 1,07 | 100 |
 | [ABS](abs) | Rígido, resistencia a impactos, resistencia al calor | 6 | 230-255 | Obligatoria | Recomendada | 95-110 | 1,05 | 105 |
 
-## Galería
-
-{{< img src="images/impresion-3d/materiales-para-imprimir/1.jpg" alt="foto de una pieza impresa en PLA" >}}
-{{< img src="images/impresion-3d/materiales-para-imprimir/2.jpg" alt="foto de una pieza impresa en PETG" >}}
-{{< img src="images/impresion-3d/materiales-para-imprimir/3.jpg" alt="foto de una pieza impresa en ABS" >}}
-{{< img src="images/impresion-3d/materiales-para-imprimir/4.jpg" alt="foto de una pieza impresa en ASA" >}}
-{{< img src="images/impresion-3d/materiales-para-imprimir/5.jpg" alt="foto de una pieza impresa en Flexible (TPU)" >}}
 
 🌐 Adaptado de:
 
