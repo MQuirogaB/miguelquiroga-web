@@ -3,7 +3,7 @@ title: "Flexible (TPU)"
 icon: "🪢"
 ---
 
-[Ver vídeo](https://drive.google.com/file/d/1pTNt_BdVyPbBjP0fz3mgWgd5VJ6uYCpF/view?usp=drive_link)
+[Infografía](https://drive.google.com/file/d/1pTNt_BdVyPbBjP0fz3mgWgd5VJ6uYCpF/view?usp=drive_link)
 
 ## Introducción
 
