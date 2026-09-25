@@ -3,7 +3,8 @@ title: "Creality K1. Guía de uso"
 icon: "🖨️"
 ---
 
-## Desempaquetado e instalación
+<details>
+<summary>Desempaquetado e instalación</summary>
 
 {{< youtube id="1dwYTLTHucA" title="Desempaquetado e instalación Creality K1" >}}
 
@@ -15,7 +16,10 @@ Thank you for choosing our products. For the best experience, please read this U
 
 [https://wiki.creality.com/en/FDM/K1/Operations/home](https://wiki.creality.com/en/FDM/K1/Operations/home)
 
-## Cómo imprimir. Guía de laminado con creality print.
+</details>
+
+<details>
+<summary>Cómo imprimir. Guía de laminado con creality print.</summary>
 
 ### Cómo configurar el software
 
@@ -61,13 +65,19 @@ Thank you for choosing our products. For the best experience, please read this U
 
 🏴󠁥󠁳󠁧󠁡󠁿 Galego — [Imprimir bailarina](https://docs.google.com/document/d/1y2pFbcaxURZhmyuCJSmWu_QpBI7iScm9NRa24XU6Xww/preview?tab=t.0) *(Google Docs Embed)*
 
-## Operaciones básicas
+</details>
+
+<details>
+<summary>Operaciones básicas</summary>
 
 ### Cambio de filamento
 
 {{< youtube id="y1FPRb2H0oo" title="Service Tutorial K1: Replace the Filament (Creality After-sale)" >}}
 
-## Preguntas frecuentes y soluciones a cuestiones habituales
+</details>
+
+<details>
+<summary>Preguntas frecuentes y soluciones a cuestiones habituales</summary>
 
 🆘 Aquí encontrarás unos cuantos enlaces que te servirán (espero 🥲) para solucionar tanto las dudas más frecuentes como aquellos errores que no deberían pasar, pero pasan.
 
@@ -84,3 +94,5 @@ Thank you for choosing our products. For the best experience, please read this U
 ### Tengo la impresora atascada. Cómo solucionarlo
 
 {{< youtube id="B8WteTtEigA" title="Solucionar atasco Creality K1 Max, impresión 3D (Anexs3D)" >}}
+
+</details>
