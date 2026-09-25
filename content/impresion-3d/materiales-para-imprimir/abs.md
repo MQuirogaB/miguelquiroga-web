@@ -3,7 +3,7 @@ title: "ABS"
 icon: "🧱"
 ---
 
-[Ver vídeo](https://drive.google.com/file/d/1ced4lNTp2P5PnhOl0Lfhty2sxPFfhDBA/view?usp=drive_link)
+[Infografía](https://drive.google.com/file/d/1ced4lNTp2P5PnhOl0Lfhty2sxPFfhDBA/view?usp=drive_link)
 
 ## Introducción
 
