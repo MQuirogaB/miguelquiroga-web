@@ -3,7 +3,7 @@ title: "PETG"
 icon: "💧"
 ---
 
-[Ver vídeo](https://drive.google.com/file/d/1v8BO4Yn8CrRfhD_oVgsXRCUeUjeIntcY/view?usp=drive_link)
+[Infografía](https://drive.google.com/file/d/1v8BO4Yn8CrRfhD_oVgsXRCUeUjeIntcY/view?usp=drive_link)
 
 ## Introducción
 
