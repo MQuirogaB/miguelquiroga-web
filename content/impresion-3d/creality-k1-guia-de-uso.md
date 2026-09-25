@@ -10,9 +10,7 @@ icon: "🖨️"
 
 > Recomiendo encarecidamente el apartado 2 de esta wiki
 
-**User Manual**
-
-Thank you for choosing our products. For the best experience, please read this User Manual carefully and strictly follow the instructions to operate the printer. Our teams will always be ready to provide you with the best services. Please contact us via the phone number or e-mail address provided at the end of this User Manual when you encounter any problem with the printer. For a better experience in using our products, you can also learn how to use the printer in the following ways: Accompanied instructions: you can find the relevant instructions and videos in the USB flash disk. You can also visit our official website (https://www.creality.com) to find information regarding software, hardware, contact information, device instructions, device warranty information, and more.
+**Manual de usuario**
 
 [https://wiki.creality.com/en/FDM/K1/Operations/home](https://wiki.creality.com/en/FDM/K1/Operations/home)
 
