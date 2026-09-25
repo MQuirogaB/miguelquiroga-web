@@ -4,8 +4,8 @@ icon: "🖨️"
 ---
 
 {{< img src="images/impresion-3d/fundamentos/1.jpg" alt="esquema/foto genérica de una impresora 3D FDM" >}}
-
-<summary>## Cómo funciona una impresora 3D. Introducción.</summary>
+<details>
+<summary> Cómo funciona una impresora 3D. Introducción.</summary>
 
 
 Una impresora 3D de tipo FDM (que significa "Modelado por Deposición Fundida") funciona básicamente como una pistola de pegamento caliente, pero mucho más precisa y automatizada.
@@ -14,7 +14,7 @@ Una impresora 3D de tipo FDM (que significa "Modelado por Deposición Fundida") 
 - **El proceso:** Este filamento se calienta en una boquilla pequeñita (el "hotend" o boquilla) hasta que se derrite. Esa boquilla se mueve depositando el plástico derretido capa por capa, como si estuviera "dibujando" en 3D.
 - **La base:** Las capas se colocan sobre una base plana (la "cama" o plataforma de impresión), que suele calentarse un poco para que el plástico se quede bien pegado.
 - **El resultado:** Imagina que haces un pastel por pisos, colocando uno encima del otro. Así funciona: la impresora construye el objeto desde abajo hacia arriba hasta que está completo.
-
+<\details>
 ## Cómo damos las instrucciones a la impresora 3D. El laminado.
 
 Cuando quieres imprimir algo en 3D, el archivo que tienes (que suele ser un modelo en 3D) no le dice directamente a la impresora cómo hacerlo. Necesitamos un paso intermedio, y ahí es donde entra el laminado. Vamos a verlo por partes.
