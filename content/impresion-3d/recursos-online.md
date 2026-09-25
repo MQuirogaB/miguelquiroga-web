@@ -3,7 +3,7 @@ title: "Recursos online y utilidades web"
 icon: "🌐"
 ---
 
-## Miscelánea
+## Recursos online
 
 - **[ItsLitho](https://itslitho.com/)** (Hacer litofanías) — Sube una foto cualquiera y conviértela en una litofanía en esta página web.
 - **[Touchsee](https://touchsee.me/)** (Hacer texto en braille) — Hacer textos en braille nunca ha sido tan fácil. Aquí encontrarás una utilidad web para ello.
