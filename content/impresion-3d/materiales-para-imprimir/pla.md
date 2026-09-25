@@ -3,7 +3,7 @@ title: "PLA"
 icon: "🌱"
 ---
 
-[Ver vídeo](https://drive.google.com/file/d/1tlPQ86rZW-6cQbLGMebcqan80_T05S02/view?usp=drive_link)
+[Infografía](https://drive.google.com/file/d/1tlPQ86rZW-6cQbLGMebcqan80_T05S02/view?usp=drive_link)
 
 ## Introducción
 
