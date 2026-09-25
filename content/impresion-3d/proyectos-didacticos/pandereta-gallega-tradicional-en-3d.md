@@ -40,7 +40,7 @@ En caso de que tengas la Creality K1 (la nueva de polos), te dejo el archivo ya 
 
 Lleva un escalado adecuado para que coja bien en la impresora.
 
-<!-- ARCHIVO: Pandereta_PLA_3h28m.gcode — pandereta gallega, PLA, tiempo estimado 3h28m -->
-<!-- ARCHIVO: Aro_PLA_35m36s.gcode — aro de la pandereta, PLA, tiempo estimado 35m36s -->
+- [Pandereta_PLA_3h28m.gcode](/files/impresion-3d/proyectos-didacticos/pandereta-gallega/Pandereta_PLA_3h28m.gcode) — pandereta gallega, PLA, tiempo estimado 3h28m
+- [Aro_PLA_35m36s.gcode](/files/impresion-3d/proyectos-didacticos/pandereta-gallega/Aro_PLA_35m36s.gcode) — aro de la pandereta, PLA, tiempo estimado 35m36s
 
 [Ver el vídeo en Instagram](https://www.instagram.com/reel/DJhfHzrsuOj/?igsh=bXhiaHBxejVtbnF2)
