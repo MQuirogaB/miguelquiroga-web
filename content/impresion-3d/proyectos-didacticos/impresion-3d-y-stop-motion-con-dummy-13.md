@@ -3,7 +3,7 @@ title: "Impresión 3D y Stop Motion con Dummy 13"
 icon: "🎬"
 ---
 
-<!-- IMAGEN: render del muñeco articulado "Dummy 13" (tomada de printables.com/model/981111-dummy-13-version-10) -->
+{{< img src="images/impresion-3d/proyectos-didacticos/dummy-13/1.jpg" alt="render del muñeco articulado Dummy 13 (tomada de printables.com/model/981111-dummy-13-version-10)" >}}
 
 Hoy te propongo algo diferente y divertido: vamos a combinar la impresión 3D con el stop motion para que tu alumnado creee sus propia historias animada. No solo aprenderán a imprimir sus personajes, ¡sino que también los verán cobrar vida en pantalla! Esta actividad es perfecta para motivarlos, fomentar su creatividad y, lo mejor, integrar la tecnología en clase de forma práctica y entretenida. Estoy seguro de que disfrutarás tanto como ellos. ¿Te animas a probarlo?
 
