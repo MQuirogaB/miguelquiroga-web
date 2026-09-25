@@ -3,7 +3,7 @@ title: "ASA"
 icon: "☀️"
 ---
 
-[Ver vídeo](https://drive.google.com/file/d/1410ZK9oeCRBFS3MCaG4hIjsEK4UHjldb/view?usp=drive_link)
+[Infografía](https://drive.google.com/file/d/1410ZK9oeCRBFS3MCaG4hIjsEK4UHjldb/view?usp=drive_link)
 
 ## Introducción
 
