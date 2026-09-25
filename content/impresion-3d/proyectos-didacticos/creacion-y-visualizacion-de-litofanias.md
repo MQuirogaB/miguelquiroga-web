@@ -7,7 +7,7 @@ Hoy vamos a meternos de lleno con un tema que me encanta, las litofanías. Const
 
 [Ver el vídeo en Instagram](https://www.instagram.com/p/DGgQyCaMucy/)
 
-<!-- IMAGEN: foto del telescopio 3D terminado, con una litofanía insertada e iluminada -->
+{{< img src="images/impresion-3d/proyectos-didacticos/litofanias/1.jpg" alt="foto del telescopio 3D terminado, con una litofanía insertada e iluminada" >}}
 
 > En el final de la página tienes la guía para hacer tus propias litofanías para el telescopio y algunos ejemplos listos para imprimir. 😉
 
@@ -81,47 +81,47 @@ Hoy vamos a meternos de lleno con un tema que me encanta, las litofanías. Const
 
 1. Buscamos una imagen chula. Para este ejemplo utilizaremos esta:
 
-   <!-- IMAGEN: foto del cabo y faro de Fisterra, usada como ejemplo para la litofanía -->
+   {{< img src="images/impresion-3d/proyectos-didacticos/litofanias/2.jpg" alt="foto del cabo y faro de Fisterra, usada como ejemplo para la litofanía" >}}
 
 2. Vamos a la página [www.itslitho.com](http://www.itslitho.com)
 
-   <!-- IMAGEN: captura de pantalla de la portada de itslitho.com -->
+   {{< img src="images/impresion-3d/proyectos-didacticos/litofanias/3.jpg" alt="captura de pantalla de la portada de itslitho.com" >}}
 
 3. Vamos a *Get started*
 
-   <!-- IMAGEN: captura de pantalla del botón "Get started" en itslitho.com -->
+   {{< img src="images/impresion-3d/proyectos-didacticos/litofanias/4.jpg" alt="captura de pantalla del botón Get started en itslitho.com" >}}
 
 4. Seleccionamos *upload*
 
-   <!-- IMAGEN: captura de pantalla de la opción "upload" en itslitho.com -->
+   {{< img src="images/impresion-3d/proyectos-didacticos/litofanias/5.jpg" alt="captura de pantalla de la opción upload en itslitho.com" >}}
 
 5. Pulsamos en upload y elegimos la imagen
 
-   <!-- IMAGEN: captura de pantalla del selector de archivo para subir la imagen -->
+   {{< img src="images/impresion-3d/proyectos-didacticos/litofanias/6.jpg" alt="captura de pantalla del selector de archivo para subir la imagen" >}}
 
 6. Vamos a *model*
 
-   <!-- IMAGEN: captura de pantalla de la pestaña "model" en itslitho.com -->
+   {{< img src="images/impresion-3d/proyectos-didacticos/litofanias/7.jpg" alt="captura de pantalla de la pestaña model en itslitho.com" >}}
 
 7. Para que encaje en el telescopio, en *Shape*, seleccionaremos *Circular*
 
-   <!-- IMAGEN: captura de pantalla de la opción "Shape: Circular" -->
+   {{< img src="images/impresion-3d/proyectos-didacticos/litofanias/8.jpg" alt="captura de pantalla de la opción Shape: Circular" >}}
 
 8. En *Frame options*, seleccionamos *Border* como tipo de *Frame*
 
-   <!-- IMAGEN: captura de pantalla de "Frame options: Border" -->
+   {{< img src="images/impresion-3d/proyectos-didacticos/litofanias/9.jpg" alt="captura de pantalla de Frame options: Border" >}}
 
 9. Ponemos Thickness en 4.7
 
-   <!-- IMAGEN: captura de pantalla del campo "Thickness" ajustado a 4.7 -->
+   {{< img src="images/impresion-3d/proyectos-didacticos/litofanias/10.jpg" alt="captura de pantalla del campo Thickness ajustado a 4.7" >}}
 
 10. En Shape options, ajustamos *Diameter* a 80
 
-    <!-- IMAGEN: captura de pantalla del campo "Diameter" ajustado a 80 -->
+    {{< img src="images/impresion-3d/proyectos-didacticos/litofanias/11.jpg" alt="captura de pantalla del campo Diameter ajustado a 80" >}}
 
 11. Podemos darle ya a descargar
 
-    <!-- IMAGEN: captura de pantalla del botón de descarga en itslitho.com -->
+    {{< img src="images/impresion-3d/proyectos-didacticos/litofanias/12.jpg" alt="captura de pantalla del botón de descarga en itslitho.com" >}}
 
 12. Seleccionamos *Litophane* y con esto, ya tendremos descargada la litofanía
 
