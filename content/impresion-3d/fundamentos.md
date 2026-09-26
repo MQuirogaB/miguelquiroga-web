@@ -56,7 +56,7 @@ La cama caliente (la base donde se imprime) ayuda a que la pieza se pegue bien a
 
 La altura de capa define el grosor de cada rebanada del modelo que la impresora va a construir. Si eliges capas más finas (por ejemplo, 0,1 mm), obtendrás más detalle y un acabado más suave, pero la impresión tardará más. Si vas por capas más gruesas (como 0,2 o 0,3 mm), la impresión será más rápida, pero los detalles serán menos precisos.
 
-{{< img src="images/impresion-3d/fundamentos/4.webp" alt="comparativa visual de distintas alturas de capa" width="30" >}}
+{{< img src="images/impresion-3d/fundamentos/4.webp" alt="comparativa visual de distintas alturas de capa" width="40" >}}
 
 Es como elegir entre pintar algo con un pincel fino o uno grueso: depende de lo que necesites y cuánto tiempo tengas.
 
