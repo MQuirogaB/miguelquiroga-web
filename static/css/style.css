@@ -599,7 +599,7 @@ body {
   position: relative;
   aspect-ratio: 16 / 9;  overflow: hidden;
   border-radius: 10px;
-  margin: 18px auto;
+    margin: 18px auto !important;
   background: #000;
   max-width: 30%;
 }
