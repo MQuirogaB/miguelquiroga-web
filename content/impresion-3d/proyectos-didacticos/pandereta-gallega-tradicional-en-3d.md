@@ -6,7 +6,18 @@ icon_image: "images/impresion-3d/proyectos-didacticos/pandereta-gallega/icon.png
 
 > Agradecimientos especiales a Martín y a Paula por los consejos sobre el diseño y las demostraciones de como suena 🫂
 
+<div class="media-row">
+<div class="media-row-img">
+
 {{< img src="images/impresion-3d/proyectos-didacticos/pandereta-gallega/1.jpg" alt="foto de la pandereta gallega tradicional impresa en 3D, terminada" >}}
+
+</div>
+<div class="media-row-video">
+
+{{< instagram url="https://www.instagram.com/reels/DJhfHzrsuOj/" >}}
+
+</div>
+</div>
 
 {{< callout >}}
 Para el día de las letras gallegas he diseñado esta pandereta. Lleva una pieza de piel natural y se le pueden añadir las sonajas (ferreñas) para que suene de maravilla. El resultado es espectacular.
@@ -57,5 +68,3 @@ Lleva un escalado adecuado para que coja bien en la impresora.
 - [Modelo en MakerWorld](https://makerworld.com/es/models/1422347-galician-tambourine#profileId-1616703)
 
 </details>
-
-{{< instagram url="https://www.instagram.com/reels/DJhfHzrsuOj/" >}}
