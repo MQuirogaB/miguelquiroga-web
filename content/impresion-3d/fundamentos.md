@@ -76,7 +76,7 @@ Una velocidad típica para empezar es entre 40-60 mm/s, pero si tienes una impre
 
 El relleno es lo que va por dentro del modelo, y puedes elegir cuánto plástico usará. Por ejemplo, un relleno del 15-20% es suficiente para piezas decorativas o que no van a soportar peso. Pero si necesitas algo más resistente, como una pieza funcional, puedes subirlo al 50% o incluso 100%.
 
-{{< img src="images/impresion-3d/fundamentos/5.webp" alt="comparativa de patrones de relleno" >}}
+{{< img src="images/impresion-3d/fundamentos/5.webp" alt="comparativa de patrones de relleno" width="40" >}}
 
 *Tomado de [bigrep.com](https://bigrep.com/wp-content/uploads/2023/07/infill-patterns.jpg)*
 
