@@ -7,14 +7,18 @@ icon: "🌎"
 
 ¿Te imaginas poder sostener en tus manos una montaña o un valle tal como lo ves en los mapas? Hoy te propongo aprender geografía de una manera diferente: utilizando la tecnología de impresión 3D para crear modelos con el relieve real de cualquier parte del mundo. No solo vas a comprender mejor cómo funcionan los paisajes, sino que también vas a explorar cómo la tecnología puede transformar el aprendizaje. ¡El mundo está a tu alcance, y vamos a imprimirlo! ¿Te animas a explorar nuevos horizontes?
 
-## Objetivos
+<details>
+<summary>Objetivos</summary>
 
 - Enseñarles a los estudiantes sobre geografía y la interpretación de mapas topográficos.
 - Introducirles a la creación de modelos 3D a partir de datos geográficos reales utilizando la web **Map2STL**.
 - Desarrollar habilidades en el uso de impresoras 3D para representar terrenos con relieve.
 - Fomentar la comprensión de las formas geográficas y cómo varían en el mundo real.
 
-## Sesión 1: Introducción a la geografía y los relieves
+</details>
+
+<details>
+<summary>Sesión 1: Introducción a la geografía y los relieves</summary>
 
 **Duración**: 50 minutos
 
@@ -30,7 +34,10 @@ icon: "🌎"
 4. **Asignación de áreas geográficas** (10 min):
    - Cada estudiante o equipo seleccionará una región del mundo (o de su país) para modelar, ya sea montañas, costas, valles, etc.
 
-## Sesión 2: Generación de modelos 3D con Map2STL
+</details>
+
+<details>
+<summary>Sesión 2: Generación de modelos 3D con Map2STL</summary>
 
 **Duración**: 50 minutos
 
@@ -41,7 +48,10 @@ icon: "🌎"
    - Los estudiantes revisan los modelos STL descargados para asegurarse de que representan correctamente el relieve.
    - En caso necesario, pueden hacer ajustes en la escala o la zona seleccionada.
 
-## Sesión 3: Preparación de la impresión de los terrenos
+</details>
+
+<details>
+<summary>Sesión 3: Preparación de la impresión de los terrenos</summary>
 
 **Duración**: 50 minutos
 
@@ -54,7 +64,10 @@ icon: "🌎"
 3. **Iniciar la impresión** (10 min):
    - Si el tiempo lo permite, algunos equipos podrán comenzar con las primeras impresiones o preparar el cronograma de impresión para la siguiente sesión.
 
-## Sesión 4: Impresión de los modelos de terrenos
+</details>
+
+<details>
+<summary>Sesión 4: Impresión de los modelos de terrenos</summary>
 
 **Duración**: 50 minutos
 
@@ -64,7 +77,10 @@ icon: "🌎"
 2. **Revisión de las primeras impresiones** (10 min):
    - Revisión de los modelos impresos: analizar si los detalles del relieve son visibles y discutir posibles mejoras para las próximas impresiones.
 
-## Sesión 5: Presentación y análisis de los modelos
+</details>
+
+<details>
+<summary>Sesión 5: Presentación y análisis de los modelos</summary>
 
 **Duración**: 50 minutos
 
@@ -77,7 +93,10 @@ icon: "🌎"
    - Reflexionar sobre lo que aprendieron sobre geografía y cómo la impresión 3D les ayudó a visualizar conceptos que, a veces, son abstractos en los mapas planos.
    - Discusión grupal sobre otras aplicaciones posibles para la impresión 3D en el estudio de la geografía y cómo se puede utilizar para representar otros aspectos del entorno (como edificios, ecosistemas, etc.).
 
-## Materiales y Recursos
+</details>
+
+<details>
+<summary>Materiales y Recursos</summary>
 
 - Impresoras 3D.
 - Filamento PLA.
@@ -85,3 +104,5 @@ icon: "🌎"
 - Dispositivos para acceder a la web [Map2STL](https://map2stl.com/).
 - Software de edición 3D (opcional, como Tinkercad o Fusion 360).
 - Herramientas de acabado (lija, cúter, etc.).
+
+</details>
