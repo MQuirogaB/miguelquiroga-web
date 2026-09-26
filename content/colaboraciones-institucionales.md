@@ -1,6 +1,6 @@
 ---
 title: "Colaboraciones institucionales"
-icon: "🤗"
+icon: "🫂"
 ---
 
 <div class="collab-grid">
