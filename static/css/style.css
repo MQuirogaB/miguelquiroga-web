@@ -579,7 +579,7 @@ body {
 .content-img {
   max-width: 100%;
   border-radius: 10px;
-    margin: 18px auto;
+      margin: 18px auto !important;
   display: block;
 }
 .content-img-center {
@@ -587,7 +587,7 @@ body {
   margin-right: auto;
 }
 
-.content p:has(> img.content-img) + p:has(> em:only-child) {
+.content img.content-img + p:has(> em:only-child) {
     text-align: center;
     font-family: var(--font-sans);
     font-size: 13px;
@@ -596,10 +596,10 @@ body {
     margin-bottom: 24px;
     letter-spacing: .2px;
 }
-.content p:has(> img.content-img) + p:has(> em:only-child) em {
+.content img.content-img + p:has(> em:only-child) em {
     font-style: normal;
 }
-.content p:has(> img.content-img) + p:has(> em:only-child) em::before {
+.content img.content-img + p:has(> em:only-child) em::before {
     content: "📷 ";
 }
 
