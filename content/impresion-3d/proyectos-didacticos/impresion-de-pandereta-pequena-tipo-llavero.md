@@ -2,10 +2,11 @@
 title: "Impresión de pandereta pequeña tipo llavero"
 icon: "🎶"
 ---
-
+{{< callout icon="images/logo.png" >}}
 Para el día de las letras gallegas he diseñado esta pandereta pequeña que se puede imprimir a modo de juguete o para usar como llavero.
 
 Lleva huecos para insertar unas arandelas y que suene. Las arandelas son de las más normales, las hay en cualquier ferretería o similar, son de 1cm de diámetro (pero no tiene que ser exacto).
+{{< /callout >}}
 
 {{< img src="images/impresion-3d/proyectos-didacticos/pandereta-llavero/1.jpg" alt="render/foto de la pandereta pequeña tipo llavero impresa en 3D" >}}
 
