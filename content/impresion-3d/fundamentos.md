@@ -3,8 +3,6 @@ title: "Fundamentos de la impresión 3D"
 icon: "🖨️"
 ---
 
-{{< img src="images/impresion-3d/fundamentos/1.jpg" alt="esquema/foto genérica de una impresora 3D FDM" >}}
-
 <details>
 <summary>Cómo funciona una impresora 3D. Introducción.</summary>
 
