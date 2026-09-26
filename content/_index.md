@@ -36,4 +36,8 @@ sections:
     title: "Prensa, tv y radio"
     desc: "Apariciones en medios"
     link: "prensa-tv-radio"
+  - icon: "🤗"
+    title: "Colaboraciones institucionales"
+    desc: "Publicaciones con organismos oficiales"
+    link: "colaboraciones-institucionales"
 ---
