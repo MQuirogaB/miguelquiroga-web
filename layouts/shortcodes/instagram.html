@@ -1,3 +1,4 @@
 {{ $url := .Get "url" }}
 {{ $url = strings.TrimSuffix "/" $url }}
+{{ $url = replace $url "/reels/" "/reel/" }}
 <div class="instagram-embed"><iframe src="{{ $url }}/embed" title="Publicacion de Instagram" loading="lazy" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div>
