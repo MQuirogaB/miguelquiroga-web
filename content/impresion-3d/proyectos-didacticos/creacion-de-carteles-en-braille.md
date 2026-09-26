@@ -7,13 +7,17 @@ icon: "🧑‍🦯"
 
 Hoy te propongo una actividad que no solo te permitirá aprender sobre impresión 3D, sino que también tendrá un impacto positivo en la accesibilidad de nuestro centro educativo. Vamos a crear carteles en braille utilizando la tecnología de impresión 3D, para ayudar a que el espacio sea más inclusivo para todas las personas. Este proyecto no solo es educativo, sino también solidario y útil para mejorar la vida de quienes nos rodean. ¿Te animas a hacer del aprendizaje algo que realmente marque la diferencia?
 
-## Objetivos
+<details>
+<summary>Objetivos</summary>
 
 - Introducir al alumnado en la impresión 3D mediante un proyecto inclusivo.
 - Fomentar la empatía y el conocimiento sobre la accesibilidad en los espacios educativos.
 - Enseñarles a diseñar y producir carteles en braille para el centro educativo, utilizando herramientas digitales y tecnologías de impresión.
 
-## Sesión 1: Introducción a la accesibilidad y el braille
+</details>
+
+<details>
+<summary>Sesión 1: Introducción a la accesibilidad y el braille</summary>
 
 **Duración**: 50 minutos
 
@@ -28,7 +32,10 @@ Hoy te propongo una actividad que no solo te permitirá aprender sobre impresió
    - Mostrar cómo funciona la página [TouchSee](https://touchsee.me/), que permite convertir texto en modelos 3D de braille.
    - Breve demostración de cómo generar un cartel en la web.
 
-## Sesión 2: Diseño de los carteles en braille
+</details>
+
+<details>
+<summary>Sesión 2: Diseño de los carteles en braille</summary>
 
 **Duración**: 50 minutos
 
@@ -40,7 +47,10 @@ Hoy te propongo una actividad que no solo te permitirá aprender sobre impresió
    - Enseñarles a descargar los modelos en formato STL desde TouchSee.
    - Revisar los modelos descargados en software de diseño 3D (como Tinkercad o Fusion 360) para asegurarse de que son adecuados para la impresión.
 
-## Sesión 3: Preparación de la impresión
+</details>
+
+<details>
+<summary>Sesión 3: Preparación de la impresión</summary>
 
 **Duración**: 50 minutos
 
@@ -52,7 +62,10 @@ Hoy te propongo una actividad que no solo te permitirá aprender sobre impresió
 3. **Explicación sobre materiales** (10 min):
    - Comentar el uso de filamentos adecuados para la creación de carteles, como PLA, que es común y fácil de imprimir.
 
-## Sesión 4: Impresión de los carteles
+</details>
+
+<details>
+<summary>Sesión 4: Impresión de los carteles</summary>
 
 **Duración**: 50 minutos
 
@@ -62,7 +75,10 @@ Hoy te propongo una actividad que no solo te permitirá aprender sobre impresió
 2. **Revisión de las primeras impresiones** (10 min):
    - Revisar los primeros carteles impresos y comprobar que el braille sea legible y claro.
 
-## Sesión 5: Instalación de los carteles y reflexión
+</details>
+
+<details>
+<summary>Sesión 5: Instalación de los carteles y reflexión</summary>
 
 **Duración**: 50 minutos
 
@@ -75,7 +91,10 @@ Hoy te propongo una actividad que no solo te permitirá aprender sobre impresió
    - Discusión en grupo sobre cómo la impresión 3D puede ser utilizada para mejorar la vida de personas con discapacidad.
    - Compartir ideas sobre otros posibles proyectos inclusivos.
 
-## Materiales y Recursos
+</details>
+
+<details>
+<summary>Materiales y Recursos</summary>
 
 - Impresoras 3D.
 - Filamento PLA.
@@ -83,3 +102,5 @@ Hoy te propongo una actividad que no solo te permitirá aprender sobre impresió
 - Dispositivos para acceder a la web [TouchSee](https://touchsee.me/).
 - Software de edición 3D (Tinkercad, Fusion 360, etc.).
 - Herramientas de postprocesado (lija, cúter, etc.).
+
+</details>
