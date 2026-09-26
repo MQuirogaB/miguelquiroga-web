@@ -2,7 +2,7 @@
 <article class="article">
   <header class="article-head">
     <div class="cover-strip"></div>
-    <div class="page-icon">{{ .Params.icon }}</div>
+    <div class="page-icon">{{ if .Params.icon_image }}<img src="{{ relURL .Params.icon_image }}" alt="{{ .Title }}">{{ else }}{{ .Params.icon }}{{ end }}</div>
     <h1>{{ .Title }}</h1>
     <div class="meta">
       {{ partial "tags.html" . }}
