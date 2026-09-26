@@ -877,3 +877,31 @@ body {
   padding: 28px;
   border-top: 1px solid var(--border);
 }
+
+/* ---------- publication timeline ---------- */
+
+.tl { position: relative; padding-left: 28px; font-family: var(--font-sans); margin: 24px 0; }
+.tl::before { content: ""; position: absolute; left: 6px; top: 6px; bottom: 6px; width: 2px; background: var(--border); }
+.tl-year { position: relative; font-family: var(--font-serif); font-size: 15px; font-weight: 700; color: var(--accent-dark); margin: 30px 0 14px; }
+.tl-year:first-child { margin-top: 0; }
+.tl-year::before { content: ""; position: absolute; left: -28px; top: 3px; width: 11px; height: 11px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); box-shadow: 0 0 0 2px var(--border); }
+.tl-item { margin-bottom: 20px; }
+.tl-title { display: block; font-weight: 700; font-size: 15px; color: var(--ink); text-decoration: none; }
+.tl-title:hover { color: var(--accent-dark); }
+.tl-meta { display: block; font-size: 13px; color: var(--ink-light); margin-top: 3px; }
+.tl-cite { display: block; font-size: 12.5px; font-style: italic; color: var(--ink-light); margin-top: 2px; }
+
+/* ---------- press clippings ---------- */
+
+.clip-grid { display: flex; flex-direction: column; gap: 16px; font-family: var(--font-sans); margin: 24px 0; }
+.clip { position: relative; background: var(--card-bg); border: 1px dashed var(--border); border-radius: 4px; padding: 18px 20px 18px 60px; }
+.clip-year { position: absolute; left: -10px; top: 14px; font-family: var(--font-serif); font-weight: 700; font-size: 13px; background: var(--accent-soft); color: var(--accent-dark); padding: 5px 10px; border-radius: 3px; transform: rotate(-4deg); box-shadow: 0 2px 4px rgba(55, 53, 47, 0.12); }
+.clip-title { font-family: var(--font-serif); font-size: 16.5px; font-weight: 700; color: var(--ink); text-decoration: none; display: block; }
+.clip-title:hover { color: var(--accent-dark); }
+.clip-meta { font-size: 13px; color: var(--ink-light); margin-top: 5px; }
+.clip-cite { font-size: 12.5px; font-style: italic; color: var(--ink-light); margin-top: 3px; }
+
+@media (max-width: 560px) {
+  .clip { padding-left: 20px; }
+  .clip-year { position: static; display: inline-block; transform: none; margin-bottom: 8px; }
+}
