@@ -7,13 +7,17 @@ icon: "🎬"
 
 Hoy te propongo algo diferente y divertido: vamos a combinar la impresión 3D con el stop motion para que tu alumnado creee sus propia historias animada. No solo aprenderán a imprimir sus personajes, ¡sino que también los verán cobrar vida en pantalla! Esta actividad es perfecta para motivarlos, fomentar su creatividad y, lo mejor, integrar la tecnología en clase de forma práctica y entretenida. Estoy seguro de que disfrutarás tanto como ellos. ¿Te animas a probarlo?
 
-## Objetivos
+<details>
+<summary>Objetivos</summary>
 
 - Enseñar a los profesores cómo integrar la tecnología de impresión 3D con actividades creativas en el aula.
 - Fomentar la creatividad de los estudiantes a través de la creación de cortometrajes en stop motion.
 - Introducir conceptos básicos de diseño, impresión 3D y animación.
 
-## Sesión 1: Introducción a la actividad y preparación del modelo
+</details>
+
+<details>
+<summary>Sesión 1: Introducción a la actividad y preparación del modelo</summary>
 
 **Duración**: 50 minutos
 
@@ -28,7 +32,10 @@ Hoy te propongo algo diferente y divertido: vamos a combinar la impresión 3D co
    - Ajustar parámetros de impresión: tamaño, densidad de relleno, soportes.
    - Empezar la impresión si es posible o dejarla lista para la siguiente sesión.
 
-## Sesión 2: Impresión de los muñecos y monitoreo
+</details>
+
+<details>
+<summary>Sesión 2: Impresión de los muñecos y monitoreo</summary>
 
 **Duración**: 50 minutos
 
@@ -38,7 +45,10 @@ Hoy te propongo algo diferente y divertido: vamos a combinar la impresión 3D co
 2. **Revisión de impresiones** (10 min):
    - Revisar el avance de las impresoras y resolver dudas que puedan surgir.
 
-## Sesión 3: Introducción al Stop Motion y diseño de la historia
+</details>
+
+<details>
+<summary>Sesión 3: Introducción al Stop Motion y diseño de la historia</summary>
 
 **Duración**: 50 minutos
 
@@ -52,7 +62,10 @@ Hoy te propongo algo diferente y divertido: vamos a combinar la impresión 3D co
    - Cada equipo debe diseñar una historia breve para su animación (máximo 1 minuto).
    - Asignar tareas para pensar en escenarios y materiales para la próxima sesión.
 
-## Sesión 4: Storyboard y preparación del set
+</details>
+
+<details>
+<summary>Sesión 4: Storyboard y preparación del set</summary>
 
 **Duración**: 50 minutos
 
@@ -63,7 +76,10 @@ Hoy te propongo algo diferente y divertido: vamos a combinar la impresión 3D co
    - Proponer ideas para construir el escenario con materiales básicos (cartulina, papel, cajas).
    - Comenzar a montar los sets o asignar tareas para traer materiales a la siguiente clase.
 
-## Sesión 5: Grabación del stop motion
+</details>
+
+<details>
+<summary>Sesión 5: Grabación del stop motion</summary>
 
 **Duración**: 50 minutos
 
@@ -73,7 +89,10 @@ Hoy te propongo algo diferente y divertido: vamos a combinar la impresión 3D co
    - Cada equipo tomará las fotos necesarias para su animación, moviendo los muñecos cuidadosamente.
    - Recordarles la importancia de la constancia en el movimiento para lograr un efecto fluido.
 
-## Sesión 6: Edición y presentación
+</details>
+
+<details>
+<summary>Sesión 6: Edición y presentación</summary>
 
 **Duración**: 50 minutos
 
@@ -87,7 +106,10 @@ Hoy te propongo algo diferente y divertido: vamos a combinar la impresión 3D co
    - Reflexión sobre cómo se podría usar esta actividad en clase.
    - Discusión sobre la integración de tecnologías como la impresión 3D en el aula.
 
-## Materiales y Recursos
+</details>
+
+<details>
+<summary>Materiales y Recursos</summary>
 
 - Impresoras 3D.
 - Filamento PLA.
@@ -98,3 +120,5 @@ Hoy te propongo algo diferente y divertido: vamos a combinar la impresión 3D co
 - Materiales para escenarios (cartón, papel, tijeras, pegamento).
 - Acceso a programas de edición básica de video (opcional).
 - [Stop Motion Studio - INTEF](https://intef.es/observatorio_tecno/stop-motion-studio/)
+
+</details>
