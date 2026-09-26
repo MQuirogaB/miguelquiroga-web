@@ -6,9 +6,9 @@ icon: "🥁"
 > Agradecimientos especiales a Martín y a Paula por los consejos sobre el diseño y las demostraciones de como suena 🫂
 
 {{< img src="images/impresion-3d/proyectos-didacticos/pandereta-gallega/1.jpg" alt="foto de la pandereta gallega tradicional impresa en 3D, terminada" >}}
-
+{{< callout icon="images/logo.png" >}}
 Para el día de las letras gallegas he diseñado esta pandereta. Lleva una pieza de piel natural y se le pueden añadir las sonajas (ferreñas) para que suene de maravilla. El resultado es espectacular.
-
+{{< /callout >}}
 <!-- IMAGEN: gif animado mostrando la pandereta terminada sonando/moviéndose -->
 
 El diseño está pensado para imitar a una pandereta clásica (mismas medidas y tamaño) y que suene lo más parecido a una tradicional.
