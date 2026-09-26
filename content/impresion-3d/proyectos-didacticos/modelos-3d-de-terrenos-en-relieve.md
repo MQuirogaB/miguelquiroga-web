@@ -4,9 +4,9 @@ icon: "🌎"
 ---
 
 {{< img src="images/impresion-3d/proyectos-didacticos/terrenos-relieve/1.jpg" alt="foto de autoría propia de un modelo 3D de terreno con relieve impreso" >}}
-
+{{< callout icon="images/logo.png" >}}
 ¿Te imaginas poder sostener en tus manos una montaña o un valle tal como lo ves en los mapas? Hoy te propongo aprender geografía de una manera diferente: utilizando la tecnología de impresión 3D para crear modelos con el relieve real de cualquier parte del mundo. No solo vas a comprender mejor cómo funcionan los paisajes, sino que también vas a explorar cómo la tecnología puede transformar el aprendizaje. ¡El mundo está a tu alcance, y vamos a imprimirlo! ¿Te animas a explorar nuevos horizontes?
-
+{{< /callout >}}
 <details>
 <summary>Objetivos</summary>
 
