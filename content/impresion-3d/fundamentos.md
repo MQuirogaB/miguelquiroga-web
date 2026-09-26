@@ -21,11 +21,13 @@ Una impresora 3D de tipo FDM (que significa "Modelado por Deposición Fundida") 
 Cuando quieres imprimir algo en 3D, el archivo que tienes (que suele ser un modelo en 3D) no le dice directamente a la impresora cómo hacerlo. Necesitamos un paso intermedio, y ahí es donde entra el laminado. Vamos a verlo por partes.
 
 {{< img src="images/impresion-3d/fundamentos/2.webp" alt="esquema del proceso de laminado (slicing) de un modelo 3D" >}}
+
 *Tomado de [fabheads.com](https://fabheads.com/blogs/what-is-the-role-of-slicing-in-3d-printing/)*
 
 - **Partir el modelo en capas:** El programa de laminado (llamado *slicer*, como Creality Print u OrcaSlicer) toma tu diseño 3D y lo divide en un montón de capas finitas, como si estuvieras cortando un pan en rebanadas súper finas.
 
 {{< img src="images/impresion-3d/fundamentos/3.webp" alt="esquema de conversión de un modelo 3D a G-code" >}}
+
 *Tomado de [scan2cad.com](https://www.scan2cad.com/blog/cad/convert-stl-gcode/)*
 
 - **Traducir el diseño para la impresora:** El programa de laminado convierte el modelo 3D en un archivo llamado G-code. Este archivo contiene una lista detallada de instrucciones que indican a la impresora cómo construir la pieza: dónde debe moverse, a qué velocidad, cuánta cantidad de plástico fundido debe depositar y en qué orden hacerlo para formar cada capa. Es como un manual de instrucciones que la impresora seguirá paso a paso.
@@ -55,6 +57,7 @@ La cama caliente (la base donde se imprime) ayuda a que la pieza se pegue bien a
 La altura de capa define el grosor de cada rebanada del modelo que la impresora va a construir. Si eliges capas más finas (por ejemplo, 0,1 mm), obtendrás más detalle y un acabado más suave, pero la impresión tardará más. Si vas por capas más gruesas (como 0,2 o 0,3 mm), la impresión será más rápida, pero los detalles serán menos precisos.
 
 {{< img src="images/impresion-3d/fundamentos/4.webp" alt="comparativa visual de distintas alturas de capa" >}}
+
 *Tomado de [blog.prusa3d.com](https://blog.prusa3d.com/wp-content/uploads/2018/06/layer_height.jpg)*
 
 Es como elegir entre pintar algo con un pincel fino o uno grueso: depende de lo que necesites y cuánto tiempo tengas.
@@ -76,6 +79,7 @@ Una velocidad típica para empezar es entre 40-60 mm/s, pero si tienes una impre
 El relleno es lo que va por dentro del modelo, y puedes elegir cuánto plástico usará. Por ejemplo, un relleno del 15-20% es suficiente para piezas decorativas o que no van a soportar peso. Pero si necesitas algo más resistente, como una pieza funcional, puedes subirlo al 50% o incluso 100%.
 
 {{< img src="images/impresion-3d/fundamentos/5.webp" alt="comparativa de patrones de relleno" >}}
+
 *Tomado de [bigrep.com](https://bigrep.com/wp-content/uploads/2023/07/infill-patterns.jpg)*
 
 También puedes elegir el patrón del relleno, que afecta la resistencia y el tiempo de impresión. Los patrones comunes son:
