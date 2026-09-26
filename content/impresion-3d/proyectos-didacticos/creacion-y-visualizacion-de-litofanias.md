@@ -11,13 +11,17 @@ Hoy vamos a meternos de lleno con un tema que me encanta, las litofanías. Const
 
 > En el final de la página tienes la guía para hacer tus propias litofanías para el telescopio y algunos ejemplos listos para imprimir. 😉
 
-## Objetivos
+<details>
+<summary>Objetivos</summary>
 
 - Enseñar al alumnado cómo utilizar la impresión 3D para crear litofanías personalizadas.
 - Fomentar la creatividad y el aprendizaje visual en el aula.
 - Explorar contenidos educativos relacionados con la historia, la ciencia y la cultura a través de litofanías.
 
-## Sesión 1: Introducción a la actividad y preparación del modelo
+</details>
+
+<details>
+<summary>Sesión 1: Introducción a la actividad y preparación del modelo</summary>
 
 **Duración**: 50 minutos
 
@@ -32,7 +36,10 @@ Hoy vamos a meternos de lleno con un tema que me encanta, las litofanías. Const
    - Ajuste de parámetros de impresión.
    - Inicio de la impresión del telescopio o preparación para la siguiente sesión.
 
-## Sesión 2: Impresión y monitoreo del telescopio
+</details>
+
+<details>
+<summary>Sesión 2: Impresión y monitoreo del telescopio</summary>
 
 **Duración**: 50 minutos
 
@@ -43,7 +50,10 @@ Hoy vamos a meternos de lleno con un tema que me encanta, las litofanías. Const
    - Verificación del resultado final.
    - Discusión sobre posibles mejoras en la impresión.
 
-## Sesión 3: Creación de litofanías personalizadas
+</details>
+
+<details>
+<summary>Sesión 3: Creación de litofanías personalizadas</summary>
 
 **Duración**: 50 minutos
 
@@ -57,7 +67,10 @@ Hoy vamos a meternos de lleno con un tema que me encanta, las litofanías. Const
    - Ajuste de parámetros en el software de slicing.
    - Comprobación de detalles antes de iniciar la impresión.
 
-## Sesión 4: Impresión y pruebas de visualización
+</details>
+
+<details>
+<summary>Sesión 4: Impresión y pruebas de visualización</summary>
 
 **Duración**: 50 minutos
 
@@ -68,7 +81,10 @@ Hoy vamos a meternos de lleno con un tema que me encanta, las litofanías. Const
    - Prueba de las litofanías en el telescopio impreso.
    - Análisis de la calidad de las imágenes y su impacto visual.
 
-## Materiales y Recursos
+</details>
+
+<details>
+<summary>Materiales y Recursos</summary>
 
 - Impresoras 3D.
 - Filamento PLA.
@@ -77,7 +93,10 @@ Hoy vamos a meternos de lleno con un tema que me encanta, las litofanías. Const
 - Web para generar litofanías: [www.itslitho.com](https://www.itslitho.com/).
 - Ordenador
 
-## Cómo hacer la litofanía para el telescopio
+</details>
+
+<details>
+<summary>Cómo hacer la litofanía para el telescopio</summary>
 
 1. Buscamos una imagen chula. Para este ejemplo utilizaremos esta:
 
@@ -125,9 +144,14 @@ Hoy vamos a meternos de lleno con un tema que me encanta, las litofanías. Const
 
 12. Seleccionamos *Litophane* y con esto, ya tendremos descargada la litofanía
 
-## Algunos ejemplos de litofanías
+</details>
+
+<details>
+<summary>Algunos ejemplos de litofanías</summary>
 
 <!-- ARCHIVO: litofanía de ejemplo 1 (STL/gcode) -->
 <!-- ARCHIVO: litofanía de ejemplo 2 (STL/gcode) -->
 <!-- ARCHIVO: litofanía de ejemplo 3 (STL/gcode) -->
 <!-- ARCHIVO: litofanía de ejemplo 4 (STL/gcode) -->
+
+</details>
