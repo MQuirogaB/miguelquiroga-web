@@ -12,7 +12,7 @@ tipologia:
 
 En este experimento vamos a fabricar un altavoz casero utilizando vasos de café, hilo de cobre y imanes. El objetivo de esta actividad es aprender sobre el funcionamiento de los altavoces y experimentar con la creación de un dispositivo sin usar piezas compradas.
 
-{{< img src="images/laboratorio/construccion-de-un-altavoz/1.jpg" alt="Figura 1 - Montaje del altavoz" >}}
+{{< img src="images/laboratorio/construccion-de-un-altavoz/1.jpg" alt="Figura 1 - Montaje del altavoz" width="30">}}
 
 ## Objetivos
 
