@@ -1,6 +1,7 @@
 ---
 title: "Lugares para encontrar archivos: Repositorios online"
 icon: "📦"
+description: "Webs donde descargar modelos 3D listos para imprimir"
 ---
 
 Si buscas archivos para tus proyectos de impresión 3D, estas son tres de las plataformas más populares, y lo mejor, gratuitas:
