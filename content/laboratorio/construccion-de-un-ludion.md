@@ -33,11 +33,9 @@ Al apretar las paredes de la botella se transmite esta presión por igual a todo
 
 En el Ludión se encuentran dos fuerzas enfrentadas:
 
-```
-P = mg
+$$P = mg$$
 
-E = dgV
-```
+$$E = dgV$$
 
 Al disminuir el volumen del aire dentro del Ludión entra más agua y aumenta el peso del mismo, empujándolo hacia el fondo.
 
