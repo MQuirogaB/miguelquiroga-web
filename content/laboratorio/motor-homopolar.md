@@ -29,7 +29,7 @@ Un motor homopolar es un tipo de motor que presenta dos polos magnéticos. Actua
 
 Siempre que una carga eléctrica se encuentre en movimiento en el seno de un campo magnético experimentará una fuerza conocida como fuerza de Lorentz.
 
-> F⃗ = I(L⃗ × B⃗)
+$$\vec{F} = I(\vec{L} \times \vec{B})$$
 
 Dicha fuerza hará que el motor gire hasta que se agote la batería.
 
