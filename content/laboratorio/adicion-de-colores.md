@@ -12,7 +12,7 @@ tipologia:
 
 En esta actividad se utilizarán tres luces de colores diferentes para crear sombras con diferentes tonalidades. Se estudiará como influye la interferencia de la luz en el color de las sombras.
 
-{{< img src="images/laboratorio/adicion-de-colores/1.jpg" alt="Visualización del efecto" >}}
+{{< img src="images/laboratorio/adicion-de-colores/1.jpg" alt="Visualización del efecto" width="30">}}
 
 ## Objetivos
 
