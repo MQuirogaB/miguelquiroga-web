@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generador de problemas — Tiro Parabólico · miguelquiroga.es</title>
+<link rel="stylesheet" href="../../css/style.css">
+<style>
+  :root {
+    --surface: var(--card-bg);
+    --surface2: var(--accent-soft);
+    --border2: var(--border);
+    --text: var(--ink);
+    --text2: var(--ink-light);
+    --text3: #9e9e99;
+    --green: #16a34a;
+    --green-bg: #f0fdf4;
+    --radius: 12px;
+    --radius-sm: 8px;
+  }
+  * { box-sizing: border-box; }
+  body { font-family: var(--font-sans); }
+  .container { max-width: 700px; margin: 0 auto; padding: 2rem 1rem; line-height: 1.6; }
+  .tag {
+    display: inline-block; font-size: 11px; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent); background: var(--accent-soft);
+    border-radius: 20px; padding: 3px 10px; margin-bottom: 10px;
+  }
+  .container h1 { font-family: var(--font-serif); font-size: 24px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 4px; color: var(--ink); }
+  .subtitle { font-size: 14px; color: var(--text2); }
+
+  .controls {
+    display: flex; flex-wrap: wrap; gap: 10px;
+    align-items: center; justify-content: space-between; margin-bottom: 1.25rem; margin-top: 2rem;
+  }
+  .tipo-btns { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tipo-btn {
+    font-size: 13px; padding: 6px 14px; border-radius: 20px;
+    border: 1.5px solid var(--border2); background: transparent;
+    color: var(--text); cursor: pointer; transition: all 0.15s; font-family: inherit;
+  }
+  .tipo-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .tipo-btn:hover:not(.active) { background: var(--surface2); }
+  .btn-nuevo {
+    display: flex; align-items: center; gap: 6px;
+    padding: 8px 18px; font-size: 14px; font-weight: 700;
+    border-radius: var(--radius-sm); border: none;
+    background: var(--accent); color: #fff;
+    cursor: pointer; transition: background 0.15s; font-family: inherit;
+  }
+  .btn-nuevo:hover { background: var(--accent-dark); }
+  .btn-nuevo:active { transform: scale(0.98); }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 1.5rem; margin-bottom: 1rem;
+  }
+  .card-label {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.07em;
+    text-transform: uppercase; color: var(--text3); margin-bottom: 10px;
+  }
+  #enunciado { font-size: 16px; line-height: 1.75; margin-bottom: 1.25rem; color: var(--text); }
+
+  /* Trayectoria SVG */
+  .traj-wrap {
+    background: var(--surface2); border-radius: var(--radius-sm);
+    padding: 1rem; margin-bottom: 1.25rem;
+  }
+  .traj-header {
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 8px; margin-bottom: 10px;
+  }
+  .traj-label {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--text3);
+  }
+  .tog-row { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tog-btn {
+    font-size: 12px; font-weight: 700; padding: 3px 10px;
+    border-radius: 20px; border: 1.5px solid var(--tog-color);
+    background: transparent; color: var(--tog-color);
+    cursor: pointer; font-family: inherit; transition: all 0.15s; opacity: 0.4;
+  }
+  .tog-btn.tog-active { background: var(--tog-color); color: #fff; opacity: 1; }
+  #traj-container svg { max-width: 100%; height: auto; display: block; margin: 0 auto; }
+
+  .datos-box {
+    background: #fff; border: 1px solid var(--border); border-radius: var(--radius-sm);
+    padding: 0.875rem 1rem; margin-bottom: 1.25rem;
+  }
+  .datos-box-label {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--text3); margin-bottom: 8px;
+  }
+  #datos { display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 15px; }
+
+  .pregunta-label { font-size: 12px; color: var(--text2); margin-bottom: 5px; }
+  #pregunta { font-size: 15px; font-weight: 700; color: var(--text); }
+
+  .sol-toggle { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; }
+  .btn-sol {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 13px; padding: 7px 16px; border-radius: var(--radius-sm);
+    border: 1px solid var(--border2); background: transparent;
+    cursor: pointer; color: var(--text); transition: background 0.15s; font-family: inherit;
+  }
+  .btn-sol:hover { background: var(--surface2); }
+  .hint { font-size: 12px; color: var(--text3); }
+  #solucion-panel { display: none; }
+
+  .pasos-lista { list-style: none; padding: 0; margin: 0; }
+  .paso {
+    display: flex; gap: 12px; margin-bottom: 1rem;
+    padding-bottom: 1rem; border-bottom: 1px solid var(--border);
+  }
+  .paso:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .paso-num {
+    flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%;
+    background: var(--accent); color: #fff;
+    font-size: 12px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center; margin-top: 2px;
+  }
+  .paso-content { flex: 1; }
+  .paso-title { font-size: 13px; font-weight: 700; margin-bottom: 3px; color: var(--text2); }
+  .paso-formula {
+    font-family: 'Courier New', monospace; font-size: 14px;
+    background: var(--surface2); border-radius: 6px;
+    padding: 6px 10px; margin: 5px 0; display: inline-block;
+  }
+  .paso-calc { font-size: 14px; line-height: 1.8; color: var(--text); }
+
+  .resultado-final {
+    margin-top: 1rem; padding: 1rem;
+    background: var(--green-bg); border-radius: var(--radius-sm);
+    border: 1px solid rgba(22,163,74,0.2);
+  }
+  .resultado-final-label { font-size: 12px; color: var(--green); font-weight: 700; margin-bottom: 6px; }
+  .resultado-grid { display: flex; gap: 2rem; flex-wrap: wrap; }
+  .resultado-item span:first-child { font-size: 12px; color: var(--green); display: block; }
+  .resultado-item span:last-child { font-size: 18px; font-weight: 700; color: var(--green); }
+
+  .footer-btns { margin-top: 1.5rem; display: flex; gap: 8px; flex-wrap: wrap; }
+  .footer-btn {
+    font-size: 12px; padding: 6px 13px; border-radius: var(--radius-sm);
+    border: 1px solid var(--border); background: transparent;
+    cursor: pointer; color: var(--text2); transition: background 0.15s; font-family: inherit;
+  }
+  .footer-btn:hover { background: var(--surface); color: var(--text); }
+  svg.icon { width: 15px; height: 15px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  @media print {
+    .controls, .sol-toggle, .footer-btns, .topbar, .foot, .tog-row { display: none !important; }
+    #solucion-panel { display: block !important; }
+    body { background: white; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="../../">miguelquiroga<span class="dot">.es</span></a>
+  <nav class="breadcrumb">
+    <span class="sep">›</span><a href="../../">Inicio</a>
+    <span class="sep">›</span><a href="../">⚙️ Generadores</a>
+    <span class="sep">›</span><span class="current">Tiro Parabólico</span>
+  </nav>
+</header>
+
+<div class="container">
+
+<header>
+  <div class="tag">Cinemática · 1º Bachillerato</div>
+  <h1>Tiro Parabólico</h1>
+  <p class="subtitle">Problemas aleatorios con trayectoria y solución paso a paso</p>
+</header>
+
+<div class="controls">
+  <div class="tipo-btns">
+    <button class="tipo-btn active" onclick="setTipo('suelo')"   id="btn-suelo">Desde el suelo</button>
+    <button class="tipo-btn"        onclick="setTipo('altura')"  id="btn-altura">Desde altura</button>
+    <button class="tipo-btn"        onclick="setTipo('horizontal')" id="btn-horizontal">Tiro horizontal</button>
+    <button class="tipo-btn"        onclick="setTipo('aleatorio')" id="btn-aleatorio">Aleatorio</button>
+  </div>
+  <button class="btn-nuevo" onclick="generar()">
+    <svg class="icon" viewBox="0 0 24 24"><path d="M1 4v6h6M23 20v-6h-6"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10M23 14l-4.64 4.36A9 9 0 0 1 3.51 15"/></svg>
+    Nuevo problema
+  </button>
+</div>
+
+<div class="card">
+  <div class="card-label">Enunciado</div>
+  <p id="enunciado"></p>
+
+  <div class="traj-wrap">
+    <div class="traj-header">
+      <div class="traj-label">Trayectoria</div>
+      <div class="tog-row">
+        <button class="tog-btn tog-active" id="tog-vx" onclick="toggleCapa('vx')" style="--tog-color:#dc2626;">vx</button>
+        <button class="tog-btn tog-active" id="tog-vy" onclick="toggleCapa('vy')" style="--tog-color:#2563eb;">vy</button>
+        <button class="tog-btn tog-active" id="tog-hmax" onclick="toggleCapa('hmax')" style="--tog-color:#7c3aed;">H máx</button>
+        <button class="tog-btn tog-active" id="tog-alcance" onclick="toggleCapa('alcance')" style="--tog-color:#16a34a;">Alcance</button>
+      </div>
+    </div>
+    <div id="traj-container"></div>
+  </div>
+
+  <div class="datos-box">
+    <div class="datos-box-label">Datos</div>
+    <div id="datos"></div>
+  </div>
+  <div class="pregunta-label">Pregunta</div>
+  <p id="pregunta"></p>
+</div>
+
+<div class="sol-toggle">
+  <button class="btn-sol" onclick="toggleSolucion()">
+    <svg class="icon" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+    <span id="btn-sol-label">Ver solución</span>
+  </button>
+  <span class="hint">Intenta resolverlo primero</span>
+</div>
+
+<div class="card" id="solucion-panel">
+  <div class="card-label">Solución paso a paso</div>
+  <ul class="pasos-lista" id="pasos"></ul>
+  <div class="resultado-final">
+    <div class="resultado-final-label">Resultados</div>
+    <div class="resultado-grid" id="resultados-grid"></div>
+  </div>
+</div>
+
+<div class="footer-btns">
+  <button class="footer-btn" onclick="window.print()">🖨️ Imprimir</button>
+  <button class="footer-btn" onclick="copiarEnunciado()">📋 Copiar enunciado</button>
+</div>
+
+</div>
+
+<footer class="foot">
+  <p>Hecho con ♥ para el aula de Física y Química — piloto Hugo (sin publicar)</p>
+</footer>
+
+<script>
+const g = 9.8;
+let tipoActual = 'suelo';
+let solVisible = false;
+let prob = {};
+let capas = { vx: true, vy: true, hmax: true, alcance: true };
+
+const contextos = [
+  { sujeto: 'Una pelota', verbo: 'es lanzada', desde: 'el suelo' },
+  { sujeto: 'Un proyectil', verbo: 'es disparado', desde: 'el suelo' },
+  { sujeto: 'Una piedra', verbo: 'es lanzada', desde: 'el suelo' },
+  { sujeto: 'Un balón', verbo: 'es pateado', desde: 'el suelo' },
+];
+
+const contextosAltura = [
+  { sujeto: 'Una pelota', verbo: 'es lanzada', desde: 'un edificio' },
+  { sujeto: 'Una roca', verbo: 'cae', desde: 'un acantilado' },
+  { sujeto: 'Un objeto', verbo: 'es lanzado', desde: 'una torre' },
+];
+
+function r2(v) { return Math.round(v * 100) / 100; }
+function r1(v) { return Math.round(v * 10) / 10; }
+function rand(min, max) { return Math.round(Math.random() * (max - min) + min); }
+function deg2rad(d) { return d * Math.PI / 180; }
+
+function setTipo(t) {
+  tipoActual = t;
+  ['suelo','altura','horizontal','aleatorio'].forEach(id => {
+    document.getElementById('btn-' + id).classList.toggle('active', id === t);
+  });
+  generar();
+}
+
+function toggleCapa(key) {
+  capas[key] = !capas[key];
+  document.getElementById('tog-' + key).classList.toggle('tog-active', capas[key]);
+  dibujarTrayectoria();
+}
+
+function toggleSolucion() {
+  solVisible = !solVisible;
+  document.getElementById('solucion-panel').style.display = solVisible ? 'block' : 'none';
+  document.getElementById('btn-sol-label').textContent = solVisible ? 'Ocultar solución' : 'Ver solución';
+}
+
+function copiarEnunciado() {
+  const texto = document.getElementById('enunciado').textContent + ' ' + document.getElementById('pregunta').textContent;
+  navigator.clipboard.writeText(texto).then(() => alert('Enunciado copiado'));
+}
+
+function generar() {
+  solVisible = false;
+  document.getElementById('solucion-panel').style.display = 'none';
+  document.getElementById('btn-sol-label').textContent = 'Ver solución';
+
+  let tipo = tipoActual;
+  if (tipo === 'aleatorio') {
+    tipo = ['suelo','altura','horizontal'][Math.floor(Math.random() * 3)];
+  }
+
+  let v0, angulo, h0, vx0, vy0, T, Hmax, R, pregunta, enunciado, datosHTML, pasos, resultados;
+
+  if (tipo === 'horizontal') {
+    // Tiro horizontal: ángulo = 0, desde altura h0
+    v0 = rand(5, 30);
+    h0 = rand(10, 80);
+    angulo = 0;
+    vx0 = v0; vy0 = 0;
+    T   = r2(Math.sqrt(2 * h0 / g));
+    Hmax = h0;
+    R   = r2(v0 * T);
+    const ctx = contextosAltura[Math.floor(Math.random() * contextosAltura.length)];
+    enunciado = `${ctx.sujeto} ${ctx.verbo} horizontalmente desde ${ctx.desde} de ${h0} m de altura con una velocidad de ${v0} m/s.`;
+    pregunta = `¿Cuánto tiempo tarda en llegar al suelo y a qué distancia horizontal cae?`;
+    datosHTML = `<span><strong>v₀</strong> = ${v0} m/s</span><span><strong>h₀</strong> = ${h0} m</span><span><strong>g</strong> = ${g} m/s²</span><span><strong>α</strong> = 0°</span>`;
+    pasos = [
+      { t: 'Descomposición de la velocidad inicial', f: 'vx = v₀ · cos(0°) = v₀    vy₀ = v₀ · sin(0°) = 0', c: `Tiro horizontal: <strong>vx = ${vx0} m/s</strong>, <strong>vy₀ = 0 m/s</strong>` },
+      { t: 'Tiempo de vuelo (caída libre vertical)', f: 'h₀ = ½ · g · T²  →  T = √(2h₀/g)', c: `T = √(2 × ${h0} / ${g}) = <strong>${T} s</strong>` },
+      { t: 'Alcance horizontal', f: 'R = vx · T', c: `R = ${vx0} × ${T} = <strong>${R} m</strong>` },
+      { t: 'Velocidad al llegar al suelo', f: 'vx = v₀ (constante)    vy_f = g · T', c: `vx = ${vx0} m/s<br>vy_f = ${g} × ${T} = <strong>${r2(g*T)} m/s</strong>` },
+    ];
+    resultados = [
+      { label: 'Tiempo de vuelo', val: `${T} s` },
+      { label: 'Alcance', val: `${R} m` },
+      { label: 'vy al llegar', val: `${r2(g*T)} m/s` },
+    ];
+
+  } else if (tipo === 'altura') {
+    // Lanzado con ángulo desde altura
+    v0 = rand(8, 25);
+    angulo = rand(20, 60);
+    h0 = rand(5, 50);
+    const rad = deg2rad(angulo);
+    vx0 = r2(v0 * Math.cos(rad));
+    vy0 = r2(v0 * Math.sin(rad));
+    // Tiempo total: h0 + vy0*T - 0.5*g*T² = 0
+    const disc = vy0*vy0 + 2*g*h0;
+    T = r2((-vy0 + Math.sqrt(vy0*vy0 + 2*g*h0)) / (-g));  // pero necesito la positiva
+    // Ecuación: y = h0 + vy0*t - 0.5*g*t² = 0 → t = (vy0 + sqrt(vy0²+2*g*h0))/g
+    T = r2((vy0 + Math.sqrt(disc)) / g);
+    Hmax = r2(h0 + (vy0 * vy0) / (2 * g));
+    R = r2(vx0 * T);
+    const ctx = contextosAltura[Math.floor(Math.random() * contextosAltura.length)];
+    enunciado = `${ctx.sujeto} ${ctx.verbo} desde ${ctx.desde} de ${h0} m de altura con una velocidad de ${v0} m/s y un ángulo de ${angulo}° respecto a la horizontal.`;
+    pregunta = `¿Cuál es la altura máxima alcanzada, el tiempo de vuelo y el alcance horizontal?`;
+    datosHTML = `<span><strong>v₀</strong> = ${v0} m/s</span><span><strong>α</strong> = ${angulo}°</span><span><strong>h₀</strong> = ${h0} m</span><span><strong>g</strong> = ${g} m/s²</span>`;
+    pasos = [
+      { t: 'Descomposición de la velocidad inicial', f: 'vx = v₀ · cos(α)    vy₀ = v₀ · sin(α)', c: `vx = ${v0} × cos(${angulo}°) = <strong>${vx0} m/s</strong><br>vy₀ = ${v0} × sin(${angulo}°) = <strong>${vy0} m/s</strong>` },
+      { t: 'Altura máxima', f: 'H_max = h₀ + vy₀² / (2g)', c: `H_max = ${h0} + ${vy0}² / (2 × ${g}) = <strong>${Hmax} m</strong>` },
+      { t: 'Tiempo de vuelo', f: 'y = h₀ + vy₀·t − ½g·t² = 0  →  t = (vy₀ + √(vy₀²+2gh₀)) / g', c: `T = (${vy0} + √(${vy0}² + 2×${g}×${h0})) / ${g} = <strong>${T} s</strong>` },
+      { t: 'Alcance horizontal', f: 'R = vx · T', c: `R = ${vx0} × ${T} = <strong>${R} m</strong>` },
+    ];
+    resultados = [
+      { label: 'Altura máxima', val: `${Hmax} m` },
+      { label: 'Tiempo de vuelo', val: `${T} s` },
+      { label: 'Alcance', val: `${R} m` },
+    ];
+
+  } else {
+    // Desde el suelo
+    v0 = rand(10, 40);
+    angulo = rand(20, 70);
+    h0 = 0;
+    const rad = deg2rad(angulo);
+    vx0 = r2(v0 * Math.cos(rad));
+    vy0 = r2(v0 * Math.sin(rad));
+    T = r2(2 * vy0 / g);
+    Hmax = r2(vy0 * vy0 / (2 * g));
+    R = r2(vx0 * T);
+    const ctx = contextos[Math.floor(Math.random() * contextos.length)];
+    enunciado = `${ctx.sujeto} ${ctx.verbo} desde ${ctx.desde} con una velocidad inicial de ${v0} m/s y un ángulo de ${angulo}° respecto a la horizontal.`;
+    pregunta = `¿Cuál es la altura máxima, el tiempo de vuelo y el alcance horizontal?`;
+    datosHTML = `<span><strong>v₀</strong> = ${v0} m/s</span><span><strong>α</strong> = ${angulo}°</span><span><strong>g</strong> = ${g} m/s²</span>`;
+    pasos = [
+      { t: 'Descomposición de la velocidad inicial', f: 'vx = v₀ · cos(α)    vy₀ = v₀ · sin(α)', c: `vx = ${v0} × cos(${angulo}°) = <strong>${vx0} m/s</strong><br>vy₀ = ${v0} × sin(${angulo}°) = <strong>${vy0} m/s</strong>` },
+      { t: 'Tiempo de subida (vy = 0 en el punto más alto)', f: 't_sub = vy₀ / g', c: `t_sub = ${vy0} / ${g} = <strong>${r2(vy0/g)} s</strong>` },
+      { t: 'Tiempo de vuelo total', f: 'T = 2 · vy₀ / g', c: `T = 2 × ${vy0} / ${g} = <strong>${T} s</strong>` },
+      { t: 'Altura máxima', f: 'H_max = vy₀² / (2g)', c: `H_max = ${vy0}² / (2 × ${g}) = <strong>${Hmax} m</strong>` },
+      { t: 'Alcance horizontal', f: 'R = vx · T', c: `R = ${vx0} × ${T} = <strong>${R} m</strong>` },
+    ];
+    resultados = [
+      { label: 'Altura máxima', val: `${Hmax} m` },
+      { label: 'Tiempo de vuelo', val: `${T} s` },
+      { label: 'Alcance', val: `${R} m` },
+    ];
+  }
+
+  prob = { tipo, v0, angulo, h0, vx0, vy0, T, Hmax, R };
+
+  document.getElementById('enunciado').textContent = enunciado;
+  document.getElementById('pregunta').textContent = pregunta;
+  document.getElementById('datos').innerHTML = datosHTML;
+
+  // Pasos
+  document.getElementById('pasos').innerHTML = pasos.map((p, i) => `
+    <li class="paso">
+      <div class="paso-num">${i+1}</div>
+      <div class="paso-content">
+        <div class="paso-title">${p.t}</div>
+        <div class="paso-formula">${p.f}</div>
+        <div class="paso-calc">${p.c}</div>
+      </div>
+    </li>`).join('');
+
+  document.getElementById('resultados-grid').innerHTML = resultados.map(r => `
+    <div class="resultado-item">
+      <span>${r.label}</span><span>${r.val}</span>
+    </div>`).join('');
+
+  dibujarTrayectoria();
+}
+
+function dibujarTrayectoria() {
+  const { angulo, h0, vx0, vy0, T, Hmax, R } = prob;
+  if (!T) return;
+
+  const SW=600, SH=260, PL=50, PR=30, PT=30, PB=40;
+  const W=SW-PL-PR, H=SH-PT-PB;
+  const xMax=R*1.08, yMax=Math.max(Hmax*1.15, h0*1.15, 5);
+
+  // toSVG devuelve [svgX, svgY] — NUNCA usar [x][0]; destructurar siempre
+  function sx(x){ return PL + (x/xMax)*W; }
+  function sy(y){ return PT + H - (y/yMax)*H; }
+
+  // Trayectoria
+  const N=120;
+  let pathD='';
+  for(let i=0;i<=N;i++){
+    const t=(i/N)*T;
+    const px=vx0*t, py=h0+vy0*t-0.5*g*t*t;
+    if(py>=0) pathD += (pathD===''?'M':'L')+sx(px).toFixed(1)+','+sy(py).toFixed(1)+' ';
+  }
+
+  // Puntos clave
+  const tHmax = vy0/g;
+  const hmx=sx(vx0*tHmax), hmy=sy(Hmax);
+  const orx=sx(0), ory=sy(h0);
+  const rcx=sx(R), rcy=sy(0);
+  const gnd=sy(0); // y del suelo en SVG
+
+  // Vectores en t=T*0.28
+  const tv=T*0.28;
+  const vpx=sx(vx0*tv), vpy=sy(h0+vy0*tv-0.5*g*tv*tv);
+  const vyVal=vy0-g*tv;
+  const vscale=Math.min(W,H)*0.20/Math.max(Math.abs(vx0),Math.abs(vyVal),1);
+  const vxEx=vpx+vx0*vscale, vxEy=vpy;
+  const vyEx=vpx, vyEy=vpy-vyVal*vscale;
+
+  const defs=
+    '<defs>'+
+    '<marker id="a-r" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L0,5 L7,2.5z" fill="#dc2626"/></marker>'+
+    '<marker id="a-b" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L0,5 L7,2.5z" fill="#2563eb"/></marker>'+
+    '<marker id="a-g" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L0,5 L7,2.5z" fill="#16a34a"/></marker>'+
+    '</defs>';
+
+  let s=defs;
+  // Suelo
+  s+='<line x1="'+PL+'" y1="'+gnd.toFixed(1)+'" x2="'+(SW-PR)+'" y2="'+gnd.toFixed(1)+'" stroke="#d1d5db" stroke-width="1.5"/>';
+  // Eje Y
+  s+='<line x1="'+sx(0).toFixed(1)+'" y1="'+PT+'" x2="'+sx(0).toFixed(1)+'" y2="'+gnd.toFixed(1)+'" stroke="#d1d5db" stroke-width="1"/>';
+  // Labels
+  s+='<text x="'+(SW-PR+4)+'" y="'+gnd.toFixed(1)+'" fill="#9ca3af" font-size="11" font-family="sans-serif" dominant-baseline="middle">x</text>';
+  s+='<text x="'+sx(0).toFixed(1)+'" y="'+(PT-8)+'" fill="#9ca3af" font-size="11" font-family="sans-serif" text-anchor="middle">y</text>';
+
+  // Línea h0
+  if(h0>0){
+    s+='<line x1="'+PL+'" y1="'+ory.toFixed(1)+'" x2="'+orx.toFixed(1)+'" y2="'+ory.toFixed(1)+'" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,3"/>';
+    s+='<text x="'+(PL-4)+'" y="'+ory.toFixed(1)+'" fill="#9ca3af" font-size="10" text-anchor="end" dominant-baseline="middle">'+h0+'m</text>';
+  }
+
+  // Trayectoria
+  s+='<path d="'+pathD+'" fill="none" stroke="#9a6bb4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>';
+
+  // Hmax
+  if(capas.hmax){
+    s+='<line x1="'+hmx.toFixed(1)+'" y1="'+hmy.toFixed(1)+'" x2="'+hmx.toFixed(1)+'" y2="'+gnd.toFixed(1)+'" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4,3"/>';
+    s+='<text x="'+(hmx+4).toFixed(1)+'" y="'+((hmy+gnd)/2).toFixed(1)+'" fill="#7c3aed" font-size="11" font-family="sans-serif" dominant-baseline="middle">H='+Hmax+'m</text>';
+    s+='<circle cx="'+hmx.toFixed(1)+'" cy="'+hmy.toFixed(1)+'" r="4" fill="#7c3aed"/>';
+  }
+
+  // Alcance
+  if(capas.alcance){
+    s+='<line x1="'+orx.toFixed(1)+'" y1="'+(gnd+12).toFixed(1)+'" x2="'+rcx.toFixed(1)+'" y2="'+(gnd+12).toFixed(1)+'" stroke="#16a34a" stroke-width="1.5" marker-end="url(#a-g)"/>';
+    s+='<text x="'+((orx+rcx)/2).toFixed(1)+'" y="'+(gnd+26).toFixed(1)+'" fill="#16a34a" font-size="11" font-family="sans-serif" text-anchor="middle">R='+R+'m</text>';
+    s+='<circle cx="'+rcx.toFixed(1)+'" cy="'+gnd.toFixed(1)+'" r="4" fill="#16a34a"/>';
+  }
+
+  // vx
+  if(capas.vx){
+    s+='<line x1="'+vpx.toFixed(1)+'" y1="'+vpy.toFixed(1)+'" x2="'+vxEx.toFixed(1)+'" y2="'+vxEy.toFixed(1)+'" stroke="#dc2626" stroke-width="2" marker-end="url(#a-r)"/>';
+    s+='<text x="'+((vpx+vxEx)/2).toFixed(1)+'" y="'+(vpy-7).toFixed(1)+'" fill="#dc2626" font-size="11" font-family="sans-serif" text-anchor="middle">vx</text>';
+  }
+
+  // vy
+  if(capas.vy){
+    s+='<line x1="'+vpx.toFixed(1)+'" y1="'+vpy.toFixed(1)+'" x2="'+vyEx.toFixed(1)+'" y2="'+vyEy.toFixed(1)+'" stroke="#2563eb" stroke-width="2" marker-end="url(#a-b)"/>';
+    const lbl=vyVal>=0?'vy↑':'vy↓';
+    s+='<text x="'+(vpx-18).toFixed(1)+'" y="'+((vpy+vyEy)/2).toFixed(1)+'" fill="#2563eb" font-size="11" font-family="sans-serif" dominant-baseline="middle">'+lbl+'</text>';
+  }
+
+  // Punto origen
+  s+='<circle cx="'+orx.toFixed(1)+'" cy="'+ory.toFixed(1)+'" r="5" fill="#9a6bb4"/>';
+
+  // Ángulo: usar ángulo VISUAL (corregido por escala X vs Y del SVG)
+  if(angulo>0){
+    const arcR=34;
+    // Escalas reales del SVG
+    const scaleX = W / xMax;
+    const scaleY = H / yMax;
+    // Ángulo visual = atan2(vy0*scaleY, vx0*scaleX)
+    const radVisual = Math.atan2(vy0 * scaleY, vx0 * scaleX);
+    // Punto final del arco siguiendo la dirección visual de la curva
+    const arcEndX = orx + arcR * Math.cos(radVisual);
+    const arcEndY = ory - arcR * Math.sin(radVisual);  // sube en SVG
+    // Línea horizontal de referencia
+    s+='<line x1="'+orx.toFixed(1)+'" y1="'+ory.toFixed(1)+'" x2="'+(orx+arcR+16).toFixed(1)+'" y2="'+ory.toFixed(1)+'" stroke="#9ca3af" stroke-width="1" stroke-dasharray="3,3"/>';
+    // Arco (sweep=0: antihorario SVG = hacia arriba)
+    s+='<path d="M '+(orx+arcR).toFixed(1)+','+ory.toFixed(1)+' A '+arcR+' '+arcR+' 0 0 0 '+arcEndX.toFixed(1)+','+arcEndY.toFixed(1)+'" fill="none" stroke="#6b7280" stroke-width="1.4"/>';
+    // Label α en la bisectriz visual
+    const midAngle = radVisual / 2;
+    s+='<text x="'+(orx+arcR*1.5*Math.cos(midAngle)).toFixed(1)+'" y="'+(ory-arcR*0.9*Math.sin(midAngle)).toFixed(1)+'" fill="#6b7280" font-size="12" font-weight="600" font-family="sans-serif">α</text>';
+  }
+
+  document.getElementById('traj-container').innerHTML='<svg viewBox="0 0 '+SW+' '+SH+'" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;display:block">'+s+'</svg>';
+}
+generar();
+</script>
+</body>
+</html>
