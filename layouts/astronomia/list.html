@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="astro-hero">
+  <div class="astro-hero-inner">
+    <div class="astro-page-icon">{{ .Params.icon }}</div>
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.description }}<p class="astro-hero-desc">{{ .Params.description }}</p>{{ end }}
+  </div>
+</section>
+
+{{ if .Content }}
+<div class="content">
+  {{ .Content }}
+</div>
+{{ end }}
+
+<div class="collab-grid" id="astro-collabs">
+  {{ range .Pages.ByTitle }}
+  <a class="collab-row" href="{{ .RelPermalink }}">
+    <span class="collab-row-logo">{{ .Params.icon }}</span>
+    <span class="collab-row-text">
+      <span class="collab-row-title">{{ .Params.titulo_corto | default .Title }}</span>
+      {{ with .Params.resumen }}<span class="collab-row-desc">{{ . }}</span>{{ end }}
+    </span>
+  </a>
+  {{ end }}
+</div>
+{{ end }}
