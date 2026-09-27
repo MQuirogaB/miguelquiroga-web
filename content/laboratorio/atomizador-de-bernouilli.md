@@ -31,7 +31,7 @@ En esta actividad se creará un atomizador utilizando dos pajitas y el principio
 
 El principio de Bernouilli dice que la presión es inversamente proporcional al cuadrado de la velocidad. Cuanto más rápido se mueva un fluido, más baja será su presión.
 
-> P₁ + ½ ρ v₁² + ρgh₁ = cte
+$$P_1 + \frac{1}{2}\rho v_1^2 + \rho g h_1 = \text{cte}$$
 
 Al soplar por la pajita horizontal se creará una zona de baja presión en la parte superior de la vertical, lo que hará ascender el líquido por ella. Esto, junto a la velocidad del aire, hará el efecto deseado.
 
