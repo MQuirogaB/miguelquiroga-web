@@ -14,6 +14,8 @@ En esta actividad los participantes visualizarán una reacción de combustión d
 
 {{< img src="images/laboratorio/fuego-en-la-mano/2.jpeg" alt="Visualización del efecto." width="30">}}
 
+*Visualización del efecto*
+
 ## Objetivos
 
 - Comprender el concepto de capacidad calorífica.
@@ -33,11 +35,11 @@ La combustión es una reacción química que tiene lugar cuando un combustible r
 
 La reacción química es la que sigue:
 
-> 2 C₄H₁₀ + 13 O₂ → 8 CO₂ + 10 H₂O
+$$2C_4H_{10} + 13O_2 \rightarrow 8CO_2 + 10H_2O$$
 
 la mano no se quema ya que el agua tiene una capacidad calorífica Ce elevada, lo que hace que le haga falta mucho calor para elevar su temperatura, de acuerdo a la ecuación:
 
-> Q = m·Ce·ΔT
+$$Q = m \cdot C_e \cdot \Delta T$$
 
 ## Procedimiento
 
@@ -47,6 +49,4 @@ la mano no se quema ya que el agua tiene una capacidad calorífica Ce elevada, l
 4. Coger con la mano.
 5. Prender fuego.
 
-
-
-<!-- VIDEO: demostración completa del efecto de fuego en la mano -->
+{{< video src="videos/laboratorio/fuego-en-la-mano/fuego-en-la-mano-1.mp4" width="30" >}}
