@@ -54,7 +54,7 @@ El montaje es muy sencillo y los materiales muy económicos.
 
 </details>
 
-<!-- ENLACE: marcador (bookmark) al modelo/diseño original, no recuperado por la API de Notion -->
+{{< linkcard href="https://www.printables.com/model/1292682-pandereta-gallega" title="Pandereta gallega" description="Modelo de una pandereta gallega tradicional para imprimir en 3D" >}}
 
 <details>
 <summary>Descargas</summary>
