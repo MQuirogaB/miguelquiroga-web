@@ -1105,6 +1105,7 @@ body {
 }
 
 details.star-toggle {
+    padding: 0;
     border: 1px solid var(--border);
     border-left: 4px solid var(--accent);
     border-radius: 10px;
@@ -1131,6 +1132,7 @@ details.star-toggle summary {
 }
 details.star-toggle summary::-webkit-details-marker { display: none; }
 details.star-toggle summary::marker { content: ""; display: none; }
+details.star-toggle summary::before { content: none; display: none; }
 details.star-toggle summary::after {
     content: "▾";
     margin-left: auto;
