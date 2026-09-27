@@ -1,6 +1,7 @@
 ---
 title: "Fundamentos de la impresión 3D"
 icon: "🖨️"
+description: "Cómo funciona una impresora y el proceso de laminado"
 ---
 
 <details>
