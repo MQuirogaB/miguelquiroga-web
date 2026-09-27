@@ -35,6 +35,7 @@ Cuando usamos un cortador láser, el color del material afecta directamente a su
 - ✔ Los objetos blancos → Reflejan gran parte de la luz y necesitan más energía para ser cortados.
 
 {{< img src="images/corte-laser/fundamentos/2.png" alt="gráfico/ilustración sobre la absorción de luz láser según el color del material" width="30">}}
+
 *Tomado de [mrbeam support](https://support.mr-beam.org/en/support/solutions/articles/43000579632-materials-general-information)*
 
 ### 🔍 Ejemplo práctico
@@ -46,6 +47,7 @@ Si usamos un láser azul (450 nm):
 - El papel blanco grueso se corta mejor que el fieltro blanco, porque su textura y densidad ayudan a absorber parte de la energía.
 
 {{< img src="images/corte-laser/fundamentos/3.png" alt="comparativa de materiales de distinto color cortados con láser" width="30">}}
+
 *Tomado de [mrbeam support](https://support.mr-beam.org/en/support/solutions/articles/43000579632-materials-general-information)*
 
 ### ✅ Conclusión
