@@ -13,7 +13,10 @@ La ironía es perfecta: una familia que cree estar por encima de los demás llev
 
 <!-- IMAGEN: imagen ilustrativa de apertura, comprobar contenido exacto en Notion -->
 
-## 🐕 Sirius Black
+<p class="star-toggle-hint">Toca cada estrella del árbol para desplegar su historia ✨</p>
+
+<details class="star-toggle">
+<summary>🐕 <span class="star-name">Sirius Black</span></summary>
 
 **Estrella:** Sirio — Alpha Canis Majoris
 **Constelación:** Canis Major (el Can Mayor)
@@ -24,7 +27,10 @@ Los romanos la asociaban con el calor del verano — de ahí la expresión "día
 
 **El paralelismo:** Sirius Black es el más brillante de su familia — y el más incomprendido. Como Sirio en la constelación del Perro, se transforma en un perro negro (Canuto) como animago. La estrella más luminosa del cielo, escondida años en la oscuridad de Azkaban.
 
-## ⚔️ Bellatrix Lestrange (de soltera Black)
+</details>
+
+<details class="star-toggle">
+<summary>⚔️ <span class="star-name">Bellatrix Lestrange (de soltera Black)</span></summary>
 
 **Estrella:** Bellatrix — Gamma Orionis
 **Constelación:** Orión
@@ -35,7 +41,10 @@ Es una estrella que emite radiación ultravioleta intensa y tiene un comportamie
 
 **El paralelismo:** Bellatrix Lestrange es la mortífaga más feroz y leal a Voldemort. Guerrera, impredecible, destructiva. Una supergigante azul ardiendo de fanatismo. Su nombre le viene como un guante.
 
-## ⭐ Regulus Black
+</details>
+
+<details class="star-toggle">
+<summary>⭐ <span class="star-name">Regulus Black</span></summary>
 
 **Estrella:** Régulus — Alpha Leonis
 **Constelación:** Leo
@@ -44,7 +53,10 @@ Régulus es la estrella más brillante de la constelación de Leo. Su nombre vie
 
 **El paralelismo:** Regulus Black se unió a los Mortífagos siendo casi un niño, empujado por la ideología familiar. Pero en secreto, cuando descubrió la verdad sobre los Horrocruxes, se rebeló y dio su vida intentando destruir a Voldemort. El pequeño rey que tuvo la valentía que los demás no tuvieron — tan cerca de la perfección que se desintegró en el intento.
 
-## 🌌 Andromeda Tonks (de soltera Black)
+</details>
+
+<details class="star-toggle">
+<summary>🌌 <span class="star-name">Andromeda Tonks (de soltera Black)</span></summary>
 
 **Objeto:** Andrómeda — Galaxia M31
 **Constelación:** Andrómeda
@@ -55,7 +67,10 @@ En la mitología, Andrómeda fue encadenada a una roca por la vanidad de su madr
 
 **El paralelismo:** Andromeda Black fue repudiada del tapiz familiar por casarse con Ted Tonks, un sangre sucia. Como la princesa mitológica, fue castigada por los suyos — y como la galaxia, terminó siendo más grande que todo lo que la rodeaba.
 
-## 👑 Narcissa Malfoy (de soltera Black)
+</details>
+
+<details class="star-toggle">
+<summary>👑 <span class="star-name">Narcissa Malfoy (de soltera Black)</span></summary>
 
 **Referencia:** El narciso — *Gigantic Star*
 **Conexión astronómica:** La flor del narciso también se denomina en inglés *Gigantic Star* por la forma estrellada de sus pétalos.
@@ -64,7 +79,10 @@ Narcissa es quizás la única Black cuyo nombre no viene directamente de una est
 
 **El paralelismo:** Narcissa Malfoy parece una mujer fría y obsesionada con su estatus. Pero su verdadera estrella polar es su hijo Draco: miente a Voldemort en el bosque prohibido para salvarle la vida. Su narcisismo tiene una excepción — y esa excepción lo cambia todo.
 
-## 🐉 Draco Malfoy
+</details>
+
+<details class="star-toggle">
+<summary>🐉 <span class="star-name">Draco Malfoy</span></summary>
 
 **Constelación:** Draco (el Dragón)
 
@@ -72,7 +90,10 @@ Draco es una constelación circumpolar — nunca se pone bajo el horizonte en el
 
 **El paralelismo:** Draco fue criado para ser el centro del mundo mágico puro — el heredero perfecto. Pero como Thuban, perdió su posición de estrella polar. Y como la constelación, da vueltas sin poder escapar del círculo familiar.
 
-## 🌊 Alphard Black
+</details>
+
+<details class="star-toggle">
+<summary>🌊 <span class="star-name">Alphard Black</span></summary>
 
 **Estrella:** Alphard — Alpha Hydrae
 **Constelación:** Hydra
@@ -81,7 +102,10 @@ Alphard es la estrella más brillante de la constelación de Hydra, la serpiente
 
 **El paralelismo:** Alphard Black fue repudiado de la familia por apoyar a su sobrino Sirius y dejarle en herencia su fortuna. Un gesto de generosidad que le costó ser borrado del tapiz. La estrella solitaria que brilla sola, fuera del grupo.
 
-## 📍 Cassiopeia Black
+</details>
+
+<details class="star-toggle">
+<summary>📍 <span class="star-name">Cassiopeia Black</span></summary>
 
 **Constelación:** Casiopea
 
@@ -89,7 +113,10 @@ Casiopea es una constelación circumpolar con forma de W o M según la época de
 
 **El paralelismo:** La vanidad y el orgullo de casta que define a la familia Black tiene en Casiopea su símbolo perfecto. Una reina castigada por creerse superior, condenada a dar vueltas para siempre.
 
-## 🦢 Cygnus Black
+</details>
+
+<details class="star-toggle">
+<summary>🦢 <span class="star-name">Cygnus Black</span></summary>
 
 **Constelación:** Cygnus (el Cisne)
 
@@ -97,7 +124,10 @@ Cygnus contiene la famosa Cruz del Norte y la estrella Deneb, una de las más lu
 
 **El paralelismo:** El cisne es el símbolo de la apariencia impecable y la elegancia — valores que la familia Black proyectó siempre hacia el exterior mientras la podredumbre crecía por dentro.
 
-## 🌟 Orion Black
+</details>
+
+<details class="star-toggle">
+<summary>🌟 <span class="star-name">Orion Black</span></summary>
 
 **Constelación:** Orión
 
@@ -105,32 +135,46 @@ Orión es una de las constelaciones más reconocibles del cielo. El cazador giga
 
 **El paralelismo:** Orion Black fue el padre de Sirius y Regulus. Un hombre atrapado en la ideología familiar, que como la constelación da nombre y contexto a todo lo que le rodea — incluida Bellatrix, su sobrina.
 
+</details>
+
 ## 🔮 Fuera de los Black: otros nombres estelares
 
-### Remus Lupin
+<details class="star-toggle star-toggle-sm">
+<summary>🐺 <span class="star-name">Remus Lupin</span></summary>
 
 **Constelación:** Lupus (el Lobo)
 
 Lupus es una constelación del hemisferio sur que representa un lobo. Remus, además, es el nombre de uno de los fundadores de Roma — criado por una loba. Rowling sumó dos referencias al lobo en un solo nombre para el único licántropo de la saga.
 
-### Merope Gaunt
+</details>
+
+<details class="star-toggle star-toggle-sm">
+<summary>♈ <span class="star-name">Merope Gaunt</span></summary>
 
 **Estrella:** Merope — una de las siete Pléyades
 **Constelación:** Tauro
 
 Merope es la más débil de las Pléyades — la que apenas se ve — porque según el mito se avergonzaba de haber amado a un mortal. Merope Gaunt amó a un muggle y murió de pena. La estrella más opacada por el amor.
 
-### Luna Lovegood
+</details>
+
+<details class="star-toggle star-toggle-sm">
+<summary>🌙 <span class="star-name">Luna Lovegood</span></summary>
 
 **Referencia:** Luna — la Luna
 
 Sencillo y perfecto. Luna ve lo que los demás no pueden ver — como la Luna ilumina la oscuridad con una luz que no es suya, reflejada.
 
-### Aurora Sinistra
+</details>
+
+<details class="star-toggle star-toggle-sm">
+<summary>🌠 <span class="star-name">Aurora Sinistra</span></summary>
 
 **Referencia:** Aurora — la aurora boreal / Sinistra — estrella en Ophiuchus
 
 La profesora de Astronomía de Hogwarts lleva doble referencia celeste. Aurora por los fenómenos luminosos del cielo, Sinistra por una estrella real en la constelación del Serpentario.
+
+</details>
 
 ## 💡 La gran idea de Rowling
 
