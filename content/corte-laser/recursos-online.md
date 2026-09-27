@@ -1,6 +1,7 @@
 ---
 title: "Recursos online y utilidades web"
 icon: "🌐"
+description: "Herramientas y webs útiles para el corte láser"
 ---
 
 - **[DaFont - Descargar fuentes](https://www.dafont.com/es/)** — Archivo de fuentes de descarga gratuita. Búsqueda por orden alfabético, por estilo, por autor o por popularidad.
