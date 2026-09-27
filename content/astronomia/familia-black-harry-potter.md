@@ -2,6 +2,7 @@
 title: "La Familia Black (Harry Potter) — El Árbol Genealógico Escrito en las Estrellas"
 icon: "✨"
 resumen: "El árbol genealógico de los Black, escrito con nombres de estrellas"
+titulo_corto: "La Familia Black (Harry Potter)"
 ---
 
 **"Toujours Pur" — Siempre Puros**
