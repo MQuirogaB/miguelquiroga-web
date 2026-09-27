@@ -1,6 +1,7 @@
 ---
 title: "Repositorios de PNGs"
 icon: "🖼️"
+description: "Imágenes listas para convertir en diseños de corte"
 ---
 
 - **[CleanPNG - HD png images and illustrations. Free unlimited download. - CleanPNG / KissPNG](https://www.cleanpng.com/)** — Discover transparent background images and illustrations. Best quality, free unlimited download.
