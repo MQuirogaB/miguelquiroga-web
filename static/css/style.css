@@ -1027,3 +1027,67 @@ body {
 .gen-item-desc { font-size: 12.5px; color: var(--ink-light); line-height: 1.55; margin-bottom: 8px; }
 .gen-item-link { font-size: 12.5px; font-weight: 700; color: var(--dotc); text-decoration: none; }
 .gen-item-link:hover { text-decoration: underline; }
+
+
+/* ---------- Astronomía: hero nocturno ---------- */
+
+.astro-hero {
+    position: relative;
+    background: radial-gradient(ellipse at 50% -20%, #26243a 0%, #14131e 55%, #0d0c14 100%);
+    border-radius: 14px;
+    padding: 56px 24px 44px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 28px;
+}
+.astro-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(1.5px 1.5px at 10% 20%, #fff, transparent),
+        radial-gradient(1px 1px at 20% 60%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 32% 32%, #ffe9b0, transparent),
+        radial-gradient(1px 1px at 45% 75%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 60% 15%, #fff, transparent),
+        radial-gradient(1px 1px at 68% 55%, #cbb8ff, transparent),
+        radial-gradient(1.5px 1.5px at 78% 30%, #fff, transparent),
+        radial-gradient(1px 1px at 88% 68%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 93% 22%, #ffe9b0, transparent),
+        radial-gradient(1px 1px at 15% 85%, #fff, transparent),
+        radial-gradient(1px 1px at 55% 90%, #fff, transparent);
+    background-repeat: no-repeat;
+    opacity: .9;
+}
+.astro-hero-inner { position: relative; z-index: 1; }
+.astro-page-icon {
+    width: 68px;
+    height: 68px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 0 30px rgba(154,107,180,.35);
+}
+.astro-hero h1 {
+    font-family: var(--font-serif);
+    font-size: 34px;
+    color: #f5f2ec;
+    margin: 0 0 10px;
+    letter-spacing: -.01em;
+}
+.astro-hero-desc {
+    font-family: var(--font-sans);
+    font-size: 14.5px;
+    color: #b8b4c4;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+#astro-collabs .collab-row-logo { background: var(--accent-soft); font-size: 19px; }
+#astro-collabs .collab-row:nth-child(2) .collab-row-logo { background: var(--teal-soft); }
+#astro-collabs .collab-row:nth-child(3) .collab-row-logo { background: var(--blue-soft); }
