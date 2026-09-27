@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="section-head">
+<div class="cover-strip"></div>
+<div class="page-icon">{{ .Params.icon }}</div>
+<h1>{{ .Title }}</h1>
+{{ if .Params.description }}<p class="section-desc">{{ .Params.description }}</p>{{ end }}
+</section>
+
+{{ if .Content }}
+<div class="content">
+{{ .Content }}
+</div>
+{{ end }}
+
+<div class="collab-grid">
+{{ range .Pages.ByTitle }}
+<a class="collab-row" href="{{ .RelPermalink }}">
+<span class="collab-row-logo">{{ .Params.icon }}</span>
+<span class="collab-row-text">
+<span class="collab-row-title">{{ .Title }}</span>
+{{ partial "tags.html" . }}
+</span>
+</a>
+{{ end }}
+</div>
+{{ end }}
