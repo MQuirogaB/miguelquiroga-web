@@ -900,6 +900,7 @@ body {
 .clip-title:hover { color: var(--accent-dark); }
 .clip-meta { font-size: 13px; color: var(--ink-light); margin-top: 5px; }
 .clip-cite { font-size: 12.5px; font-style: italic; color: var(--ink-light); margin-top: 3px; }
+.clip-entry + .clip-entry { margin-top: 16px; padding-top: 16px; border-top: 1px dashed var(--border); }
 
 @media (max-width: 560px) {
   .clip { padding-left: 20px; }
