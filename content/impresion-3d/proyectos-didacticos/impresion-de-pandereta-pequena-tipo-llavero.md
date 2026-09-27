@@ -12,7 +12,7 @@ Lleva huecos para insertar unas arandelas y que suene. Las arandelas son de las 
 
 Hay dos diseños, con las arandelas puestas en un nivel o en dos, imprime la que más te guste.
 
-<!-- ENLACE: marcador (bookmark) al modelo/diseño original, no recuperado por la API de Notion -->
+{{< linkcard href="https://www.printables.com/model/1284190-pandereta-gallega-pequena" title="Pandereta gallega pequeña" description="Modelo de una pandereta gallega típica. Se pueden añadir arandelas al modelo para que suene." >}}
 
 En caso de que tengas la Creality K1 (la nueva de polos), te dejo el archivo ya preparado para imprimir, tan solo mételo en un pen drive y a en la impresora 😉.
 
