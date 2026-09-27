@@ -12,7 +12,7 @@ tematica:
 
 La copa de Pitágoras o copa del avaro es un recipiente que tiene un mecanismo que impide que llenes más líquido del debido. Lejos de tener un sofisticado sistema de sensores dedicados a controlar el nivel del líquido, se basa en algo tan sencillo como el principio de vasos comunicantes, conocido desde hace milenios.
 
-{{< img src="images/laboratorio/copa-del-avaro/1.png" alt="Figura 1: Sección de la copa del avaro." >}}
+{{< img src="images/laboratorio/copa-del-avaro/1.png" alt="Figura 1: Sección de la copa del avaro. width="30" >}}
 
 La leyenda cuenta que esta copa fue ideada hace unos 2500 años por el matemático y filósofo griego Pitágoras de Samos y aún ahora sigue sorprendiendo a quien lo ve funcionar.
 
