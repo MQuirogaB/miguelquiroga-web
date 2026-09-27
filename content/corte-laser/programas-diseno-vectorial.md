@@ -1,6 +1,7 @@
 ---
 title: "Programas de diseño vectorial"
 icon: "🖌️"
+description: "Software para crear y editar tus propios diseños"
 ---
 
 - **[Inkscape en Español | Tutoriales, recursos y novedades](https://inkscape.app/es/)** — El mejor programa de diseño vectorial gratuito y de código abierto. Ahora en Español. Somos una comunidad de usuarios experimentados en Inkscape y en Español.
