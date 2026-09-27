@@ -1091,3 +1091,64 @@ body {
 #astro-collabs .collab-row-logo { background: var(--accent-soft); font-size: 19px; }
 #astro-collabs .collab-row:nth-child(2) .collab-row-logo { background: var(--teal-soft); }
 #astro-collabs .collab-row:nth-child(3) .collab-row-logo { background: var(--blue-soft); }
+
+
+/* ---------- Familia Black: toggles de estrellas ---------- */
+
+.star-toggle-hint {
+    font-family: var(--font-sans);
+    font-size: 13px;
+    color: var(--ink-light);
+    text-align: center;
+    margin: 18px 0 22px;
+    font-style: italic;
+}
+
+details.star-toggle {
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 10px;
+    background: var(--card-bg);
+    margin: 14px 0;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(55, 53, 47, 0.03);
+}
+details.star-toggle[open] {
+    box-shadow: 0 6px 16px rgba(55, 53, 47, 0.08);
+}
+details.star-toggle summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--font-serif);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--ink);
+    user-select: none;
+}
+details.star-toggle summary::-webkit-details-marker { display: none; }
+details.star-toggle summary::after {
+    content: "▾";
+    margin-left: auto;
+    color: var(--accent);
+    font-size: 16px;
+    transition: transform .2s ease;
+    flex-shrink: 0;
+}
+details.star-toggle[open] summary::after { transform: rotate(180deg); }
+details.star-toggle summary:hover { background: var(--accent-soft); }
+details.star-toggle .star-name { flex: 1; }
+
+details.star-toggle > *:not(summary) { padding: 0 20px; }
+details.star-toggle > p:not(summary),
+details.star-toggle > blockquote { margin: 0 20px 18px; padding: 0; width: auto; }
+details.star-toggle[open] summary { border-bottom: 1px solid var(--border); margin-bottom: 16px; }
+details.star-toggle p { margin: 0 0 14px; padding: 0 20px; }
+details.star-toggle p:last-of-type { margin-bottom: 20px; }
+
+details.star-toggle-sm { border-left-color: var(--teal); }
+details.star-toggle-sm summary { font-size: 16px; }
+details.star-toggle-sm summary::after { color: var(--teal); }
