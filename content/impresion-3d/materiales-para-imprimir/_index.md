@@ -1,6 +1,7 @@
 ---
 title: "Materiales para imprimir en 3D"
 icon: "🧵"
+description: "Filamentos y materiales según el proyecto"
 ---
 
 ## Tabla
