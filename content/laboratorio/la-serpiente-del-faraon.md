@@ -34,15 +34,13 @@ La serpiente del faraón se trata de una reacción de combustión entre el bicar
 
 Lo que ocurre es que el bicarbonato y el azúcar, al reaccionar, se descomponen produciendo carbono, que es inflado por el dióxido de carbono y el vapor de agua.
 
-```
-CH₃CH₂OH + O₂ → 2CO₂ + 3H₂O
+$$CH_3CH_2OH + O_2 \rightarrow 2CO_2 + 3H_2O$$
 
-2NaHCO₃ → Na₂CO₃ + CO₂ + H₂O
+$$2NaHCO_3 \rightarrow Na_2CO_3 + CO_2 + H_2O$$
 
-C₁₂H₂₂O₁₁ + 12O₂ → 12CO₂ + 11H₂O
+$$C_{12}H_{22}O_{11} + 12O_2 \rightarrow 12CO_2 + 11H_2O$$
 
-C₁₂H₂₂O₁₁ + calor → 12C + 11H₂O
-```
+$$C_{12}H_{22}O_{11} + \text{calor} \rightarrow 12C + 11H_2O$$
 
 
 
