@@ -2,6 +2,7 @@
 title: "Mizar y Alcor — La Prueba del Arquero"
 icon: "👁️"
 resumen: "La prueba de puntería que los arqueros persas leían en el cielo"
+titulo_corto: "Mizar y Alcor"
 ---
 
 ## Una estrella con un secreto
