@@ -12,7 +12,7 @@ tematica:
 
 En esta actividad los participantes visualizarán una reacción de combustión directamente sobre la mano.
 
-{{< img src="images/laboratorio/fuego-en-la-mano/1.jpeg" alt="Visualización del efecto." >}}
+{{< img src="images/laboratorio/fuego-en-la-mano/2.jpeg" alt="Visualización del efecto." width="30">}}
 
 ## Objetivos
 
@@ -47,6 +47,6 @@ la mano no se quema ya que el agua tiene una capacidad calorífica Ce elevada, l
 4. Coger con la mano.
 5. Prender fuego.
 
-{{< img src="images/laboratorio/fuego-en-la-mano/2.jpeg" alt="Visualización del efecto." >}}
+
 
 <!-- VIDEO: demostración completa del efecto de fuego en la mano -->
