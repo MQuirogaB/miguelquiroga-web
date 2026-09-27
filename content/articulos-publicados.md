@@ -19,7 +19,7 @@ icon: "🔖"
 <span class="tl-cite">Langmuir 2016, 32, 6367−6375</span>
 </div>
 <div class="tl-item">
-<a class="tl-title" href="https://dialnet.unirioja.es/servlet/tesis?codigo=124065" target="_blank" rel="noopener noreferrer">Estudio cinético y termodinámico de la formación de pseudorotaxanos basados en ciclodextrina.</a>
+<a class="tl-title" href="https://minerva.usc.gal/entities/publication/bd76948b-b712-4de8-901b-efff8c48609d" target="_blank" rel="noopener noreferrer">Estudio cinético y termodinámico de la formación de pseudorotaxanos basados en ciclodextrina.</a>
 <span class="tl-meta">Miguel Quiroga Bóveda</span>
 <span class="tl-cite">Tesis doctoral dirigida por Luis García Río (dir. tes.) y M. Mercedes Parajó Montes (codir. tes.). Universidade de Santiago de Compostela, 2016.</span>
 </div>
