@@ -12,7 +12,7 @@ tematica:
 
 En esta actividad se utilizará una bola que emite luces de diferentes colores y que, con su movimiento, provoca una ilusión óptica, que permite investigar la función de los conos en la retina.
 
-{{< img src="images/laboratorio/bola-de-colores/1.jpg" alt="Imagen 1: Visualización del efecto" >}}
+{{< img src="images/laboratorio/bola-de-colores/1.jpg" alt="Imagen 1: Visualización del efecto" width="30">}}
 
 ## Objetivos
 
