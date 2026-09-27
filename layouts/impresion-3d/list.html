@@ -18,6 +18,7 @@
 <span class="collab-row-logo">{{ .Params.icon }}</span>
 <span class="collab-row-text">
 <span class="collab-row-title">{{ .Title }}</span>
+{{ with .Params.description }}<span class="collab-row-desc">{{ . }}</span>{{ end }}
 {{ partial "tags.html" . }}
 </span>
 </a>
