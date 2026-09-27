@@ -13,6 +13,7 @@ tipologia:
 ## Introducción
 
 La serpiente del faraón se trata de una reacción de combustión entre el bicarbonato de sodio y el azúcar muy vistosa, de bajo riesgo y materiales caseros.
+{{< img src="images/laboratorio/la-serpiente-del-faraon/1.gif" alt="gif animado de la reacción de la serpiente del faraón" >}}
 
 ## Objetivos
 
@@ -43,7 +44,7 @@ C₁₂H₂₂O₁₁ + 12O₂ → 12CO₂ + 11H₂O
 C₁₂H₂₂O₁₁ + calor → 12C + 11H₂O
 ```
 
-{{< img src="images/laboratorio/la-serpiente-del-faraon/1.gif" alt="gif animado de la reacción de la serpiente del faraón" >}}
+
 
 ## Procedimiento
 
