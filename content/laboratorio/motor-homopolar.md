@@ -33,9 +33,9 @@ Siempre que una carga eléctrica se encuentre en movimiento en el seno de un cam
 
 Dicha fuerza hará que el motor gire hasta que se agote la batería.
 
-{{< img src="images/laboratorio/motor-homopolar/1.png" alt="Diagrama del montaje del motor homopolar." >}}
+{{< img src="images/laboratorio/motor-homopolar/1.png" alt="Diagrama del montaje del motor homopolar." width="30">}}
 
-{{< img src="images/laboratorio/motor-homopolar/2.png" alt="Diagrama del montaje del motor homopolar (2)." >}}
+{{< img src="images/laboratorio/motor-homopolar/2.png" alt="Diagrama del montaje del motor homopolar (2)." width="30">}}
 
 ## Procedimiento
 
