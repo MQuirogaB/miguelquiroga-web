@@ -9,38 +9,25 @@ description: "Cómo funciona una cortadora láser y sus parámetros"
 <details>
 <summary>Cómo funciona el corte láser</summary>
 
-<details>
-<summary>Fundamentos</summary>
+### Fundamentos
 
 El corte por láser es un proceso térmico, lo que significa que utiliza calor para cortar el material.
 
-</details>
-
-<details>
-<summary>🔥 ¿Cómo se genera el corte?</summary>
+### 🔥 ¿Cómo se genera el corte?
 
 La cortadora emite un haz de luz láser, y el material debe absorber esa energía para que el corte ocurra.
 
-</details>
-
-<details>
-<summary>🌟 Factores clave en la absorción de energía</summary>
+### 🌟 Factores clave en la absorción de energía
 
 - ✔ Si el material refleja mucha luz, absorberá menos energía y será más difícil de cortar.
 - ✔ Si el material es transparente o semitransparente, parte del láser lo atravesará y la energía no se concentrará en el corte.
 - ✔ Si el material absorbe bien la luz láser, se calienta rápidamente y el corte es más eficiente.
 
-</details>
-
-<details>
-<summary>¿Cómo influye el color del material en el corte por láser?</summary>
+### ¿Cómo influye el color del material en el corte por láser?
 
 Cuando usamos un cortador láser, el color del material afecta directamente a su capacidad de absorber la energía del láser. Esto se debe a cómo reflejan o absorben la luz los diferentes colores.
 
-</details>
-
-<details>
-<summary>🎨 ¿Por qué el color es importante?</summary>
+### 🎨 ¿Por qué el color es importante?
 
 - ✔ Los objetos negros → Absorben casi toda la luz, por lo que el láser actúa con más eficacia.
 - ✔ Los objetos azules → Reflejan la luz en el espectro de 440-470 nm y absorben el resto.
@@ -50,10 +37,7 @@ Cuando usamos un cortador láser, el color del material afecta directamente a su
 {{< img src="images/corte-laser/fundamentos/2.png" alt="gráfico/ilustración sobre la absorción de luz láser según el color del material" width="30">}}
 *Tomado de [mrbeam support](https://support.mr-beam.org/en/support/solutions/articles/43000579632-materials-general-information)*
 
-</details>
-
-<details>
-<summary>🔍 Ejemplo práctico</summary>
+### 🔍 Ejemplo práctico
 
 Si usamos un láser azul (450 nm):
 
@@ -64,21 +48,13 @@ Si usamos un láser azul (450 nm):
 {{< img src="images/corte-laser/fundamentos/3.png" alt="comparativa de materiales de distinto color cortados con láser" width="30">}}
 *Tomado de [mrbeam support](https://support.mr-beam.org/en/support/solutions/articles/43000579632-materials-general-information)*
 
-</details>
-
-<details>
-<summary>✅ Conclusión</summary>
+### ✅ Conclusión
 
 Cuanto más absorba el material la luz del láser, más eficiente será el corte o grabado. Sin embargo, además del color, influyen otras propiedades como la densidad y la textura del material.
 
-</details>
-
-<details>
-<summary>Materiales que no pueden ser cortados</summary>
+### Materiales que no pueden ser cortados
 
 Los materiales transparentes, espejados o muy brillantes suelen ser muy difíciles o imposibles de cortar o grabar con láser. Esto es así en el caso de la mayoría de los metales, el acrílico transparente o el vidrio.
-
-</details>
 
 </details>
 
@@ -87,8 +63,7 @@ Los materiales transparentes, espejados o muy brillantes suelen ser muy difícil
 
 Cuando trabajamos con una cortadora láser, es importante saber cómo interpreta el archivo que le enviamos. La máquina no "ve" las imágenes como nosotros, sino instrucciones basadas en colores y relleno.
 
-<details>
-<summary>📌 Colores: indicaciones para la máquina</summary>
+### 📌 Colores: indicaciones para la máquina
 
 En el software de corte, cada color representa una acción. Somos nosotros quienes decidimos qué debe hacer la máquina con cada color. Por ejemplo:
 
@@ -97,15 +72,10 @@ En el software de corte, cada color representa una acción. Somos nosotros quien
 
 Cada color debe estar configurado correctamente en el software para que la cortadora actúe según lo esperado.
 
-</details>
-
-<details>
-<summary>📌 Relleno: determina si es grabado o corte</summary>
+### 📌 Relleno: determina si es grabado o corte
 
 - Figuras con relleno → Siempre se interpretan como grabado raster (la máquina quema la superficie en capas).
 - Figuras sin relleno → Pueden ser cortadas o grabadas según el color que les hayamos asignado.
-
-</details>
 
 </details>
 
