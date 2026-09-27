@@ -48,6 +48,10 @@ Tanto el limón como el agua son conductores de la electricidad. Al hacer una ma
 
 Se propone hacer los siguientes dibujos añadiendo plastilina sobre el papel.
 
-<!-- IMAGEN: plantilla de dibujo (bombilla) para plastilina conductora -->
+<div class="img-pair">
 
-<!-- IMAGEN: plantilla de dibujo (circuito) para plastilina conductora -->
+{{< img src="images/laboratorio/plastilina-conductora/plastilina-2.png" alt="Plantilla de dibujo de un coche para la actividad de plastilina conductora" >}}
+
+{{< img src="images/laboratorio/plastilina-conductora/plastilina-3.png" alt="Plantilla de dibujo de un faro para la actividad de plastilina conductora" >}}
+
+</div>
