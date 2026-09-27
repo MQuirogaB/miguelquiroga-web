@@ -58,4 +58,4 @@ Donde E es la energía del fotón, h, la constante de Planck y ν, la frecuencia
 {{< img src="images/laboratorio/llamas-de-colores/3.jpeg" alt="Cloruro de sodio" >}}
 {{< img src="images/laboratorio/llamas-de-colores/4.jpeg" alt="Cloruro de litio" >}}
 {{< img src="images/laboratorio/llamas-de-colores/5.jpeg" alt="Ácido bórico" >}}
-<!-- VIDEO: llama verde del ácido bórico -->
+{{< video src="videos/laboratorio/llamas-de-colores/llamas-de-colores-acido-borico.mp4" >}}
