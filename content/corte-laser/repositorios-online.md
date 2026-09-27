@@ -1,6 +1,7 @@
 ---
 title: "Lugares para encontrar archivos. Repositorios online"
 icon: "📦"
+description: "Webs donde descargar diseños listos para cortar"
 ---
 
 ## [Vectores CNC Láser y Router Gratis](https://www.stanser.com/vectores/)
