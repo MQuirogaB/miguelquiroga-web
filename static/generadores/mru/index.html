@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generador de problemas — MRU · miguelquiroga.es</title>
+<link rel="stylesheet" href="../../css/style.css">
+<style>
+  .container { max-width: 640px; margin: 0 auto; padding: 2rem 1rem; font-family: var(--font-sans); }
+  .tag { display: inline-block; font-family: var(--font-sans); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); background: var(--accent-soft); border-radius: 20px; padding: 3px 10px; margin-bottom: 10px; }
+  .container h1 { font-family: var(--font-serif); font-size: 27px; font-weight: 700; color: var(--ink); margin-bottom: 4px; }
+  .subtitle { font-size: 14px; color: var(--ink-light); font-family: var(--font-sans); }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 1.25rem; margin-top: 2rem; justify-content: space-between; font-family: var(--font-sans); }
+  .tipo-btns { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tipo-btn { font-size: 13px; padding: 6px 14px; border-radius: 20px; border: 1.5px solid var(--border); background: transparent; color: var(--ink); cursor: pointer; transition: all 0.15s; font-family: inherit; }
+  .tipo-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .tipo-btn:hover:not(.active) { background: var(--card-bg); }
+
+  .btn-nuevo { display: flex; align-items: center; gap: 6px; padding: 8px 18px; font-size: 14px; font-weight: 700; border-radius: 8px; border: none; background: var(--accent); color: #fff; cursor: pointer; transition: background 0.15s; font-family: var(--font-sans); }
+  .btn-nuevo:hover { background: var(--accent-dark); }
+  .btn-nuevo:active { transform: scale(0.98); }
+
+  .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem; font-family: var(--font-sans); }
+  .card-label { font-size: 11px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-light); margin-bottom: 10px; }
+  #enunciado { font-size: 16px; line-height: 1.75; margin-bottom: 1.25rem; color: var(--ink); }
+
+  .datos-box { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 0.875rem 1rem; margin-bottom: 1.25rem; }
+  .datos-box-label { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-light); margin-bottom: 8px; }
+  #datos { display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 15px; }
+  #datos span strong { font-weight: 700; }
+
+  .pregunta-label { font-size: 12px; color: var(--ink-light); margin-bottom: 5px; }
+  #pregunta { font-size: 15px; font-weight: 700; color: var(--ink); }
+
+  .sol-toggle { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; font-family: var(--font-sans); }
+  .btn-sol { display: flex; align-items: center; gap: 6px; font-size: 13px; padding: 7px 16px; border-radius: 8px; border: 1px solid var(--border); background: transparent; cursor: pointer; color: var(--ink); transition: background 0.15s; font-family: inherit; }
+  .btn-sol:hover { background: var(--card-bg); }
+  .hint { font-size: 12px; color: var(--ink-light); }
+
+  #solucion-panel { display: none; }
+  .formula-box { background: var(--accent-soft); border-radius: 8px; padding: 1rem; text-align: center; margin-bottom: 1rem; }
+  .formula-box p:first-child { font-size: 12px; color: var(--accent-dark); margin-bottom: 4px; }
+  #formula { font-size: 18px; font-weight: 700; font-family: 'Courier New', monospace; color: var(--accent-dark); }
+
+  #pasos { font-size: 14px; line-height: 1.85; color: var(--ink); }
+  #pasos p { margin-bottom: 4px; }
+
+  .resultado-row { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; align-items: baseline; gap: 8px; }
+  .resultado-row span:first-child { font-size: 13px; color: var(--ink-light); }
+  #resultado { font-size: 20px; font-weight: 700; color: var(--ink); }
+
+  .footer-btns { margin-top: 1.5rem; display: flex; gap: 8px; flex-wrap: wrap; font-family: var(--font-sans); }
+  .footer-btn { font-size: 12px; padding: 6px 13px; border-radius: 8px; border: 1px solid var(--border); background: transparent; cursor: pointer; color: var(--ink-light); transition: background 0.15s; font-family: inherit; }
+  .footer-btn:hover { background: var(--card-bg); color: var(--ink); }
+
+  svg.icon { width: 15px; height: 15px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+  @media print { .controls, .sol-toggle, .footer-btns, .topbar, .foot { display: none !important; } #solucion-panel { display: block !important; } body { background: white; } .card { box-shadow: none; border: 1px solid #ccc; } }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="../../">miguelquiroga<span class="dot">.es</span></a>
+  <nav class="breadcrumb">
+    <span class="sep">›</span><a href="../../">Inicio</a>
+    <span class="sep">›</span><a href="../">⚙️ Generadores</a>
+    <span class="sep">›</span><span class="current">MRU</span>
+  </nav>
+</header>
+
+<div class="container">
+  <header>
+    <div class="tag">Física y Química · 2º ESO</div>
+    <h1>Generador MRU</h1>
+    <p class="subtitle">Movimiento Rectilíneo Uniforme — problemas aleatorios con solución</p>
+  </header>
+
+  <div class="controls">
+    <div class="tipo-btns" id="tipo-btns">
+      <button class="tipo-btn active" onclick="setTipo('distancia')" id="btn-distancia">Calcular distancia</button>
+      <button class="tipo-btn" onclick="setTipo('velocidad')" id="btn-velocidad">Calcular velocidad</button>
+      <button class="tipo-btn" onclick="setTipo('tiempo')" id="btn-tiempo">Calcular tiempo</button>
+      <button class="tipo-btn" onclick="setTipo('aleatorio')" id="btn-aleatorio">Aleatorio</button>
+    </div>
+    <button class="btn-nuevo" onclick="generar()">
+      <svg class="icon" viewBox="0 0 24 24"><path d="M1 4v6h6M23 20v-6h-6"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10M23 14l-4.64 4.36A9 9 0 0 1 3.51 15"/></svg>
+      Nuevo problema
+    </button>
+  </div>
+
+  <div class="card">
+    <div class="card-label">Enunciado</div>
+    <p id="enunciado"></p>
+    <div class="datos-box">
+      <div class="datos-box-label">Datos</div>
+      <div id="datos"></div>
+    </div>
+    <div class="pregunta-label">Pregunta</div>
+    <p id="pregunta"></p>
+  </div>
+
+  <div class="sol-toggle">
+    <button class="btn-sol" onclick="toggleSolucion()">
+      <svg class="icon" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+      <span id="btn-sol-label">Ver solución</span>
+    </button>
+    <span class="hint">Intenta resolverlo primero</span>
+  </div>
+
+  <div class="card" id="solucion-panel">
+    <div class="card-label">Solución paso a paso</div>
+    <div class="formula-box"><p>Fórmula</p><p id="formula"></p></div>
+    <div id="pasos"></div>
+    <div class="resultado-row"><span>Resultado:</span><span id="resultado"></span></div>
+  </div>
+
+  <div class="footer-btns">
+    <button class="footer-btn" onclick="window.print()">🖨️ Imprimir problema</button>
+    <button class="footer-btn" onclick="copiarEnunciado()">📋 Copiar enunciado</button>
+  </div>
+</div>
+
+<footer class="foot">
+  <p>Hecho con ♥ para el aula de Física y Química — piloto Hugo (sin publicar)</p>
+</footer>
+
+<script>
+let tipoActual = 'distancia';
+let solVisible = false;
+let problemaActual = {};
+const contextos = [
+  { sujeto: 'Un tren', verbo: 'viaja', unidadV: 'km/h', unidadD: 'km', unidadT: 'h', vMin: 60, vMax: 250, tMin: 1, tMax: 8 },
+  { sujeto: 'Un ciclista', verbo: 'pedalea', unidadV: 'km/h', unidadD: 'km', unidadT: 'h', vMin: 10, vMax: 40, tMin: 1, tMax: 5 },
+  { sujeto: 'Un coche', verbo: 'circula', unidadV: 'km/h', unidadD: 'km', unidadT: 'h', vMin: 50, vMax: 130, tMin: 1, tMax: 6 },
+  { sujeto: 'Un corredor', verbo: 'corre', unidadV: 'm/s', unidadD: 'm', unidadT: 's', vMin: 3, vMax: 10, tMin: 10, tMax: 60 },
+  { sujeto: 'Un avión', verbo: 'vuela', unidadV: 'km/h', unidadD: 'km', unidadT: 'h', vMin: 500, vMax: 900, tMin: 2, tMax: 12 },
+  { sujeto: 'Un barco', verbo: 'navega', unidadV: 'km/h', unidadD: 'km', unidadT: 'h', vMin: 15, vMax: 50, tMin: 2, tMax: 10 },
+  { sujeto: 'Una tortuga', verbo: 'camina', unidadV: 'm/s', unidadD: 'm', unidadT: 's', vMin: 0.05, vMax: 0.3, tMin: 30, tMax: 120 },
+  { sujeto: 'Un patinador', verbo: 'desliza', unidadV: 'm/s', unidadD: 'm', unidadT: 's', vMin: 2, vMax: 8, tMin: 5, tMax: 30 },
+];
+function rand(min, max, dec=0) { const v = Math.random() * (max - min) + min; return dec === 0 ? Math.round(v) : parseFloat(v.toFixed(dec)); }
+function setTipo(t) { tipoActual = t; ['distancia','velocidad','tiempo','aleatorio'].forEach(id => { const b = document.getElementById('btn-' + id); b.classList.toggle('active', id === t); }); generar(); }
+function generar() {
+  solVisible = false;
+  document.getElementById('solucion-panel').style.display = 'none';
+  document.getElementById('btn-sol-label').textContent = 'Ver solución';
+  const ctx = contextos[Math.floor(Math.random() * contextos.length)];
+  const dec = ctx.unidadV === 'm/s' && ctx.vMin < 1 ? 2 : (ctx.unidadV === 'm/s' ? 1 : 0);
+  const v = rand(ctx.vMin, ctx.vMax, dec);
+  const t = rand(ctx.tMin, ctx.tMax);
+  const d = parseFloat((v * t).toFixed(2));
+  let tipo = tipoActual;
+  if (tipo === 'aleatorio') { const opts = ['distancia', 'velocidad', 'tiempo']; tipo = opts[Math.floor(Math.random() * opts.length)]; }
+  problemaActual = { ctx, v, t, d, tipo };
+  const th = n => ctx.unidadT === 'h' ? (n===1?'hora':'horas') : (ctx.unidadT==='s' ? (n===1?'segundo':'segundos') : 'minutos');
+  let enunciado, pregunta, datos, formula, pasos, resultado;
+  if (tipo === 'distancia') {
+    enunciado = `${ctx.sujeto} ${ctx.verbo} a una velocidad constante de ${v} ${ctx.unidadV} durante ${t} ${th(t)}.`;
+    pregunta = `¿Qué distancia recorre en total?`;
+    datos = `<span><strong>v</strong> = ${v} ${ctx.unidadV}</span><span><strong>t</strong> = ${t} ${ctx.unidadT}</span><span><strong>d</strong> = ?</span>`;
+    formula = 'd = v · t';
+    pasos = `<p>1. Identificamos los datos: <strong>v = ${v} ${ctx.unidadV}</strong>, <strong>t = ${t} ${ctx.unidadT}</strong></p><p>2. Aplicamos la fórmula: <strong>d = v · t</strong></p><p>3. Sustituimos: d = ${v} × ${t} = <strong>${d} ${ctx.unidadD}</strong></p>`;
+    resultado = `d = ${d} ${ctx.unidadD}`;
+  } else if (tipo === 'velocidad') {
+    enunciado = `${ctx.sujeto} recorre ${d} ${ctx.unidadD} en ${t} ${th(t)}.`;
+    pregunta = `¿Cuál es su velocidad?`;
+    datos = `<span><strong>d</strong> = ${d} ${ctx.unidadD}</span><span><strong>t</strong> = ${t} ${ctx.unidadT}</span><span><strong>v</strong> = ?</span>`;
+    formula = 'v = d / t';
+    pasos = `<p>1. Identificamos los datos: <strong>d = ${d} ${ctx.unidadD}</strong>, <strong>t = ${t} ${ctx.unidadT}</strong></p><p>2. Despejamos la velocidad: <strong>v = d / t</strong></p><p>3. Sustituimos: v = ${d} / ${t} = <strong>${v} ${ctx.unidadV}</strong></p>`;
+    resultado = `v = ${v} ${ctx.unidadV}`;
+  } else {
+    enunciado = `${ctx.sujeto} ${ctx.verbo} a ${v} ${ctx.unidadV} y recorre ${d} ${ctx.unidadD}.`;
+    pregunta = `¿Cuánto tiempo tarda en recorrer esa distancia?`;
+    datos = `<span><strong>v</strong> = ${v} ${ctx.unidadV}</span><span><strong>d</strong> = ${d} ${ctx.unidadD}</span><span><strong>t</strong> = ?</span>`;
+    formula = 't = d / v';
+    pasos = `<p>1. Identificamos los datos: <strong>v = ${v} ${ctx.unidadV}</strong>, <strong>d = ${d} ${ctx.unidadD}</strong></p><p>2. Despejamos el tiempo: <strong>t = d / v</strong></p><p>3. Sustituimos: t = ${d} / ${v} = <strong>${t} ${ctx.unidadT}</strong></p>`;
+    resultado = `t = ${t} ${ctx.unidadT}`;
+  }
+  document.getElementById('enunciado').textContent = enunciado;
+  document.getElementById('pregunta').textContent = pregunta;
+  document.getElementById('datos').innerHTML = datos;
+  document.getElementById('formula').textContent = formula;
+  document.getElementById('pasos').innerHTML = pasos;
+  document.getElementById('resultado').textContent = resultado;
+}
+function toggleSolucion() { solVisible = !solVisible; document.getElementById('solucion-panel').style.display = solVisible ? 'block' : 'none'; document.getElementById('btn-sol-label').textContent = solVisible ? 'Ocultar solución' : 'Ver solución'; }
+function copiarEnunciado() { const texto = document.getElementById('enunciado').textContent + ' ' + document.getElementById('pregunta').textContent; navigator.clipboard.writeText(texto).then(() => { alert('Enunciado copiado al portapapeles'); }); }
+generar();
+</script>
+</body>
+</html>
