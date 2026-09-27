@@ -48,5 +48,4 @@ En realidad el principio de funcionamiento hoy puede ser comprendido por cualqui
 ## Recursos externos
 
 > **[Devious Pythagorean Cup by jsteuben](https://www.thingiverse.com/thing:123252)**
->
-> The Pythagorean cup is a drinking vessel designed to drain its contents via siphon action if it is overfilled. If the cup is partially filled, it holds liquid which can be drunk in the usual fashion. If it is overfilled it drains the entire contents of the cup into the drinker's lap. This object was classically used as a warning of the dangers of gluttony and over-consumption. Unfortunately, Pythagorean cups feature a distinctive central stem to house the siphon tube which drains the cup — see for instance http://www.thingiverse.com/thing:27533. This gives away the surprise and spoils some of the fun! Fortunately, modern 3D printing allows us to build a more devious cup, with a hidden siphon. This object is a Pythagorean cup with the siphon tube concealed in the drinking vessel walls. The siphon tube traverses more than 300 degrees of the circumference of the rim, so a moderately filled cup will not drain when it is tilted. This object has been printed and tested, and is 100% functional! It makes a great brainteaser or science demonstration for students.
+
