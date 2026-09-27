@@ -43,7 +43,7 @@ Se distinguen tres botellas, la superior, BS, la media, BM, y la inferior, BI. A
    - Parte inferior de la botella media con la parte superior de la botella superior.
 5. Aislar todas las juntas y uniones con pegamento termofusible para que no haya pérdidas de agua.
 
-<!-- IMAGEN: Preparación de la botella -->
+{{< img src="images/laboratorio/fuente-de-heron-de-alejandria/heron-2.png" alt="Diagrama de la preparación de las tres botellas y los tubos de la fuente de Herón" align="center" width="35" >}}
 
 6. Llenar la botella superior consiguiendo, mediante el tubo, llenar la inferior.
 7. Darle la vuelta al dispositivo, consiguiendo así llenar la botella intermedia.
