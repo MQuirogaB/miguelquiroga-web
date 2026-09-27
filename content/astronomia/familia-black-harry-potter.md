@@ -12,6 +12,7 @@ J.K. Rowling no dejó nada al azar al nombrar a la familia más aristocrática d
 La ironía es perfecta: una familia que cree estar por encima de los demás lleva escritas en el nombre las mismas estrellas que iluminan a todo el mundo.
 
 {{< img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk868-Xyl_2g7vGSMriSl7qQJlLRTS4Y7b7Wsw-mVbUQ&s=10" alt="Árbol genealógico de la familia Black" align="center" width="40" >}}
+
 *Árbol genealógico de la familia Black*
 
 <p class="star-toggle-hint">Toca cada estrella del árbol para desplegar su historia ✨</p>
