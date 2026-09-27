@@ -2,6 +2,7 @@
 title: "Mitología de las Constelaciones"
 icon: "🌃"
 type: "mitologia"
+resumen: "27 historias del cielo grecorromano, por héroes, amores y castigos"
 description: "Una colección de historias mitológicas sobre las principales constelaciones del cielo, basadas en la mitología grecorromana. Organizadas por el tipo de historia que cuentan."
 categorias:
   - icono: "⚔️"
