@@ -1155,3 +1155,28 @@ details.star-toggle p:last-of-type { margin-bottom: 20px; }
 details.star-toggle-sm { border-left-color: var(--teal); }
 details.star-toggle-sm summary { font-size: 16px; }
 details.star-toggle-sm summary::after { color: var(--teal); }
+
+
+/* ---------- Mitología: cabeceras de categoría y acento en iconos ---------- */
+
+.myth-category h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.myth-category h2::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, var(--border), transparent);
+}
+
+#mito-body .card-icon { position: relative; }
+#mito-body .card-icon::after {
+    content: "✦";
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    font-size: 8px;
+    color: var(--accent);
+}
