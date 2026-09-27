@@ -27,15 +27,15 @@ En esta actividad se utilizarán tres luces de colores diferentes para crear som
 - Regleta.
 - Objeto opaco para crear la sombra (puede ser una mano)
 
-{{< img src="images/laboratorio/adicion-de-colores/2.jpg" alt="Montaje" >}}
+{{< img src="images/laboratorio/adicion-de-colores/2.jpg" alt="Montaje" width="30">}}
 
 ## Fundamento científico
 
 La interferencia de la luz es un fenómeno óptico en el que dos o más ondas de luz se combinan para crear una onda resultante. Esta interferencia posibilita crear diferentes colores.
 
-{{< img src="images/laboratorio/adicion-de-colores/3.png" alt="Superposición de colores" >}}
+{{< img src="images/laboratorio/adicion-de-colores/3.png" alt="Superposición de colores" width="30">}}
 
-{{< img src="images/laboratorio/adicion-de-colores/4.jpg" alt="Análisis del efecto" >}}
+{{< img src="images/laboratorio/adicion-de-colores/4.jpg" alt="Análisis del efecto" width="30">}}
 
 ## Procedimiento
 
