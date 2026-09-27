@@ -1130,6 +1130,7 @@ details.star-toggle summary {
     user-select: none;
 }
 details.star-toggle summary::-webkit-details-marker { display: none; }
+details.star-toggle summary::marker { content: ""; display: none; }
 details.star-toggle summary::after {
     content: "▾";
     margin-left: auto;
