@@ -1,6 +1,7 @@
 ---
 title: "Creality K1. Guía de uso"
 icon: "🖨️"
+description: "Primeros pasos con esta impresora en el aula"
 ---
 
 <details>
