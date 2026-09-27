@@ -13,7 +13,7 @@ tematica:
 
 En esta actividad se explicará como funciona una bola de plasma y se investigarán sus propiedades.
 
-{{< img src="images/laboratorio/bola-de-plasma/1.jpg" alt="Bola de plasma" >}}
+{{< img src="images/laboratorio/bola-de-plasma/1.jpg" alt="Bola de plasma" width="30">}}
 
 La bola de plasma funciona convirtiendo un gas en un estado altamente energético conocido como plasma. Esto se logra aplicando una corriente eléctrica de alta frecuencia y alto voltaje sobre los gases en el interior de la bola. El plasma es un estado de la materia conductor que puede ser controlado por campos eléctricos y magnéticos y está compuesto de iones y electrones libres.
 
