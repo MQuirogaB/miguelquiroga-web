@@ -149,9 +149,12 @@ Hoy vamos a meternos de lleno con un tema que me encanta, las litofanías. Const
 <details>
 <summary>Algunos ejemplos de litofanías</summary>
 
-<!-- ARCHIVO: litofanía de ejemplo 1 (STL/gcode) -->
-<!-- ARCHIVO: litofanía de ejemplo 2 (STL/gcode) -->
-<!-- ARCHIVO: litofanía de ejemplo 3 (STL/gcode) -->
-<!-- ARCHIVO: litofanía de ejemplo 4 (STL/gcode) -->
+{{< linkcard href="https://makerworld.com/models/1134820#profileId-1135796" title="Litofanía: Rosalind Franklin" description="Modelo de ejemplo de litofanía en MakerWorld" >}}
+
+{{< linkcard href="https://makerworld.com/models/1134733#profileId-1135675" title="Litofanía: Pandereteiras" description="Modelo de ejemplo de litofanía en MakerWorld" >}}
+
+{{< linkcard href="https://makerworld.com/models/1134620#profileId-1135542" title="Litofanía: Faro de Fisterra" description="Modelo de ejemplo de litofanía en MakerWorld" >}}
+
+{{< linkcard href="https://makerworld.com/models/1134708#profileId-1135649" title="Litofanía: Catedral de Santiago" description="Modelo de ejemplo de litofanía en MakerWorld" >}}
 
 </details>
