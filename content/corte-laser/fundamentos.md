@@ -1,6 +1,7 @@
 ---
 title: "Fundamentos del corte láser"
 icon: "🔥"
+description: "Cómo funciona una cortadora láser y sus parámetros"
 ---
 
 {{< img src="images/corte-laser/fundamentos/1.jpg" alt="foto de portada relacionada con corte láser" >}}
