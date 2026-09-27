@@ -1,1 +1,1 @@
-<video controls class="content-video" src="{{ relURL (.Get "src") }}"></video>
+<video controls class="content-video" src="{{ relURL (.Get "src") }}"{{ with .Get "width" }} style="max-width: {{ . }}%; margin-left: auto; margin-right: auto;"{{ end }}></video>
