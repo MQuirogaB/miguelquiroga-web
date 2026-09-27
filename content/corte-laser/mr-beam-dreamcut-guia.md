@@ -1,6 +1,7 @@
 ---
 title: "Mr Beam Dreamcut Guía de uso"
 icon: "✂️"
+description: "Primeros pasos con esta cortadora en el aula"
 ---
 
 En esta página encontrarás una guía enfocada para docentes para utilizar la cortadora láser Mr Beam II Dreamcut, de 5 W y Mr Beam II Dreamcut (X) de 10W.
