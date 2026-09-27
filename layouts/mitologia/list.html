@@ -1,11 +1,13 @@
 {{ define "main" }}
-<section class="section-head">
-  <div class="cover-strip"></div>
-  <div class="page-icon">{{ .Params.icon }}</div>
-  <h1>{{ .Title }}</h1>
-  {{ if .Params.description }}<p class="section-desc">{{ .Params.description }}</p>{{ end }}
+<section class="astro-hero">
+  <div class="astro-hero-inner">
+    <div class="astro-page-icon">{{ .Params.icon }}</div>
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.description }}<p class="astro-hero-desc">{{ .Params.description }}</p>{{ end }}
+  </div>
 </section>
 
+<div id="mito-body">
 {{ range .Params.categorias }}
 <section class="myth-category">
   <h2>{{ .icono }} {{ .nombre }}</h2>
@@ -28,4 +30,5 @@
   </div>
 </section>
 {{ end }}
+</div>
 {{ end }}
