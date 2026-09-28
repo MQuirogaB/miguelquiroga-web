@@ -63,4 +63,4 @@ Donde $E$ es la energía del fotón, $h$ la constante de Planck y $\nu$ la frecu
 
 </div>
 
-{{< video src="videos/laboratorio/llamas-de-colores/llamas-de-colores-acido-borico.mp4" >}}
+{{< video src="videos/laboratorio/llamas-de-colores/llamas-de-colores-acido-borico.mp4" width="30" >}}
