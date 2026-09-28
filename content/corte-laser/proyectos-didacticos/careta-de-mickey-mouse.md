@@ -3,7 +3,7 @@ title: "Careta de Mickey Mouse"
 icon: "🐭"
 ---
 
-{{< img src="images/corte-laser/proyectos-didacticos/careta-de-mickey-mouse/1.jpg" alt="careta de Mickey Mouse terminada, en goma eva de varios colores" >}}
+{{< img src="images/corte-laser/proyectos-didacticos/careta-de-mickey-mouse/1.jpg" alt="careta de Mickey Mouse terminada, en goma eva de varios colores" width="30">}}
 
 En este tutorial aprenderemos a hacer una careta con la cara de Mickey Mouse.
 
