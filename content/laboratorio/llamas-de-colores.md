@@ -35,7 +35,7 @@ Las sales son compuestos inorgánicos que se forman cuando se combinan un metal 
 
 Los electrones de un átomo tienden a distribuirse de tal forma que la energía del átomo sea la menor posible. A esto se le conoce como estado de mínima energía o basal. Cuando un átomo recibe energía, por ejemplo, calor, los electrones la absorben y suben a niveles energéticos superiores. El átomo pasa por tanto a estar en un estado excitado.
 
-{{< img src="images/laboratorio/llamas-de-colores/2.png" alt="Tránsitos electrónicos" >}}
+{{< img src="images/laboratorio/llamas-de-colores/2.png" alt="Tránsitos electrónicos" width="40">}}
 
 Los diferentes niveles de energía están cuantizados. La energía del electrón no puede subir o bajar de forma continua sino a saltos entre niveles cuánticos. Ya que el estado excitado no es un estado estable, el electrón vuelve a su estado basal. Cuando esto ocurre, se libera un fotón, es decir, radiación electromagnética que formará el espectro de emisión.
 
