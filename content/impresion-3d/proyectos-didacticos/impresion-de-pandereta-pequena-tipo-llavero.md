@@ -16,7 +16,8 @@ Hay dos diseños, con las arandelas puestas en un nivel o en dos, imprime la que
 
 En caso de que tengas la Creality K1 (la nueva de polos), te dejo el archivo ya preparado para imprimir, tan solo mételo en un pen drive y a en la impresora 😉.
 
-<!-- ARCHIVO: Pandeireta_pequena_1_nivel_PLA_9m10s.gcode — pandereta llavero de 1 nivel, PLA, tiempo estimado 9m10s -->
-<!-- ARCHIVO: Pandeireta_pequena_2_niveis_PLA_9m9s.gcode — pandereta llavero de 2 niveles, PLA, tiempo estimado 9m9s -->
+{{< file src="files/impresion-3d/proyectos-didacticos/pandereta-llavero/Pandeireta_pequena_1_nivel_PLA_9m10s.gcode" text="Pandeireta pequena 1 nivel — PLA, 9m10s (gcode)" >}}
+
+{{< file src="files/impresion-3d/proyectos-didacticos/pandereta-llavero/Pandeireta_pequena_2_niveis_PLA_9m9s.gcode" text="Pandeireta pequena 2 niveis — PLA, 9m9s (gcode)" >}}
 
 [Ver el vídeo en Instagram](https://www.instagram.com/p/DJMsC2FsTwI/)
