@@ -41,11 +41,9 @@ Los diferentes niveles de energía están cuantizados. La energía del electrón
 
 La energía del fotón emitido es igual a la diferencia de energía entre el estado excitado y el basal y se relaciona con la radiación electromagnética mediante la ecuación:
 
-```
-E = hν
-```
+$E = h\nu$
 
-Donde E es la energía del fotón, h, la constante de Planck y ν, la frecuencia.
+Donde $E$ es la energía del fotón, $h$ la constante de Planck y $\nu$ la frecuencia.
 
 ## Procedimiento
 
@@ -55,7 +53,14 @@ Donde E es la energía del fotón, h, la constante de Planck y ν, la frecuencia
 
 **Nota:** Puede añadirse esa disolución a un atomizador y pulverizar sobre una llama.
 
+<div class="img-trio">
+
 {{< img src="images/laboratorio/llamas-de-colores/3.jpeg" alt="Cloruro de sodio" >}}
+
 {{< img src="images/laboratorio/llamas-de-colores/4.jpeg" alt="Cloruro de litio" >}}
+
 {{< img src="images/laboratorio/llamas-de-colores/5.jpeg" alt="Ácido bórico" >}}
+
+</div>
+
 {{< video src="videos/laboratorio/llamas-de-colores/llamas-de-colores-acido-borico.mp4" >}}
