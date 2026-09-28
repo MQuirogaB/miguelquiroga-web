@@ -41,7 +41,7 @@ Los diferentes niveles de energía están cuantizados. La energía del electrón
 
 La energía del fotón emitido es igual a la diferencia de energía entre el estado excitado y el basal y se relaciona con la radiación electromagnética mediante la ecuación:
 
-$E = h\nu$
+$$E = h\nu$$
 
 Donde $E$ es la energía del fotón, $h$ la constante de Planck y $\nu$ la frecuencia.
 
