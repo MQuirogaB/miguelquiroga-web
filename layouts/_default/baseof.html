@@ -13,6 +13,7 @@
   <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
   <meta name="theme-color" content="#9a6bb4">
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/a11y.css" | relURL }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
 </head>
 <body>
@@ -34,6 +35,52 @@
   <footer class="foot">
     <p>Hecho con ♥ para el aula de Física y Química — piloto Hugo (sin publicar)</p>
   </footer>
+
+  <!-- Panel de accesibilidad -->
+  <button id="a11y-fab" class="a11y-fab" type="button" aria-label="Abrir opciones de accesibilidad" aria-haspopup="true" aria-expanded="false" aria-controls="a11y-panel">♿</button>
+  <div id="a11y-panel" class="a11y-panel" role="dialog" aria-label="Opciones de accesibilidad" hidden>
+    <div class="a11y-panel-head">
+      <h2>Accesibilidad</h2>
+      <button id="a11y-close" class="a11y-panel-close" type="button" aria-label="Cerrar panel de accesibilidad">✕</button>
+    </div>
+
+    <div class="a11y-group">
+      <span class="a11y-group-label">Tamaño del texto</span>
+      <div class="a11y-fontsize-row">
+        <button id="a11y-fs-dec" type="button" aria-label="Reducir tamaño del texto">A−</button>
+        <button id="a11y-fs-reset" type="button" aria-label="Tamaño de texto por defecto">A</button>
+        <button id="a11y-fs-inc" type="button" aria-label="Aumentar tamaño del texto">A+</button>
+      </div>
+    </div>
+
+    <div class="a11y-group">
+      <label class="a11y-toggle" for="a11y-toggle-contrast">
+        <span>Alto contraste</span>
+        <span class="a11y-switch">
+          <input type="checkbox" id="a11y-toggle-contrast">
+          <span class="a11y-switch-track"></span>
+        </span>
+      </label>
+      <label class="a11y-toggle" for="a11y-toggle-motion">
+        <span>Reducir animaciones</span>
+        <span class="a11y-switch">
+          <input type="checkbox" id="a11y-toggle-motion">
+          <span class="a11y-switch-track"></span>
+        </span>
+      </label>
+      <label class="a11y-toggle" for="a11y-toggle-dyslexia">
+        <span>Fuente para dislexia</span>
+        <span class="a11y-switch">
+          <input type="checkbox" id="a11y-toggle-dyslexia">
+          <span class="a11y-switch-track"></span>
+        </span>
+      </label>
+    </div>
+
+    <button id="a11y-reset-all" class="a11y-reset" type="button">Restablecer todo</button>
+  </div>
+  <script src="{{ "js/a11y.js" | relURL }}"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
   <script>

@@ -1,0 +1,209 @@
+/* ---------- Panel de accesibilidad ---------- */
+
+html {
+  font-size: calc(100% * var(--a11y-fs-scale, 1));
+}
+
+.a11y-fab {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-size: 24px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
+  font-family: var(--font-sans);
+}
+.a11y-fab:hover { background: var(--accent-dark); }
+.a11y-fab:focus-visible,
+.a11y-panel button:focus-visible,
+.a11y-panel-close:focus-visible {
+  outline: 3px solid var(--accent-dark);
+  outline-offset: 2px;
+}
+
+.a11y-panel {
+  position: fixed;
+  right: 20px;
+  bottom: 82px;
+  z-index: 9999;
+  width: 300px;
+  max-width: calc(100vw - 40px);
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.22);
+  padding: 18px;
+  font-family: var(--font-sans);
+}
+.a11y-panel[hidden] { display: none; }
+
+.a11y-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.a11y-panel-head h2 {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+}
+.a11y-panel-close {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--ink-light);
+  padding: 4px;
+}
+.a11y-panel-close:hover { color: var(--ink); }
+
+.a11y-group { margin-bottom: 16px; }
+.a11y-group:last-of-type { margin-bottom: 8px; }
+.a11y-group-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-light);
+  margin-bottom: 8px;
+}
+
+.a11y-fontsize-row {
+  display: flex;
+  gap: 8px;
+}
+.a11y-fontsize-row button {
+  flex: 1;
+  padding: 8px 0;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--ink);
+  border-radius: 8px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  cursor: pointer;
+}
+.a11y-fontsize-row button:hover { border-color: var(--accent); }
+
+.a11y-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+.a11y-toggle:last-child { border-bottom: none; }
+.a11y-toggle span { font-size: 14px; }
+
+.a11y-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.a11y-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.a11y-switch-track {
+  position: absolute;
+  inset: 0;
+  background: var(--border);
+  border-radius: 999px;
+  transition: background 0.15s;
+  cursor: pointer;
+}
+.a11y-switch-track::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 3px;
+  top: 3px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform 0.15s;
+}
+.a11y-switch input:checked + .a11y-switch-track { background: var(--accent); }
+.a11y-switch input:checked + .a11y-switch-track::before { transform: translateX(18px); }
+.a11y-switch input:focus-visible + .a11y-switch-track { outline: 3px solid var(--accent-dark); outline-offset: 2px; }
+
+.a11y-reset {
+  width: 100%;
+  padding: 8px 0;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--ink-light);
+  border-radius: 8px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  cursor: pointer;
+}
+.a11y-reset:hover { color: var(--ink); border-color: var(--ink-light); }
+
+/* Reducir animaciones */
+html.a11y-reduce-motion *,
+html.a11y-reduce-motion *::before,
+html.a11y-reduce-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Fuente para dislexia */
+html.a11y-dyslexia body,
+html.a11y-dyslexia h1,
+html.a11y-dyslexia h2,
+html.a11y-dyslexia h3,
+html.a11y-dyslexia h4,
+html.a11y-dyslexia p,
+html.a11y-dyslexia li,
+html.a11y-dyslexia a,
+html.a11y-dyslexia span,
+html.a11y-dyslexia div {
+  font-family: Verdana, Tahoma, "Segoe UI", Arial, sans-serif !important;
+  letter-spacing: 0.02em;
+  word-spacing: 0.06em;
+  line-height: 1.75 !important;
+}
+
+/* Alto contraste */
+html.a11y-contrast {
+  --bg: #ffffff;
+  --ink: #000000;
+  --ink-light: #1a1a1a;
+  --border: #000000;
+  --card-bg: #ffffff;
+  --accent: #5a2a78;
+  --accent-dark: #3d1a52;
+  --accent-soft: #ffffff;
+  --accent-soft2: #ffffff;
+}
+html.a11y-contrast a { text-decoration: underline; }
+html.a11y-contrast .mini-card,
+html.a11y-contrast .cat-acc,
+html.a11y-contrast .gen-item {
+  border: 2px solid #000 !important;
+}
