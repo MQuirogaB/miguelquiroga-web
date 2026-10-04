@@ -12,7 +12,7 @@ locale: "es"
 
 collections:
   - name: "laboratorio"
-    label: "Laboratorio"
+    label: "🔬 Laboratorio"
     folder: "content/laboratorio"
     create: true
     slug: "{{slug}}"
@@ -44,7 +44,7 @@ collections:
       - { label: "Contenido", name: "body", widget: "markdown" }
 
   - name: "materiales"
-    label: "Materiales"
+    label: "🔬 Materiales"
     folder: "content/materiales"
     create: true
     slug: "{{slug}}"
@@ -74,7 +74,7 @@ collections:
       - { label: "Contenido", name: "body", widget: "markdown" }
 
   - name: "astronomia_mitologia"
-    label: "Astronomía — Mitología de constelaciones"
+    label: "🪐 Astronomía — Mitología de constelaciones"
     folder: "content/astronomia/mitologia-de-las-constelaciones"
     create: true
     slug: "{{slug}}"
@@ -85,7 +85,7 @@ collections:
       - { label: "Contenido", name: "body", widget: "markdown" }
 
   - name: "corte_laser_proyectos"
-    label: "Corte Láser — Proyectos didácticos"
+    label: "✂️ Corte Láser — Proyectos didácticos"
     folder: "content/corte-laser/proyectos-didacticos"
     create: true
     slug: "{{slug}}"
@@ -96,7 +96,7 @@ collections:
       - { label: "Contenido", name: "body", widget: "markdown" }
 
   - name: "impresion3d_proyectos"
-    label: "Impresión 3D — Proyectos didácticos"
+    label: "🖨️ Impresión 3D — Proyectos didácticos"
     folder: "content/impresion-3d/proyectos-didacticos"
     create: true
     slug: "{{slug}}"
@@ -107,7 +107,7 @@ collections:
       - { label: "Contenido", name: "body", widget: "markdown" }
 
   - name: "impresion3d_materiales"
-    label: "Impresión 3D — Materiales para imprimir"
+    label: "🖨️ Impresión 3D — Materiales para imprimir"
     folder: "content/impresion-3d/materiales-para-imprimir"
     create: true
     slug: "{{slug}}"
@@ -118,31 +118,32 @@ collections:
       - { label: "Contenido", name: "body", widget: "markdown" }
 
   - name: "paginas_sueltas"
-    label: "Páginas sueltas (avanzado, HTML/Markdown mixto)"
+    label: "📄 Páginas fijas del sitio"
+    description: "Las 4 páginas únicas de la web (no son listados, cada una es una página en sí misma)"
     files:
       - name: "generadores"
-        label: "Generadores"
+        label: "📄 Generadores"
         file: "content/generadores.md"
         fields:
           - { label: "Título", name: "title", widget: "string" }
           - { label: "Icono (emoji)", name: "icon", widget: "string" }
           - { label: "Contenido (HTML/Markdown)", name: "body", widget: "markdown" }
       - name: "articulos"
-        label: "Artículos publicados"
+        label: "📄 Artículos publicados"
         file: "content/articulos-publicados.md"
         fields:
           - { label: "Título", name: "title", widget: "string" }
           - { label: "Icono (emoji)", name: "icon", widget: "string" }
           - { label: "Contenido (HTML/Markdown)", name: "body", widget: "markdown" }
       - name: "prensa"
-        label: "Prensa, TV y radio"
+        label: "📄 Prensa, TV y radio"
         file: "content/prensa-tv-radio.md"
         fields:
           - { label: "Título", name: "title", widget: "string" }
           - { label: "Icono (emoji)", name: "icon", widget: "string" }
           - { label: "Contenido (HTML/Markdown)", name: "body", widget: "markdown" }
       - name: "colaboraciones"
-        label: "Colaboraciones institucionales"
+        label: "📄 Colaboraciones institucionales"
         file: "content/colaboraciones-institucionales.md"
         fields:
           - { label: "Título", name: "title", widget: "string" }

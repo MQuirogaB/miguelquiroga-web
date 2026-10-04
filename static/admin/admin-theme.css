@@ -33,6 +33,12 @@ body {
 [class*="SidebarNavLink"] {
   transition: background-color .15s ease, color .15s ease;
 }
+/* Separador visual antes del último bloque (Páginas fijas del sitio) */
+[class*="SidebarNavLink"]:last-of-type {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--mq-accent-soft2);
+}
 [class*="SidebarNavLink"]:hover {
   background-color: var(--mq-accent-soft) !important;
   color: var(--mq-accent-dark) !important;
