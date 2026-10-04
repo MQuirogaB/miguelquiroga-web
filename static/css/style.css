@@ -916,6 +916,65 @@ body {
   border-top: 1px solid var(--border);
 }
 
+/* ---------- banner social (footer) ---------- */
+
+.social-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.social-icons { display: flex; gap: 18px; }
+
+.social-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: transform 0.15s;
+  flex-shrink: 0;
+}
+.social-circle:hover { transform: translateY(-3px); }
+.social-circle svg { width: 20px; height: 20px; display: block; }
+
+.social-mail { background: var(--blue); }
+.social-insta { background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af); }
+.social-tg { background: #29a9eb; }
+
+.social-divider {
+  width: 1px;
+  height: 32px;
+  background: var(--border);
+}
+
+.social-coffee {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 11px 20px;
+  border-radius: 999px;
+  background: var(--amber);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 13.5px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.social-coffee:hover { background: #8f6327; }
+.social-coffee svg { width: 18px; height: 18px; display: block; }
+
+@media (max-width: 420px) {
+  .social-row { gap: 14px; }
+  .social-icons { gap: 12px; }
+}
+
 /* ---------- publication timeline ---------- */
 
 .tl { position: relative; padding-left: 28px; font-family: var(--font-sans); margin: 24px 0; }
