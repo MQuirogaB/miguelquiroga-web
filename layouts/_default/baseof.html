@@ -28,11 +28,6 @@
       <span class="sep">›</span><span class="current">{{ with .Params.icon }}{{ . }} {{ end }}{{ .Title }}</span>
     </nav>
     {{ end }}
-  </header>
-  <main{{ if not .IsHome }} class="wrap"{{ end }}>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer class="foot">
     <div class="social-row">
       <div class="social-icons">
         <a class="social-circle social-mail" href="mailto:miguel.quiroga@edu.xunta.gal" target="_blank" rel="noopener" aria-label="Enviar un correo">
@@ -51,6 +46,11 @@
         Invítame a un café
       </a>
     </div>
+  </header>
+  <main{{ if not .IsHome }} class="wrap"{{ end }}>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="foot">
     <p>Hecho con ♥ para el aula de Física y Química — piloto Hugo (sin publicar)</p>
   </footer>
 
