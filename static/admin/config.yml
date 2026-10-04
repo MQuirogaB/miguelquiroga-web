@@ -1,0 +1,150 @@
+backend:
+  name: github
+  repo: MQuirogaB/miguelquiroga-web
+  branch: main
+  base_url: https://decap-oauth.miguelquiroga.workers.dev
+
+publish_mode: simple
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+locale: "es"
+
+collections:
+  - name: "laboratorio"
+    label: "Laboratorio"
+    folder: "content/laboratorio"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Icono (emoji)", name: "icon", widget: "string" }
+      - { label: "Foto principal", name: "foto", widget: "image", required: false }
+      - label: "Tipología"
+        name: "tipologia"
+        widget: "select"
+        multiple: true
+        required: false
+        options: ["Investigación", "STEAM", "Maker", "Demostración", "Curiosidad"]
+      - label: "Temática"
+        name: "tematica"
+        widget: "select"
+        multiple: true
+        required: false
+        options:
+          - "Leyes de los gases"
+          - "Cinemática"
+          - "Dinámica"
+          - "Energía"
+          - "Electricidad y magnetismo"
+          - "Ondas"
+          - "Química"
+          - "Óptica"
+      - { label: "Contenido", name: "body", widget: "markdown" }
+
+  - name: "materiales"
+    label: "Materiales"
+    folder: "content/materiales"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Icono (emoji)", name: "icon", widget: "string" }
+      - { label: "Foto principal", name: "foto", widget: "image", required: false }
+      - label: "Curso"
+        name: "curso"
+        widget: "select"
+        multiple: true
+        required: false
+        options: ["1º ESO", "2º ESO", "3º ESO", "4º ESO", "1º Bach", "2º Bach"]
+      - label: "Bloque"
+        name: "bloque"
+        widget: "select"
+        multiple: true
+        required: false
+        options: ["Cinemática", "Dinámica", "Energía", "Electricidad", "Ondas", "Química", "Óptica", "Gravitación"]
+      - label: "Tipo"
+        name: "tipo"
+        widget: "select"
+        multiple: true
+        required: false
+        options: ["Ejercicio", "Curiosidad", "Material audiovisual", "Práctica", "Juego"]
+      - { label: "Contenido", name: "body", widget: "markdown" }
+
+  - name: "astronomia_mitologia"
+    label: "Astronomía — Mitología de constelaciones"
+    folder: "content/astronomia/mitologia-de-las-constelaciones"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Icono (emoji)", name: "icon", widget: "string" }
+      - { label: "Contenido", name: "body", widget: "markdown" }
+
+  - name: "corte_laser_proyectos"
+    label: "Corte Láser — Proyectos didácticos"
+    folder: "content/corte-laser/proyectos-didacticos"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Icono (emoji)", name: "icon", widget: "string" }
+      - { label: "Contenido", name: "body", widget: "markdown" }
+
+  - name: "impresion3d_proyectos"
+    label: "Impresión 3D — Proyectos didácticos"
+    folder: "content/impresion-3d/proyectos-didacticos"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Icono (emoji)", name: "icon", widget: "string" }
+      - { label: "Contenido", name: "body", widget: "markdown" }
+
+  - name: "impresion3d_materiales"
+    label: "Impresión 3D — Materiales para imprimir"
+    folder: "content/impresion-3d/materiales-para-imprimir"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Icono (emoji)", name: "icon", widget: "string" }
+      - { label: "Contenido", name: "body", widget: "markdown" }
+
+  - name: "paginas_sueltas"
+    label: "Páginas sueltas (avanzado, HTML/Markdown mixto)"
+    files:
+      - name: "generadores"
+        label: "Generadores"
+        file: "content/generadores.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Contenido (HTML/Markdown)", name: "body", widget: "markdown" }
+      - name: "articulos"
+        label: "Artículos publicados"
+        file: "content/articulos-publicados.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Contenido (HTML/Markdown)", name: "body", widget: "markdown" }
+      - name: "prensa"
+        label: "Prensa, TV y radio"
+        file: "content/prensa-tv-radio.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Contenido (HTML/Markdown)", name: "body", widget: "markdown" }
+      - name: "colaboraciones"
+        label: "Colaboraciones institucionales"
+        file: "content/colaboraciones-institucionales.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Contenido (HTML/Markdown)", name: "body", widget: "markdown" }
