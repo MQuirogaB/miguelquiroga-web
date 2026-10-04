@@ -84,6 +84,28 @@ collections:
       - { label: "Icono (emoji)", name: "icon", widget: "string" }
       - { label: "Contenido", name: "body", widget: "markdown" }
 
+  - name: "astronomia_paginas"
+    label: "🪐 Astronomía — Otras páginas"
+    files:
+      - name: "familia_black"
+        label: "📄 La Familia Black (Harry Potter)"
+        file: "content/astronomia/familia-black-harry-potter.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Resumen", name: "resumen", widget: "string" }
+          - { label: "Título corto", name: "titulo_corto", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
+      - name: "mizar_alcor"
+        label: "📄 Mizar y Alcor"
+        file: "content/astronomia/mizar-y-alcor.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Resumen", name: "resumen", widget: "string" }
+          - { label: "Título corto", name: "titulo_corto", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
+
   - name: "corte_laser_proyectos"
     label: "✂️ Corte Láser — Proyectos didácticos"
     folder: "content/corte-laser/proyectos-didacticos"
@@ -94,6 +116,58 @@ collections:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Icono (emoji)", name: "icon", widget: "string" }
       - { label: "Contenido", name: "body", widget: "markdown" }
+
+  - name: "corte_laser_paginas"
+    label: "✂️ Corte Láser — Otras páginas"
+    files:
+      - name: "fundamentos"
+        label: "📄 Fundamentos del corte láser"
+        file: "content/corte-laser/fundamentos.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
+      - name: "mr_beam_guia"
+        label: "📄 Mr Beam Dreamcut — Guía de uso"
+        file: "content/corte-laser/mr-beam-dreamcut-guia.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
+      - name: "programas_diseno"
+        label: "📄 Programas de diseño vectorial"
+        file: "content/corte-laser/programas-diseno-vectorial.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
+      - name: "recursos_online"
+        label: "📄 Recursos online y utilidades web"
+        file: "content/corte-laser/recursos-online.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
+      - name: "repositorios_online"
+        label: "📄 Repositorios online (archivos para cortar)"
+        file: "content/corte-laser/repositorios-online.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
+      - name: "repositorios_pngs"
+        label: "📄 Repositorios de PNGs"
+        file: "content/corte-laser/repositorios-pngs.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
 
   - name: "impresion3d_proyectos"
     label: "🖨️ Impresión 3D — Proyectos didácticos"
@@ -116,6 +190,42 @@ collections:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Icono (emoji)", name: "icon", widget: "string" }
       - { label: "Contenido", name: "body", widget: "markdown" }
+
+  - name: "impresion3d_paginas"
+    label: "🖨️ Impresión 3D — Otras páginas"
+    files:
+      - name: "fundamentos"
+        label: "📄 Fundamentos de la impresión 3D"
+        file: "content/impresion-3d/fundamentos.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
+      - name: "creality_k1_guia"
+        label: "📄 Creality K1 — Guía de uso"
+        file: "content/impresion-3d/creality-k1-guia-de-uso.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
+      - name: "recursos_online"
+        label: "📄 Recursos online y utilidades web"
+        file: "content/impresion-3d/recursos-online.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
+      - name: "repositorios_online"
+        label: "📄 Repositorios online (archivos para imprimir)"
+        file: "content/impresion-3d/repositorios-online.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
 
   - name: "paginas_sueltas"
     label: "📄 Páginas fijas del sitio"
