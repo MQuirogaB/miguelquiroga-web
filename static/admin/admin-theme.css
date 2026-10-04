@@ -1,0 +1,96 @@
+/* Retoque de color para que el panel de edición (Decap CMS) combine
+   con la paleta de miguelquiroga.es. Solo colores/acento, sin tocar
+   layout. Usa selectores por fragmento de clase (Decap mantiene el
+   nombre del componente en el className aunque el hash cambie). */
+
+:root {
+  --mq-accent: #9a6bb4;
+  --mq-accent-dark: #7d5695;
+  --mq-accent-soft: #f3ecf8;
+  --mq-accent-soft2: #e9ddf0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Barra superior: pestaña activa (Contenido / Medios) */
+[class*="AppHeaderNavLink"].header-link-active,
+[class*="AppHeaderNavLink"][class*="active"] {
+  color: var(--mq-accent-dark) !important;
+}
+[class*="AppHeaderNavLink"].header-link-active::after {
+  background-color: var(--mq-accent) !important;
+}
+
+/* Barra de progreso/carga superior */
+#nprogress .bar,
+.nprogress-busy #nprogress .bar {
+  background: var(--mq-accent) !important;
+}
+
+/* Barra lateral de colecciones */
+[class*="SidebarNavLink"] {
+  transition: background-color .15s ease, color .15s ease;
+}
+[class*="SidebarNavLink"]:hover {
+  background-color: var(--mq-accent-soft) !important;
+  color: var(--mq-accent-dark) !important;
+}
+[class*="SidebarNavLink"].sidebar-active {
+  background-color: var(--mq-accent-soft) !important;
+  color: var(--mq-accent-dark) !important;
+  box-shadow: inset 3px 0 0 var(--mq-accent);
+}
+
+/* Botón "+ Colección" (crear entrada) */
+[class*="CollectionTopNewButton"] {
+  background-color: var(--mq-accent) !important;
+  border-color: var(--mq-accent) !important;
+  color: #fff !important;
+}
+[class*="CollectionTopNewButton"]:hover {
+  background-color: var(--mq-accent-dark) !important;
+  border-color: var(--mq-accent-dark) !important;
+}
+
+/* Estado "Publicado" / flujo editorial en el editor de entradas */
+[class*="PublishedToolbarButton"],
+[class*="publishedButton"] {
+  background-color: var(--mq-accent-soft) !important;
+  color: var(--mq-accent-dark) !important;
+}
+
+/* Botones de imagen (Elige una imagen / Insert from URL) y enlaces de acción */
+[class*="FileWidgetButton"],
+[class*="RefreshPreviewButton"] {
+  color: var(--mq-accent-dark) !important;
+}
+[class*="FileWidgetButton"]:hover,
+[class*="RefreshPreviewButton"]:hover {
+  color: var(--mq-accent) !important;
+}
+
+/* Enlaces genéricos dentro del panel */
+a {
+  color: var(--mq-accent-dark);
+}
+a:hover {
+  color: var(--mq-accent);
+}
+
+/* Foco en campos de texto y selects */
+input:focus,
+textarea:focus,
+select:focus,
+[class*="Input"]:focus-within,
+[class*="Select"]:focus-within {
+  border-color: var(--mq-accent) !important;
+  box-shadow: 0 0 0 1px var(--mq-accent) !important;
+}
+
+/* Botones de la barra de herramientas del editor (negrita, cursiva, enlace...) activos */
+button[class*="ToolbarButton"][class*="active"],
+button[class*="ToolbarButton"]:hover {
+  color: var(--mq-accent) !important;
+}
