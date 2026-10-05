@@ -1,0 +1,20 @@
+{{- /* Devuelve el tema de cabecera de una pagina ("" si no tiene).
+       Secciones (content/<seccion>/_index.md) se identifican por .Section;
+       paginas sueltas de la raiz (content/generadores.md...) por su nombre de fichero. */ -}}
+{{- $themes := dict
+  "materiales" "materiales"
+  "laboratorio" "laboratorio"
+  "generadores" "generadores"
+  "impresion-3d" "impresion3d"
+  "corte-laser" "corte-laser"
+  "articulos-publicados" "articulos"
+  "prensa-tv-radio" "prensa"
+  "colaboraciones-institucionales" "colaboraciones"
+-}}
+{{- $key := "" -}}
+{{- if and (eq .Kind "section") (eq .Parent.Kind "home") -}}
+  {{- $key = .Section -}}
+{{- else if and (eq .Kind "page") .Parent.IsHome .File -}}
+  {{- $key = .File.BaseFileName -}}
+{{- end -}}
+{{- return (index $themes $key | default "") -}}

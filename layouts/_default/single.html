@@ -1,5 +1,9 @@
 {{ define "main" }}
+{{ $heroTheme := partial "hero-theme.html" . }}
 <article class="article">
+  {{ if $heroTheme }}
+  {{ partial "section-hero.html" (dict "page" . "theme" $heroTheme) }}
+  {{ else }}
   <header class="article-head">
     <div class="cover-strip"></div>
     <div class="page-icon">{{ if .Params.icon_image }}<img src="{{ relURL .Params.icon_image }}" alt="{{ .Title }}">{{ else }}{{ .Params.icon }}{{ end }}</div>
@@ -8,6 +12,7 @@
       {{ partial "tags.html" . }}
     </div>
   </header>
+  {{ end }}
   <div class="content">
     {{ .Content }}
   </div>

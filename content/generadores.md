@@ -1,6 +1,7 @@
 ---
 title: "Generadores"
 icon: "⚙️"
+description: "Generadores interactivos de problemas aleatorios, con solución paso a paso."
 ---
 
 Colección de generadores interactivos de problemas para trabajar en clase. Cada generador crea problemas aleatorios con solución paso a paso.

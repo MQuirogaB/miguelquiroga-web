@@ -1,10 +1,15 @@
 {{ define "main" }}
+{{ $heroTheme := partial "hero-theme.html" . }}
+{{ if $heroTheme }}
+{{ partial "section-hero.html" (dict "page" . "theme" $heroTheme) }}
+{{ else }}
 <section class="section-head">
   <div class="cover-strip"></div>
   <div class="page-icon">{{ .Params.icon }}</div>
   <h1>{{ .Title }}</h1>
   {{ if .Params.description }}<p class="section-desc">{{ .Params.description }}</p>{{ end }}
 </section>
+{{ end }}
 
 {{ $sidebarKey := .Params.sidebar_key }}
 {{ $sidebarGroup := false }}

@@ -1,0 +1,9 @@
+{{- /* Cabecera tematica de seccion. Parametro: dict "page" <pagina> "theme" <tema>. */ -}}
+{{- $p := .page -}}
+<section class="sx-hero" data-theme="{{ .theme }}">
+  <div class="sx-hero-inner">
+    <div class="sx-icon">{{ $p.Params.icon }}</div>
+    <h1>{{ $p.Title }}</h1>
+    {{ with $p.Params.description }}<p class="sx-desc">{{ . }}</p>{{ end }}
+  </div>
+</section>

@@ -237,6 +237,7 @@ collections:
         fields:
           - { label: "Título", name: "title", widget: "string" }
           - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción (se ve bajo el título)", name: "description", widget: "string", required: false }
           - { label: "Contenido (HTML/Markdown)", name: "body", widget: "markdown" }
       - name: "articulos"
         label: "📄 Artículos publicados"
@@ -244,6 +245,7 @@ collections:
         fields:
           - { label: "Título", name: "title", widget: "string" }
           - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción (se ve bajo el título)", name: "description", widget: "string", required: false }
           - { label: "Contenido (HTML/Markdown)", name: "body", widget: "markdown" }
       - name: "prensa"
         label: "📄 Prensa, TV y radio"
@@ -251,6 +253,7 @@ collections:
         fields:
           - { label: "Título", name: "title", widget: "string" }
           - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción (se ve bajo el título)", name: "description", widget: "string", required: false }
           - { label: "Contenido (HTML/Markdown)", name: "body", widget: "markdown" }
       - name: "colaboraciones"
         label: "📄 Colaboraciones institucionales"
@@ -258,4 +261,5 @@ collections:
         fields:
           - { label: "Título", name: "title", widget: "string" }
           - { label: "Icono (emoji)", name: "icon", widget: "string" }
+          - { label: "Descripción (se ve bajo el título)", name: "description", widget: "string", required: false }
           - { label: "Contenido (HTML/Markdown)", name: "body", widget: "markdown" }

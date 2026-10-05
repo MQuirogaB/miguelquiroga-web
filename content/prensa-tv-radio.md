@@ -1,6 +1,7 @@
 ---
 title: "Prensa, tv y radio"
 icon: "🗞️"
+description: "Apariciones en prensa, televisión y radio."
 ---
 
 <div class="clip-grid">

@@ -1,6 +1,7 @@
 ---
 title: "Colaboraciones institucionales"
 icon: "🫂"
+description: "Publicaciones y proyectos con organismos oficiales."
 ---
 
 <div class="collab-grid">

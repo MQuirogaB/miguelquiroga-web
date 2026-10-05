@@ -1,6 +1,7 @@
 ---
 title: "Artículos publicados"
 icon: "🔖"
+description: "Colaboraciones y publicaciones a lo largo de los años."
 ---
 
 <div class="tl">

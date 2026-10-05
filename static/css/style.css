@@ -1276,3 +1276,221 @@ details.star-toggle-sm summary::after { color: var(--teal); }
     font-size: 8px;
     color: var(--accent);
 }
+
+
+/* ---------- Cabeceras tematicas por seccion (.sx-hero) ---------- */
+
+.sx-hero {
+    --hx-bg: #1c2330;
+    --hx-ink: #f5f2ec;
+    --hx-sub: #b8b4c4;
+    --hx-glow: rgba(154,107,180,.35);
+    --hx-ring: rgba(255,255,255,.18);
+    --hx-icon-bg: rgba(255,255,255,.06);
+    --hx-font: var(--font-serif);
+    position: relative;
+    background: var(--hx-bg);
+    border-radius: 14px;
+    padding: 52px 24px 42px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 28px;
+    isolation: isolate;
+}
+.sx-hero::before,
+.sx-hero::after { content: ""; position: absolute; pointer-events: none; z-index: -1; }
+.sx-hero-inner { position: relative; z-index: 1; }
+.sx-icon {
+    width: 68px;
+    height: 68px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    background: var(--hx-icon-bg);
+    border: 1px solid var(--hx-ring);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 0 30px var(--hx-glow);
+}
+.sx-hero h1 {
+    font-family: var(--hx-font);
+    font-size: 34px;
+    color: var(--hx-ink);
+    margin: 0 0 10px;
+    letter-spacing: -.01em;
+}
+.sx-desc {
+    font-family: var(--font-sans);
+    font-size: 14.5px;
+    color: var(--hx-sub);
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+/* Materiales: cuaderno de cuadricula */
+.sx-hero[data-theme="materiales"] {
+    --hx-bg: #f3f7fd;
+    --hx-ink: #1f3a5f;
+    --hx-sub: #4d6584;
+    --hx-glow: rgba(59,111,168,.25);
+    --hx-ring: #b9cde6;
+    --hx-icon-bg: #fff;
+    border: 1px solid #d5e2f2;
+}
+.sx-hero[data-theme="materiales"]::before {
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(59,111,168,.14) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(59,111,168,.14) 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+.sx-hero[data-theme="materiales"]::after {
+    top: 0; bottom: 0; left: 44px; width: 2px;
+    background: rgba(214,80,80,.45);
+}
+
+/* Laboratorio: burbujas en un matraz oscuro */
+.sx-hero[data-theme="laboratorio"] {
+    --hx-bg: radial-gradient(ellipse at 50% 120%, #17665c 0%, #0e3b37 45%, #08201f 100%);
+    --hx-ink: #effaf7;
+    --hx-sub: #9fcfc6;
+    --hx-glow: rgba(90,230,200,.4);
+    --hx-ring: rgba(150,240,220,.35);
+}
+.sx-hero[data-theme="laboratorio"]::before {
+    inset: 0;
+    background-image:
+        radial-gradient(circle at 8% 78%,  transparent 6px,  rgba(140,240,220,.45) 7px,  rgba(140,240,220,.45) 8px,  transparent 9px),
+        radial-gradient(circle at 16% 40%, transparent 3px,  rgba(140,240,220,.4)  4px,  rgba(140,240,220,.4)  5px,  transparent 6px),
+        radial-gradient(circle at 24% 88%, transparent 10px, rgba(140,240,220,.35) 11px, rgba(140,240,220,.35) 12px, transparent 13px),
+        radial-gradient(circle at 78% 70%, transparent 8px,  rgba(140,240,220,.4)  9px,  rgba(140,240,220,.4)  10px, transparent 11px),
+        radial-gradient(circle at 86% 28%, transparent 4px,  rgba(140,240,220,.45) 5px,  rgba(140,240,220,.45) 6px,  transparent 7px),
+        radial-gradient(circle at 92% 82%, transparent 12px, rgba(140,240,220,.3)  13px, rgba(140,240,220,.3)  14px, transparent 15px),
+        radial-gradient(circle at 66% 20%, transparent 3px,  rgba(140,240,220,.35) 4px,  rgba(140,240,220,.35) 5px,  transparent 6px),
+        radial-gradient(circle at 36% 20%, transparent 5px,  rgba(140,240,220,.3)  6px,  rgba(140,240,220,.3)  7px,  transparent 8px);
+    background-repeat: no-repeat;
+}
+
+/* Generadores: rejilla de puntos, estilo panel de control */
+.sx-hero[data-theme="generadores"] {
+    --hx-bg: #1b2230;
+    --hx-ink: #f4f6fb;
+    --hx-sub: #aab4c8;
+    --hx-glow: rgba(255,184,76,.38);
+    --hx-ring: rgba(255,184,76,.5);
+    --hx-font: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+.sx-hero[data-theme="generadores"]::before {
+    inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,.16) 1.2px, transparent 1.4px);
+    background-size: 18px 18px;
+    -webkit-mask-image: radial-gradient(ellipse at 50% 50%, #000 30%, transparent 85%);
+            mask-image: radial-gradient(ellipse at 50% 50%, #000 30%, transparent 85%);
+}
+.sx-hero[data-theme="generadores"]::after {
+    left: 0; right: 0; bottom: 0; height: 3px;
+    background: repeating-linear-gradient(90deg, #ffb84c 0 14px, transparent 14px 22px);
+}
+
+/* Impresion 3D: capas de filamento que van creciendo */
+.sx-hero[data-theme="impresion3d"] {
+    --hx-bg: #1e1b19;
+    --hx-ink: #fff4ea;
+    --hx-sub: #c9b8aa;
+    --hx-glow: rgba(255,132,40,.45);
+    --hx-ring: rgba(255,150,70,.5);
+}
+.sx-hero[data-theme="impresion3d"]::before {
+    inset: 0;
+    background:
+        repeating-linear-gradient(0deg, rgba(255,132,40,.28) 0 2px, transparent 2px 7px);
+    -webkit-mask-image: linear-gradient(0deg, #000 0%, rgba(0,0,0,.55) 35%, transparent 75%);
+            mask-image: linear-gradient(0deg, #000 0%, rgba(0,0,0,.55) 35%, transparent 75%);
+}
+.sx-hero[data-theme="impresion3d"]::after {
+    left: 0; right: 0; bottom: 0; height: 40%;
+    background: radial-gradient(ellipse at 50% 120%, rgba(255,132,40,.35), transparent 70%);
+}
+
+/* Corte laser: haz rojo sobre un trazado de corte */
+.sx-hero[data-theme="corte-laser"] {
+    --hx-bg: radial-gradient(ellipse at 50% 0%, #2a1020 0%, #150910 60%, #0d060b 100%);
+    --hx-ink: #fff1f3;
+    --hx-sub: #cfaab3;
+    --hx-glow: rgba(255,59,92,.5);
+    --hx-ring: rgba(255,90,115,.55);
+}
+.sx-hero[data-theme="corte-laser"]::before {
+    inset: 14px;
+    border: 1.5px dashed rgba(255,255,255,.2);
+    border-radius: 10px;
+}
+.sx-hero[data-theme="corte-laser"]::after {
+    left: 0; right: 0; top: 74%; height: 2px;
+    background: linear-gradient(90deg, transparent, #ff3b5c 25%, #ff9aa9 50%, #ff3b5c 75%, transparent);
+    box-shadow: 0 0 14px 3px rgba(255,59,92,.55);
+}
+
+/* Articulos publicados: cabecera de periodico */
+.sx-hero[data-theme="articulos"] {
+    --hx-bg: #f7f3ea;
+    --hx-ink: #2b2623;
+    --hx-sub: #6d625a;
+    --hx-glow: rgba(139,46,60,.18);
+    --hx-ring: #8b2e3c;
+    --hx-icon-bg: #fff;
+    border-top: 4px double #8b2e3c;
+    border-bottom: 4px double #8b2e3c;
+    border-radius: 4px;
+}
+.sx-hero[data-theme="articulos"]::before {
+    inset: 0;
+    background: repeating-linear-gradient(90deg, transparent 0 calc(33.333% - 1px), rgba(43,38,35,.1) calc(33.333% - 1px) 33.333%);
+}
+.sx-hero[data-theme="articulos"] h1 { font-style: italic; }
+
+/* Prensa, TV y radio: trama de semitono */
+.sx-hero[data-theme="prensa"] {
+    --hx-bg: #ecebe7;
+    --hx-ink: #151515;
+    --hx-sub: #55524d;
+    --hx-glow: rgba(0,0,0,.12);
+    --hx-ring: #151515;
+    --hx-icon-bg: #fff;
+    border-bottom: 5px solid #d9382c;
+}
+.sx-hero[data-theme="prensa"]::before {
+    inset: 0;
+    background-image: radial-gradient(circle, rgba(0,0,0,.28) 1.4px, transparent 1.8px);
+    background-size: 8px 8px;
+    -webkit-mask-image: linear-gradient(100deg, transparent 20%, #000 100%);
+            mask-image: linear-gradient(100deg, transparent 20%, #000 100%);
+}
+.sx-hero[data-theme="prensa"] h1 { text-transform: uppercase; letter-spacing: .02em; font-size: 30px; }
+
+/* Colaboraciones: aros que se enlazan */
+.sx-hero[data-theme="colaboraciones"] {
+    --hx-bg: linear-gradient(120deg, #3a2a66 0%, #2a3f7a 100%);
+    --hx-ink: #f6f3ff;
+    --hx-sub: #c4c2e6;
+    --hx-glow: rgba(160,140,255,.45);
+    --hx-ring: rgba(200,190,255,.4);
+}
+.sx-hero[data-theme="colaboraciones"]::before {
+    inset: 0;
+    background-image:
+        radial-gradient(circle at 7% 50%, transparent 62px, rgba(255,255,255,.22) 63px, rgba(255,255,255,.22) 65px, transparent 66px),
+        radial-gradient(circle at 16% 50%, transparent 62px, rgba(255,255,255,.22) 63px, rgba(255,255,255,.22) 65px, transparent 66px),
+        radial-gradient(circle at 84% 50%, transparent 62px, rgba(255,255,255,.22) 63px, rgba(255,255,255,.22) 65px, transparent 66px),
+        radial-gradient(circle at 93% 50%, transparent 62px, rgba(255,255,255,.22) 63px, rgba(255,255,255,.22) 65px, transparent 66px);
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 560px) {
+    .sx-hero { padding: 40px 18px 32px; }
+    .sx-hero h1 { font-size: 27px; }
+    .sx-hero[data-theme="prensa"] h1 { font-size: 24px; }
+    .sx-hero[data-theme="materiales"]::after { left: 22px; }
+    .sx-hero[data-theme="colaboraciones"]::before { opacity: .55; }
+}
