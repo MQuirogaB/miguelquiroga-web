@@ -1329,26 +1329,9 @@ details.star-toggle-sm summary::after { color: var(--teal); }
 }
 
 /* Materiales: cuaderno de cuadricula */
-.sx-hero[data-theme="materiales"] {
-    --hx-bg: #f3f7fd;
-    --hx-ink: #1f3a5f;
-    --hx-sub: #4d6584;
-    --hx-glow: rgba(59,111,168,.25);
-    --hx-ring: #b9cde6;
-    --hx-icon-bg: #fff;
-    border: 1px solid #d5e2f2;
-}
-.sx-hero[data-theme="materiales"]::before {
-    inset: 0;
-    background-image:
-        linear-gradient(rgba(59,111,168,.14) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(59,111,168,.14) 1px, transparent 1px);
-    background-size: 24px 24px;
-}
-.sx-hero[data-theme="materiales"]::after {
-    top: 0; bottom: 0; left: 44px; width: 2px;
-    background: rgba(214,80,80,.45);
-}
+.sx-hero[data-theme="materiales"] { --hx-bg: #25382f; --hx-ink: #f4f1e6; --hx-sub: #b9c8bd; --hx-glow: rgba(255,255,255,.12); --hx-ring: rgba(255,255,255,.35); --hx-font: "Segoe Print","Bradley Hand","Comic Sans MS",cursive; border: 6px solid #8b6a47; border-radius: 10px; }
+.sx-hero[data-theme="materiales"]::before { inset: 0; background: radial-gradient(ellipse at 20% 30%, rgba(255,255,255,.07), transparent 55%), radial-gradient(ellipse at 80% 70%, rgba(255,255,255,.05), transparent 50%); }
+.sx-hero[data-theme="materiales"]::after { left: 32%; right: 32%; bottom: 22px; height: 3px; border-radius: 3px; background: rgba(255,255,255,.55); transform: rotate(-1deg); }
 
 /* Laboratorio: burbujas en un matraz oscuro */
 .sx-hero[data-theme="laboratorio"] {
@@ -1373,82 +1356,29 @@ details.star-toggle-sm summary::after { color: var(--teal); }
 }
 
 /* Generadores: rejilla de puntos, estilo panel de control */
-.sx-hero[data-theme="generadores"] {
-    --hx-bg: #1b2230;
-    --hx-ink: #f4f6fb;
-    --hx-sub: #aab4c8;
-    --hx-glow: rgba(255,184,76,.38);
-    --hx-ring: rgba(255,184,76,.5);
-    --hx-font: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-}
-.sx-hero[data-theme="generadores"]::before {
-    inset: 0;
-    background-image: radial-gradient(rgba(255,255,255,.16) 1.2px, transparent 1.4px);
-    background-size: 18px 18px;
-    -webkit-mask-image: radial-gradient(ellipse at 50% 50%, #000 30%, transparent 85%);
-            mask-image: radial-gradient(ellipse at 50% 50%, #000 30%, transparent 85%);
-}
-.sx-hero[data-theme="generadores"]::after {
-    left: 0; right: 0; bottom: 0; height: 3px;
-    background: repeating-linear-gradient(90deg, #ffb84c 0 14px, transparent 14px 22px);
-}
+.sx-hero[data-theme="generadores"] { --hx-bg: #07110b; --hx-ink: #d9ffe4; --hx-sub: #78c995; --hx-glow: rgba(60,255,120,.35); --hx-ring: rgba(80,255,130,.55); --hx-font: ui-monospace,"SF Mono",Menlo,Consolas,monospace; text-align: left; }
+.sx-hero[data-theme="generadores"] .sx-icon { margin-left: 0; }
+.sx-hero[data-theme="generadores"] .sx-desc { margin-left: 0; }
+.sx-hero[data-theme="generadores"] h1::before { content: "> "; color: #3dff7a; }
+.sx-hero[data-theme="generadores"] h1::after { content: "▍"; color: #3dff7a; margin-left: 4px; }
+.sx-hero[data-theme="generadores"]::before { right: 18px; top: 18px; content: "v = d / t\A a = Δv / Δt\A F = m · a\A E = ½ m v²"; white-space: pre; font: 12px/1.7 ui-monospace,Menlo,Consolas,monospace; color: rgba(80,255,130,.32); text-align: right; }
 
 /* Impresion 3D: capas de filamento que van creciendo */
-.sx-hero[data-theme="impresion3d"] {
-    --hx-bg: #1e1b19;
-    --hx-ink: #fff4ea;
-    --hx-sub: #c9b8aa;
-    --hx-glow: rgba(255,132,40,.45);
-    --hx-ring: rgba(255,150,70,.5);
-}
-.sx-hero[data-theme="impresion3d"]::before {
-    inset: 0;
-    background:
-        repeating-linear-gradient(0deg, rgba(255,132,40,.28) 0 2px, transparent 2px 7px);
-    -webkit-mask-image: linear-gradient(0deg, #000 0%, rgba(0,0,0,.55) 35%, transparent 75%);
-            mask-image: linear-gradient(0deg, #000 0%, rgba(0,0,0,.55) 35%, transparent 75%);
-}
-.sx-hero[data-theme="impresion3d"]::after {
-    left: 0; right: 0; bottom: 0; height: 40%;
-    background: radial-gradient(ellipse at 50% 120%, rgba(255,132,40,.35), transparent 70%);
-}
+.sx-hero[data-theme="impresion3d"] { --hx-bg: #eef3f8; --hx-ink: #12304f; --hx-sub: #4f6882; --hx-glow: rgba(30,110,200,.25); --hx-ring: #9fb9d6; --hx-icon-bg: #fff; border: 1px solid #d3e0ee; }
+.sx-hero[data-theme="impresion3d"]::before { inset: 0; background-image: repeating-linear-gradient(30deg, rgba(30,110,200,.2) 0 1px, transparent 1px 26px), repeating-linear-gradient(150deg, rgba(30,110,200,.2) 0 1px, transparent 1px 26px), repeating-linear-gradient(90deg, rgba(30,110,200,.2) 0 1px, transparent 1px 30px); }
 
 /* Corte laser: haz rojo sobre un trazado de corte */
-.sx-hero[data-theme="corte-laser"] {
-    --hx-bg: radial-gradient(ellipse at 50% 0%, #2a1020 0%, #150910 60%, #0d060b 100%);
-    --hx-ink: #fff1f3;
-    --hx-sub: #cfaab3;
-    --hx-glow: rgba(255,59,92,.5);
-    --hx-ring: rgba(255,90,115,.55);
-}
-.sx-hero[data-theme="corte-laser"]::before {
-    inset: 14px;
-    border: 1.5px dashed rgba(255,255,255,.2);
-    border-radius: 10px;
-}
-.sx-hero[data-theme="corte-laser"]::after {
-    left: 0; right: 0; top: 74%; height: 2px;
-    background: linear-gradient(90deg, transparent, #ff3b5c 25%, #ff9aa9 50%, #ff3b5c 75%, transparent);
-    box-shadow: 0 0 14px 3px rgba(255,59,92,.55);
-}
+.sx-hero[data-theme="corte-laser"] { --hx-bg: linear-gradient(135deg, #d7b183, #c39764); --hx-ink: #3a2412; --hx-sub: #5f4326; --hx-glow: rgba(60,30,10,.25); --hx-ring: #6b4a2a; --hx-icon-bg: rgba(255,255,255,.35); border: 1px solid #a98152; }
+.sx-hero[data-theme="corte-laser"]::before { inset: 0; background: repeating-linear-gradient(8deg, rgba(120,80,40,.10) 0 2px, transparent 2px 9px), repeating-linear-gradient(-4deg, rgba(255,255,255,.07) 0 1px, transparent 1px 13px); }
+.sx-hero[data-theme="corte-laser"]::after { inset: 14px; border: 2px solid rgba(60,30,10,.55); border-radius: 12px; box-shadow: inset 0 0 8px rgba(60,30,10,.25); }
+.sx-hero[data-theme="corte-laser"] h1 { text-shadow: 0 1px 0 rgba(255,255,255,.25); }
 
 /* Articulos publicados: cabecera de periodico */
-.sx-hero[data-theme="articulos"] {
-    --hx-bg: #f7f3ea;
-    --hx-ink: #2b2623;
-    --hx-sub: #6d625a;
-    --hx-glow: rgba(139,46,60,.18);
-    --hx-ring: #8b2e3c;
-    --hx-icon-bg: #fff;
-    border-top: 4px double #8b2e3c;
-    border-bottom: 4px double #8b2e3c;
-    border-radius: 4px;
-}
-.sx-hero[data-theme="articulos"]::before {
-    inset: 0;
-    background: repeating-linear-gradient(90deg, transparent 0 calc(33.333% - 1px), rgba(43,38,35,.1) calc(33.333% - 1px) 33.333%);
-}
-.sx-hero[data-theme="articulos"] h1 { font-style: italic; }
+.sx-hero[data-theme="articulos"] { --hx-bg: #ffffff; --hx-ink: #14305a; --hx-sub: #5b6b84; --hx-glow: rgba(20,48,90,.15); --hx-ring: #14305a; --hx-icon-bg: #f1f5fb; text-align: left; border: 1px solid #dfe5ef; border-left: 10px solid #14305a; border-radius: 6px; }
+.sx-hero[data-theme="articulos"] .sx-icon { margin-left: 0; }
+.sx-hero[data-theme="articulos"] .sx-desc { margin-left: 0; }
+.sx-hero[data-theme="articulos"]::before { right: 20px; top: 16px; content: "REVISTA · VOL. 12 · Nº 3\A ISSN 0000-0000"; white-space: pre; text-align: right; font: 10.5px/1.6 ui-monospace,Menlo,Consolas,monospace; color: #8b97ab; }
+.sx-hero[data-theme="articulos"]::after { left: 22px; right: 22px; bottom: 14px; height: 1px; background: #cdd6e4; }
 
 /* Prensa, TV y radio: trama de semitono */
 .sx-hero[data-theme="prensa"] {
@@ -1491,6 +1421,5 @@ details.star-toggle-sm summary::after { color: var(--teal); }
     .sx-hero { padding: 40px 18px 32px; }
     .sx-hero h1 { font-size: 27px; }
     .sx-hero[data-theme="prensa"] h1 { font-size: 24px; }
-    .sx-hero[data-theme="materiales"]::after { left: 22px; }
     .sx-hero[data-theme="colaboraciones"]::before { opacity: .55; }
 }
