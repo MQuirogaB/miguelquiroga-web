@@ -23,6 +23,7 @@
     <nav class="breadcrumb">
       <span class="sep">›</span><a href="{{ .Site.Home.RelPermalink }}">Inicio</a>
       {{ with .Parent }}{{ if not .IsHome }}
+      {{ with .Parent }}{{ if not .IsHome }}<span class="sep">›</span><a href="{{ .RelPermalink }}">{{ with .Params.icon }}{{ . }} {{ end }}{{ .Title }}</a>{{ end }}{{ end }}
       <span class="sep">›</span><a href="{{ .RelPermalink }}">{{ with .Params.icon }}{{ . }} {{ end }}{{ .Title }}</a>
       {{ end }}{{ end }}
       <span class="sep">›</span><span class="current">{{ with .Params.icon }}{{ . }} {{ end }}{{ .Title }}</span>
