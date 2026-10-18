@@ -106,24 +106,6 @@ categorias:
     etiquetas:
     - Cuttle
     imagen: images/recursos/connected-text.jpg
-  - id: name-tags
-    titulo: Name Tags
-    url: https://cuttle.xyz/@cuttle/Name-Tags-2NrhKugVpmaW
-    icono: 🏷️
-    desc: Tarjetas con nombre grabable, autoescaladas
-    larga: Tarjetas con nombre para grabar, con el texto autoescalado al tamaño de la tarjeta. Pensadas para producir muchas seguidas, por ejemplo para una clase.
-    etiquetas:
-    - Cuttle
-    imagen: images/recursos/name-tags.jpg
-  - id: keychain-generator
-    titulo: Keychain Generator
-    url: https://cuttle.xyz/@cuttle/Keychain-Generator-j0lMJaBnDHn0
-    icono: 🔑
-    desc: Llavero personalizado con tu propio texto
-    larga: Genera un llavero con el texto que escribas, con agujero para la anilla. Se descarga listo para cortar.
-    etiquetas:
-    - Cuttle
-    imagen: images/recursos/keychain-generator.jpg
   - id: emoji-keychain
     titulo: Emoji Keychain
     url: https://cuttle.xyz/@cuttle/Emoji-Keychain-WT5e0Hmgekwu
@@ -133,15 +115,6 @@ categorias:
     etiquetas:
     - Cuttle
     imagen: images/recursos/emoji-keychain.jpg
-  - id: garden-markers
-    titulo: Garden Markers
-    url: https://cuttle.xyz/@cuttle/Garden-Markers-TOlMPZvMlpQw
-    icono: 🌱
-    desc: Estacas de jardín grabadas con tu propio texto
-    larga: Plantilla de Cuttle para marcadores de jardín con estaca, que graba el texto que escribas. Si quieres más formas de cabeza y emoji, mira también mis Marcadores de plantas.
-    etiquetas:
-    - Cuttle
-    imagen: images/recursos/garden-markers.jpg
   - id: cartel-laser
     titulo: Cartel láser
     url: https://mquirogab.github.io/cartel_laser/
