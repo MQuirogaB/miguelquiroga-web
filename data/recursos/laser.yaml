@@ -106,15 +106,15 @@ categorias:
     etiquetas:
     - Cuttle
     imagen: images/recursos/connected-text.jpg
-  - id: emoji-keychain
-    titulo: Emoji Keychain
-    url: https://cuttle.xyz/@cuttle/Emoji-Keychain-WT5e0Hmgekwu
-    icono: 😀
-    desc: Llavero con el emoji que elijas
-    larga: Genera un llavero con el emoji que elijas, listo para cortar y grabar.
+  - id: llavero-emoji
+    titulo: Llavero de emoji
+    url: https://mquirogab.github.io/llavero_emoji/
+    icono: 🐢
+    desc: Llavero con el emoji que elijas grabado y borde de corte en rojo, con anilla opcional, en SVG para láser
+    larga: 'Elige un emoji y descarga un SVG listo para el láser: el emoji se graba en negro y alrededor lleva un borde de corte en rojo que lo sigue, con un margen que tú ajustas. Puedes añadir una anilla para colgarlo como llavero (seis posiciones, con tamaño de agujero y grosor de madera) y cambiar los colores. Todo ocurre en el navegador.'
     etiquetas:
-    - Cuttle
-    imagen: images/recursos/emoji-keychain.jpg
+    - Hecho por mí
+    imagen: images/recursos/llavero-emoji.jpg
   - id: cartel-laser
     titulo: Cartel láser
     url: https://mquirogab.github.io/cartel_laser/
