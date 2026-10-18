@@ -180,12 +180,6 @@ categorias:
     desc: Generador de laberintos para corte láser
     larga: Generador de laberintos para cortar con láser. Eliges el tamaño y el tipo de laberinto y descargas el diseño listo para cortar.
     imagen: images/recursos/lasercutmazes.jpg
-  - id: jigsaw-puzzle
-    titulo: Jigsaw puzzle
-    url: https://gists.rawgit.com/Draradech/35d36347312ca6d0887aa7d55f366e30/raw/b04cf9cd63a59571910cb226226ce2b3ed46af46/jigsaw.html
-    icono: 🧩
-    desc: Generador de puzles listos para cortar
-    larga: 'Generador de puzles listos para cortar: ajustas el número de piezas, el tamaño y la forma de los encajes, y descargas el diseño en SVG.'
   - id: walking-man-automaton
     titulo: Walking Man Automaton
     url: https://cuttle.xyz/@cuttle/Walking-Man-Automaton-7ztueWP9CkLU
