@@ -1,0 +1,14 @@
+{{- /* Una ficha por recurso, generada a partir de data/recursos/laser.yaml */ -}}
+{{- $clave := "laser" -}}
+{{- range $c := (index site.Data.recursos $clave).categorias -}}
+  {{- range $c.items -}}
+    {{- $p := dict
+      "path" .id
+      "title" .titulo
+      "kind" "page"
+      "type" "recursos"
+      "params" (dict "icon" .icono "enlace" .url "resumen" .desc "larga" .larga "etiquetas" (.etiquetas | default slice) "imagen" (.imagen | default "") "categoria" $c.titulo "categoria_id" $c.id "datos" $clave)
+    -}}
+    {{- $.AddPage $p -}}
+  {{- end -}}
+{{- end -}}

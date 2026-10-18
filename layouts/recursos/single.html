@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ $d := index site.Data.recursos .Params.datos }}
+{{ $cid := .Params.categoria_id }}
+{{ $tone := 0 }}{{ $cat := dict }}
+{{ range $i, $c := $d.categorias }}{{ if eq $c.id $cid }}{{ $tone = mod $i 5 }}{{ $cat = $c }}{{ end }}{{ end }}
+{{ $slug := path.Base (strings.TrimSuffix "/" .RelPermalink) }}
+{{ $host := replace (replace (index (split (replace (replace .Params.enlace "https://" "") "http://" "") "/") 0) "www." "") "#" "" }}
+<article class="rx-ficha tone-{{ $tone }}">
+  <a class="rx-back" href="{{ .Parent.RelPermalink }}">← Recursos online</a>
+  <header class="rx-fhead">
+    <span class="rx-fcat">{{ $cat.icono }} {{ .Params.categoria }}</span>
+    <h1>{{ .Title }}</h1>
+    <p class="rx-fres">{{ .Params.resumen }}</p>
+  </header>
+
+  <div class="rx-preview">
+    {{ with .Params.imagen }}<img src="{{ relURL . }}" alt="Vista previa de {{ $.Title }}">{{ else }}<span class="rx-big" aria-hidden="true">{{ .Params.icon }}</span>{{ end }}
+  </div>
+
+  <div class="rx-fbody">
+    <p>{{ .Params.larga }}</p>
+    {{ with .Params.etiquetas }}<div class="rx-tags">{{ range . }}<span class="rx-tag{{ if eq . "Hecho por mí" }} own{{ end }}">{{ . }}</span>{{ end }}</div>{{ end }}
+    <div class="rx-actions">
+      <a class="rx-visit" href="{{ .Params.enlace }}" target="_blank" rel="noopener">Ir a la web ↗</a>
+    </div>
+    <p class="rx-host">{{ $host }}</p>
+  </div>
+
+</article>
+{{ end }}

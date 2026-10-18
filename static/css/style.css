@@ -1423,3 +1423,53 @@ details.star-toggle-sm summary::after { color: var(--teal); }
     .sx-hero[data-theme="prensa"] h1 { font-size: 24px; }
     .sx-hero[data-theme="colaboraciones"]::before { opacity: .55; }
 }
+/* ---------- directorio de recursos online (tarjetas, filtros y ficha) ---------- */
+.rx, .rx-ficha { font-family: var(--font-sans); --tc: var(--accent); --ts: var(--accent-soft); }
+.tone-1 { --tc: var(--teal);  --ts: var(--teal-soft); }
+.tone-2 { --tc: var(--blue);  --ts: var(--blue-soft); }
+.tone-3 { --tc: var(--amber); --ts: var(--amber-soft); }
+.tone-4 { --tc: var(--rose);  --ts: var(--rose-soft); }
+.tone-0 { --tc: var(--accent); --ts: var(--accent-soft); }
+.rx-big { font-size: 56px; line-height: 1; filter: drop-shadow(0 4px 8px rgba(0,0,0,.12)); }
+.rx-body { padding: 13px 15px 15px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.rx-body h3 { margin: 0; font-size: 15px; line-height: 1.3; font-family: var(--font-sans); }
+.rx-body p { margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--ink-light); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.rx-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: auto; padding-top: 4px; }
+.rx-tag { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--card-bg); border: 1px solid var(--border); color: var(--ink-light); }
+.rx-tag.own { background: var(--accent-soft); border-color: var(--accent-soft2); color: var(--accent-dark); }
+.rx-star { position: absolute; top: 8px; right: 8px; width: 34px; height: 34px; border-radius: 50%; border: 0; background: rgba(255,255,255,.92); box-shadow: 0 1px 4px rgba(0,0,0,.18); font-size: 18px; line-height: 1; color: var(--ink-light); cursor: pointer; }
+.rx-star:hover, .rx-star[aria-pressed="true"] { color: #d9a000; }
+.rx-empty { text-align: center; color: var(--ink-light); padding: 30px 0; }
+
+/* ficha */
+.rx-ficha { max-width: 860px; margin: 28px auto 50px; }
+.rx-back { font-size: 13px; font-weight: 600; color: var(--ink-light); text-decoration: none; }
+.rx-back:hover { color: var(--tc); }
+.rx-fhead { margin: 14px 0 18px; }
+.rx-fcat { display: inline-block; font-size: 12.5px; font-weight: 700; color: var(--tc); background: var(--ts); border-radius: 999px; padding: 3px 12px; }
+.rx-fhead h1 { margin: 10px 0 6px; font-family: var(--font-serif); font-size: 32px; line-height: 1.2; }
+.rx-fres { margin: 0; color: var(--ink-light); font-size: 15.5px; }
+.rx-preview { border: 1px solid var(--border); border-radius: 16px; overflow: hidden; background: linear-gradient(135deg, var(--ts), #fff 130%); display: flex; align-items: center; justify-content: center; min-height: 220px; box-shadow: 0 8px 28px rgba(55,53,47,.08); }
+.rx-preview img { width: 100%; display: block; }
+.rx-preview .rx-big { font-size: 96px; }
+.rx-fbody { margin: 22px 0 10px; font-size: 15.5px; line-height: 1.7; }
+.rx-fbody p { margin: 0 0 14px; }
+.rx-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 18px; }
+.rx-visit { background: var(--tc); color: #fff; text-decoration: none; font-weight: 700; font-size: 14.5px; padding: 12px 22px; border-radius: 12px; }
+.rx-visit:hover { filter: brightness(.92); }
+.rx-host { font-size: 12px; color: var(--ink-light); margin: 10px 0 0; }
+.rx-fhead h1 { text-align: left; }
+@media (max-width: 560px) { .rx-preview .rx-big { font-size: 64px; } .rx-fhead h1 { font-size: 26px; } }
+
+/* tarjeta del acordeón con botón "Ir a la web" */
+.mini-card.has-go { position: relative; padding: 0; gap: 0; overflow: hidden; }
+.mini-card.has-go:hover { transform: translateY(-1px); }
+.mini-card .mc-main { display: flex; flex-direction: column; gap: 6px; padding: 13px 14px 8px; color: inherit; text-decoration: none; flex: 1; }
+.mini-card .mc-main::after { content: ""; position: absolute; inset: 0 0 42px 0; }
+.mini-card .mc-go {
+  position: relative; z-index: 1; margin: 0 14px 12px; align-self: flex-start;
+  font-family: var(--font-sans); font-size: 11.5px; font-weight: 700; text-decoration: none;
+  color: var(--accent-dark); background: var(--accent-soft); border: 1px solid var(--accent-soft2);
+  padding: 4px 10px; border-radius: 999px;
+}
+.mini-card .mc-go:hover { background: var(--accent); color: #fff; }
