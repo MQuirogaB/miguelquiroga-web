@@ -108,7 +108,7 @@ categorias:
     imagen: images/recursos/connected-text.jpg
   - id: llavero-emoji
     titulo: Llavero de emoji
-    url: https://mquirogab.github.io/llavero_emoji/
+    url: https://miguelquiroga.es/llavero_emoji/
     icono: 🐢
     desc: Llavero con el emoji que elijas grabado y borde de corte en rojo, con anilla opcional, en SVG para láser
     larga: 'Elige un emoji y descarga un SVG listo para el láser: el emoji se graba en negro y alrededor lleva un borde de corte en rojo que lo sigue, con un margen que tú ajustas. Puedes añadir una anilla para colgarlo como llavero (seis posiciones, con tamaño de agujero y grosor de madera) y cambiar los colores. Todo ocurre en el navegador.'
@@ -117,7 +117,7 @@ categorias:
     imagen: images/recursos/llavero-emoji.jpg
   - id: cartel-laser
     titulo: Cartel láser
-    url: https://mquirogab.github.io/cartel_laser/
+    url: https://miguelquiroga.es/cartel_laser/
     icono: 🏷️
     desc: Carteles con texto en varias tipografías, emoji opcional y agujeros, en SVG con el corte en rojo
     larga: Escribe un texto, elige tipografía, añade un emoji opcional (arriba, abajo, izquierda o derecha) y agujeros de sujeción a un lado o a los dos. Descargas un SVG listo para el láser, con el borde de corte en rojo y el grabado en negro, y el texto ya convertido a trazados.
@@ -126,7 +126,7 @@ categorias:
     imagen: images/recursos/cartel-laser.jpg
   - id: carteles-con-pictogramas
     titulo: Carteles con pictogramas
-    url: https://mquirogab.github.io/carteles_pictos/
+    url: https://miguelquiroga.es/carteles_pictos/
     icono: 🖼️
     desc: Pictograma ARASAAC y texto opcional en una placa para cortar, también en lote (ZIP)
     larga: Busca un pictograma de ARASAAC, añade texto opcional y descarga una placa en SVG para cortar y grabar con láser. Permite hacer lotes de carteles y bajarlos en un ZIP. Pensado para carteles accesibles en el aula.
@@ -135,7 +135,7 @@ categorias:
     imagen: images/recursos/carteles-con-pictogramas.jpg
   - id: marcadores-de-plantas
     titulo: Marcadores de plantas
-    url: https://mquirogab.github.io/mardacor_plantas/
+    url: https://miguelquiroga.es/mardacor_plantas/
     icono: 🌱
     desc: Marcadores con estaca en 8 formas, con texto y emoji, en SVG para láser
     larga: Ocho formas de marcador con estaca (cápsula, rectángulo, óvalo, trapecios, unión curva…), con texto en varias tipografías, emoji opcional y agujeros. Descargas un SVG para láser con el corte en rojo.
@@ -148,7 +148,7 @@ categorias:
   items:
   - id: generador-de-puzles
     titulo: Generador de puzles
-    url: https://mquirogab.github.io/puzzle_svg/
+    url: https://miguelquiroga.es/puzzle_svg/
     icono: 🧩
     desc: 'Puzles para cortar con láser: elige tamaño, número y tipo de pieza, con marco y base opcionales, en un SVG de un solo color'
     larga: Elige el tamaño, el número de piezas y el tipo de pieza (clásica con lengüetas, recta, ondulada, hexagonal o triangular) y descarga un SVG listo para cortar. Todo va de un solo color y cada línea de corte aparece una sola vez, así que el láser no pasa dos veces por el mismo sitio. Puedes añadir un marco alrededor del puzle y una base para pegarlo. Todo ocurre en el navegador.

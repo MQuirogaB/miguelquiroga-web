@@ -69,7 +69,7 @@ categorias:
     imagen: images/recursos/tinkercad.jpg
   - id: piramide-de-emojis
     titulo: Pirámide de emojis
-    url: https://mquirogab.github.io/piramide_emojis/
+    url: https://miguelquiroga.es/piramide_emojis/
     icono: 🔺
     desc: Genera una pirámide truncada en 3D con un emoji grabado en cada cara, lista para imprimir
     larga: Genera una pirámide truncada en 3D con un emoji grabado en cada cara, lista para imprimir.
@@ -109,7 +109,7 @@ categorias:
     imagen: images/recursos/itslitho.jpg
   - id: carteles-en-braille
     titulo: Carteles en braille
-    url: https://mquirogab.github.io/cartel_braille/
+    url: https://miguelquiroga.es/cartel_braille/
     icono: 🔤
     desc: Convierte un texto en un cartel en braille listo para imprimir en 3D
     larga: Convierte un texto en un cartel con braille, listo para imprimir en 3D.
