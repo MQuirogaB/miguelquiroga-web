@@ -1,0 +1,105 @@
+categorias:
+- id: mapas-y-relieve
+  icono: 🗺️
+  titulo: Mapas y relieve
+  items:
+  - id: map2stl
+    titulo: Map2STL
+    url: https://map2stl.com/
+    icono: 🗺️
+    desc: Modelos en relieve de cualquier lugar del mundo, ideal para mapas en 3D
+    larga: Elige un lugar del mundo y descarga un modelo en relieve para imprimir en 3D. Ideal para mapas táctiles y para trabajar el relieve en Geografía.
+  - id: reliefsculpture
+    titulo: ReliefSculpture
+    url: https://makerworld.com/en/makerlab/reliefSculptureMakerV2
+    icono: 🗻
+    desc: Sube una foto y conviértela en una escultura en relieve
+    larga: Herramienta de MakerLab (MakerWorld) que convierte una foto en una escultura en relieve lista para imprimir.
+  - id: terraprinter
+    titulo: TerraPrinter
+    url: https://terraprinter.com/es/
+    icono: 🏔️
+    desc: Terreno, edificios, carreteras y agua de cualquier lugar (también Marte y la Luna), listo para imprimir en STL/3MF
+    larga: Terreno, edificios, carreteras y agua de cualquier lugar, e incluso de Marte y la Luna, listos para imprimir en STL o 3MF.
+  - id: mini-skyline
+    titulo: Mini Skyline
+    url: https://miniskyline.com/es
+    icono: 🏙️
+    desc: Ciudades y terrenos reales en 3D, con editor y exportación a 3MF multicolor
+    larga: Ciudades y terrenos reales en 3D, con editor y exportación a 3MF multicolor.
+- id: diseno-3d-con-ia
+  icono: 🤖
+  titulo: Diseño 3D con IA
+  items:
+  - id: tripo3d
+    titulo: Tripo3D
+    url: https://www.tripo3d.ai/
+    icono: 🤖
+    desc: Generador de archivos 3D con inteligencia artificial
+    larga: 'Generador de modelos 3D con inteligencia artificial: partiendo de un texto o de una imagen crea un modelo que puedes descargar y preparar para imprimir. Revisa siempre el resultado antes de laminar.'
+  - id: meshy
+    titulo: Meshy
+    url: https://www.meshy.ai/
+    icono: 🤖
+    desc: Generador de archivos 3D con inteligencia artificial
+    larga: Generador de modelos 3D con inteligencia artificial, a partir de texto o de imágenes. Revisa y repara el modelo antes de imprimirlo.
+- id: diseno-y-modelado-facil
+  icono: ✏️
+  titulo: Diseño y modelado fácil
+  items:
+  - id: doodle3d
+    titulo: Doodle3D
+    url: https://doodle3d.com/
+    icono: ✏️
+    desc: Hacer diseños en 3D con los más peques
+    larga: Herramienta de dibujo para crear diseños en 3D de forma muy sencilla, pensada para trabajar con los más pequeños.
+  - id: tinkercad
+    titulo: Tinkercad
+    url: https://www.tinkercad.com/
+    icono: ✏️
+    desc: Diseño 3D de un modo sencillo, ideal para iniciarse
+    larga: Modelado 3D en el navegador, con bloques y formas básicas. Es la mejor puerta de entrada para empezar a diseñar piezas imprimibles.
+  - id: piramide-de-emojis
+    titulo: Pirámide de emojis
+    url: https://mquirogab.github.io/piramide_emojis/
+    icono: 🔺
+    desc: Genera una pirámide truncada en 3D con un emoji grabado en cada cara, lista para imprimir
+    larga: Genera una pirámide truncada en 3D con un emoji grabado en cada cara, lista para imprimir.
+    etiquetas:
+    - Hecho por mí
+- id: personalizados-y-llaveros
+  icono: 🔑
+  titulo: Personalizados y llaveros
+  items:
+  - id: taller-3d
+    titulo: Taller 3D
+    url: https://mquirogab.github.io/taller3d/
+    icono: 🔑
+    desc: Llaveros, códigos QR y de Spotify, listos para descargar e imprimir
+    larga: Llaveros, códigos QR y de Spotify listos para descargar e imprimir en 3D.
+    etiquetas:
+    - Hecho por mí
+  - id: flexitoy
+    titulo: Flexitoy
+    url: https://makerworld.com/en/makerlab/flexiToyMaker/
+    icono: 🦴
+    desc: Sube una imagen y consigue un modelo con bisagras que se mueve
+    larga: Sube una imagen y consigue un modelo articulado, con bisagras, que se imprime ya montado y se mueve.
+- id: fotos-y-accesibilidad
+  icono: 📷
+  titulo: Fotos y accesibilidad
+  items:
+  - id: itslitho
+    titulo: ItsLitho
+    url: https://itslitho.com/
+    icono: 📷
+    desc: Sube una foto y conviértela en una litofanía
+    larga: 'Sube una foto y conviértela en una litofanía: una lámina que, a contraluz, deja ver la imagen.'
+  - id: carteles-en-braille
+    titulo: Carteles en braille
+    url: https://mquirogab.github.io/cartel_braille/
+    icono: 🔤
+    desc: Convierte un texto en un cartel en braille listo para imprimir en 3D
+    larga: Convierte un texto en un cartel con braille, listo para imprimir en 3D.
+    etiquetas:
+    - Hecho por mí

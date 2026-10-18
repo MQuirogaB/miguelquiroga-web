@@ -145,13 +145,32 @@ collections:
           - { label: "Descripción", name: "description", widget: "string" }
           - { label: "Contenido", name: "body", widget: "markdown" }
       - name: "recursos_online"
-        label: "📄 Recursos online y utilidades web"
-        file: "content/corte-laser/recursos-online.md"
+        label: "🌐 Recursos online y utilidades web (láser)"
+        file: "data/recursos/laser.yaml"
         fields:
-          - { label: "Título", name: "title", widget: "string" }
-          - { label: "Icono (emoji)", name: "icon", widget: "string" }
-          - { label: "Descripción", name: "description", widget: "string" }
-          - { label: "Contenido", name: "body", widget: "markdown" }
+          - label: "Categorías"
+            name: "categorias"
+            widget: "list"
+            label_singular: "categoría"
+            summary: "{{fields.icono}} {{fields.titulo}}"
+            fields:
+              - { label: "Identificador (sin espacios ni acentos)", name: "id", widget: "string" }
+              - { label: "Icono (emoji)", name: "icono", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - label: "Recursos"
+                name: "items"
+                widget: "list"
+                label_singular: "recurso"
+                summary: "{{fields.icono}} {{fields.titulo}}"
+                fields:
+                  - { label: "Identificador de la ficha (sin espacios ni acentos)", name: "id", widget: "string" }
+                  - { label: "Título", name: "titulo", widget: "string" }
+                  - { label: "Enlace", name: "url", widget: "string" }
+                  - { label: "Icono (emoji)", name: "icono", widget: "string" }
+                  - { label: "Descripción corta (tarjeta)", name: "desc", widget: "string" }
+                  - { label: "Descripción larga (ficha)", name: "larga", widget: "text" }
+                  - { label: "Etiquetas", name: "etiquetas", widget: "list", required: false }
+                  - { label: "Captura (ruta, p. ej. images/recursos/nombre.jpg)", name: "imagen", widget: "string", required: false }
       - name: "repositorios_online"
         label: "📄 Repositorios online (archivos para cortar)"
         file: "content/corte-laser/repositorios-online.md"
@@ -211,13 +230,32 @@ collections:
           - { label: "Descripción", name: "description", widget: "string" }
           - { label: "Contenido", name: "body", widget: "markdown" }
       - name: "recursos_online"
-        label: "📄 Recursos online y utilidades web"
-        file: "content/impresion-3d/recursos-online.md"
+        label: "🌐 Recursos online y utilidades web (3D)"
+        file: "data/recursos/3d.yaml"
         fields:
-          - { label: "Título", name: "title", widget: "string" }
-          - { label: "Icono (emoji)", name: "icon", widget: "string" }
-          - { label: "Descripción", name: "description", widget: "string" }
-          - { label: "Contenido", name: "body", widget: "markdown" }
+          - label: "Categorías"
+            name: "categorias"
+            widget: "list"
+            label_singular: "categoría"
+            summary: "{{fields.icono}} {{fields.titulo}}"
+            fields:
+              - { label: "Identificador (sin espacios ni acentos)", name: "id", widget: "string" }
+              - { label: "Icono (emoji)", name: "icono", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - label: "Recursos"
+                name: "items"
+                widget: "list"
+                label_singular: "recurso"
+                summary: "{{fields.icono}} {{fields.titulo}}"
+                fields:
+                  - { label: "Identificador de la ficha (sin espacios ni acentos)", name: "id", widget: "string" }
+                  - { label: "Título", name: "titulo", widget: "string" }
+                  - { label: "Enlace", name: "url", widget: "string" }
+                  - { label: "Icono (emoji)", name: "icono", widget: "string" }
+                  - { label: "Descripción corta (tarjeta)", name: "desc", widget: "string" }
+                  - { label: "Descripción larga (ficha)", name: "larga", widget: "text" }
+                  - { label: "Etiquetas", name: "etiquetas", widget: "list", required: false }
+                  - { label: "Captura (ruta, p. ej. images/recursos/nombre.jpg)", name: "imagen", widget: "string", required: false }
       - name: "repositorios_online"
         label: "📄 Repositorios online (archivos para imprimir)"
         file: "content/impresion-3d/repositorios-online.md"
