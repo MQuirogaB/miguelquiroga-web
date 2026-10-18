@@ -9,12 +9,14 @@ categorias:
     icono: 🔤
     desc: Archivo de fuentes de descarga gratuita, con búsqueda por estilo, autor o popularidad
     larga: 'Archivo enorme de tipografías de descarga gratuita. Puedes buscar por estilo, autor o popularidad y probar tu propio texto antes de descargar. Antes de usar una fuente en un trabajo, mira su licencia: algunas son solo para uso personal.'
+    imagen: images/recursos/dafont.jpg
   - id: templatemaker
     titulo: Templatemaker
     url: https://www.templatemaker.nl/en/
     icono: 📐
     desc: Plantillas de cajas y formas geométricas, gratis y sin registro
     larga: Generador de plantillas de cajas y formas geométricas para cortar con láser, gratis y sin registro. Indicas las medidas y el grosor del material y descargas el archivo listo para cortar.
+    imagen: images/recursos/templatemaker.jpg
 - id: cajas-y-uniones
   icono: 📦
   titulo: Cajas y uniones
@@ -25,12 +27,14 @@ categorias:
     icono: 📦
     desc: Generador open source de cajas con uniones de dedo, bisagras y engranajes
     larga: Colección de generadores de cajas de código abierto, con uniones de dedo, bisagras, engranajes y cientos de variantes. Cada diseño se ajusta con las medidas, el grosor del material y el kerf, y se descarga en SVG.
+    imagen: images/recursos/gallery-boxes-py.jpg
   - id: makercase
     titulo: MakerCase
     url: https://www.makercase.com/#/
     icono: 📦
     desc: Diseños de cajas para láser y CNC, listos en SVG y DXF
     larga: 'Diseña en el navegador una caja a medida: eliges tipo, medidas, grosor y uniones, y descargas el resultado en SVG o DXF para láser y CNC. Es una de las vías más rápidas para sacar una caja sencilla.'
+    imagen: images/recursos/makercase.jpg
   - id: reinforced-open-box
     titulo: Reinforced Open Box
     url: https://cuttle.xyz/@cuttle/Reinforced-Open-Box-with-Finger-Joints-kuXXyUPyimG1
@@ -39,6 +43,7 @@ categorias:
     larga: Plantilla de Cuttle para una caja abierta con uniones de dedo y refuerzos, pensada para aguantar más peso. Se ajusta a tus medidas y al grosor del material.
     etiquetas:
     - Cuttle
+    imagen: images/recursos/reinforced-open-box.jpg
   - id: cardstock-polygon-box
     titulo: Cardstock Polygon Box
     url: https://cuttle.xyz/@cuttle/Cardstock-Polygon-Box-Ar6cqKXEMfy3
@@ -47,6 +52,7 @@ categorias:
     larga: Plantilla de Cuttle para una caja poligonal que se pliega a partir de una sola pieza de cartulina, sin pegamento. Muy buena para trabajar con papel en el aula.
     etiquetas:
     - Cuttle
+    imagen: images/recursos/cardstock-polygon-box.jpg
 - id: joyeria-con-incrustaciones
   icono: 💍
   titulo: Joyería con incrustaciones
@@ -59,6 +65,7 @@ categorias:
     larga: Plantilla de Cuttle para pendientes con piezas incrustadas a presión. El diseño compensa el kerf del láser para que las piezas encajen justas.
     etiquetas:
     - Cuttle
+    imagen: images/recursos/curved-wedge-inlay-earrings.jpg
   - id: cat-face-inlay-earrings
     titulo: Cat Face Inlay Earrings
     url: https://cuttle.xyz/@cuttle/Cat-Face-Inlay-Earrings-BhwlGSh34Fr4
@@ -67,6 +74,7 @@ categorias:
     larga: Pendientes con forma de cara de gato, con incrustación a presión y ajuste del kerf, listos para cortar con láser.
     etiquetas:
     - Cuttle
+    imagen: images/recursos/cat-face-inlay-earrings.jpg
   - id: rounded-teardrop-inlay-earrings
     titulo: Rounded Teardrop Inlay Earrings
     url: https://cuttle.xyz/@cuttle/Rounded-Teardrop-Inlay-Earrings-E8aplkd4gPhA
@@ -75,6 +83,7 @@ categorias:
     larga: Pendientes en forma de lágrima con incrustación a presión. Combina dos materiales o colores y ajusta el kerf desde la propia plantilla.
     etiquetas:
     - Cuttle
+    imagen: images/recursos/rounded-teardrop-inlay-earrings.jpg
 - id: texto-llaveros-y-personalizados
   icono: 🏷️
   titulo: Texto, llaveros y personalizados
@@ -87,6 +96,7 @@ categorias:
     larga: Escribes un texto y lo convierte en un bloque cortable en el que las letras quedan unidas, al estilo de un posavasos. Sirve para nombres, palabras y regalos personalizados.
     etiquetas:
     - Cuttle
+    imagen: images/recursos/block-of-text-generator.jpg
   - id: connected-text
     titulo: Connected Text
     url: https://cuttle.xyz/@cuttle/Connected-Text-29M9IXUSr5yr
@@ -95,6 +105,7 @@ categorias:
     larga: Une las letras de un texto para que se corte de una sola pieza, sin letras sueltas. Es útil para nombres colgantes y rótulos.
     etiquetas:
     - Cuttle
+    imagen: images/recursos/connected-text.jpg
   - id: name-tags
     titulo: Name Tags
     url: https://cuttle.xyz/@cuttle/Name-Tags-2NrhKugVpmaW
@@ -103,6 +114,7 @@ categorias:
     larga: Tarjetas con nombre para grabar, con el texto autoescalado al tamaño de la tarjeta. Pensadas para producir muchas seguidas, por ejemplo para una clase.
     etiquetas:
     - Cuttle
+    imagen: images/recursos/name-tags.jpg
   - id: keychain-generator
     titulo: Keychain Generator
     url: https://cuttle.xyz/@cuttle/Keychain-Generator-j0lMJaBnDHn0
@@ -111,6 +123,7 @@ categorias:
     larga: Genera un llavero con el texto que escribas, con agujero para la anilla. Se descarga listo para cortar.
     etiquetas:
     - Cuttle
+    imagen: images/recursos/keychain-generator.jpg
   - id: emoji-keychain
     titulo: Emoji Keychain
     url: https://cuttle.xyz/@cuttle/Emoji-Keychain-WT5e0Hmgekwu
@@ -119,6 +132,7 @@ categorias:
     larga: Genera un llavero con el emoji que elijas, listo para cortar y grabar.
     etiquetas:
     - Cuttle
+    imagen: images/recursos/emoji-keychain.jpg
   - id: garden-markers
     titulo: Garden Markers
     url: https://cuttle.xyz/@cuttle/Garden-Markers-TOlMPZvMlpQw
@@ -127,6 +141,7 @@ categorias:
     larga: Plantilla de Cuttle para marcadores de jardín con estaca, que graba el texto que escribas. Si quieres más formas de cabeza y emoji, mira también mis Marcadores de plantas.
     etiquetas:
     - Cuttle
+    imagen: images/recursos/garden-markers.jpg
   - id: cartel-laser
     titulo: Cartel láser
     url: https://mquirogab.github.io/cartel_laser/
@@ -144,6 +159,7 @@ categorias:
     larga: Busca un pictograma de ARASAAC, añade texto opcional y descarga una placa en SVG para cortar y grabar con láser. Permite hacer lotes de carteles y bajarlos en un ZIP. Pensado para carteles accesibles en el aula.
     etiquetas:
     - Hecho por mí
+    imagen: images/recursos/carteles-con-pictogramas.jpg
   - id: marcadores-de-plantas
     titulo: Marcadores de plantas
     url: https://mquirogab.github.io/mardacor_plantas/
@@ -163,6 +179,7 @@ categorias:
     icono: 🧩
     desc: Generador de laberintos para corte láser
     larga: Generador de laberintos para cortar con láser. Eliges el tamaño y el tipo de laberinto y descargas el diseño listo para cortar.
+    imagen: images/recursos/lasercutmazes.jpg
   - id: jigsaw-puzzle
     titulo: Jigsaw puzzle
     url: https://gists.rawgit.com/Draradech/35d36347312ca6d0887aa7d55f366e30/raw/b04cf9cd63a59571910cb226226ce2b3ed46af46/jigsaw.html
@@ -177,3 +194,4 @@ categorias:
     larga: 'Plantilla de Cuttle de un autómata de madera contrachapada: un muñeco que anda al girar una manivela. Buen proyecto para ver mecanismos y movimiento en el taller.'
     etiquetas:
     - Cuttle
+    imagen: images/recursos/walking-man-automaton.jpg
