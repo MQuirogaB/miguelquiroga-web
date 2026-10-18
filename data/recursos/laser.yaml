@@ -146,6 +146,15 @@ categorias:
   icono: 🧩
   titulo: Puzles y mecanismos
   items:
+  - id: generador-de-puzles
+    titulo: Generador de puzles
+    url: https://mquirogab.github.io/puzzle_svg/
+    icono: 🧩
+    desc: 'Puzles para cortar con láser: elige tamaño, número y tipo de pieza, con marco y base opcionales, en un SVG de un solo color'
+    larga: Elige el tamaño, el número de piezas y el tipo de pieza (clásica con lengüetas, recta, ondulada, hexagonal o triangular) y descarga un SVG listo para cortar. Todo va de un solo color y cada línea de corte aparece una sola vez, así que el láser no pasa dos veces por el mismo sitio. Puedes añadir un marco alrededor del puzle y una base para pegarlo. Todo ocurre en el navegador.
+    etiquetas:
+    - Hecho por mí
+    imagen: images/recursos/generador-de-puzles.jpg
   - id: lasercutmazes
     titulo: LaserCutMazes
     url: https://adashrod.github.io/LaserCutMazes/welcome
