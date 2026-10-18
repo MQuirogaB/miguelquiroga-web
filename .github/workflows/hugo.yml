@@ -36,6 +36,10 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Construir el sitio con Hugo
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Configurar Node (para las herramientas que se compilan)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
       - name: Incluir las herramientas (miguelquiroga.es/<herramienta>/)
         run: scripts/incluir-herramientas.sh public
       - name: Empaquetar el resultado

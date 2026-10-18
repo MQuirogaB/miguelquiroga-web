@@ -1,5 +1,5 @@
 # Herramientas que se publican dentro de la web: miguelquiroga.es/<repo>/
-# Una por línea: nombre del repositorio de MQuirogaB (se copia su carpeta docs).
+# Una por línea: nombre del repositorio de MQuirogaB (se copia su carpeta docs, o dist si se compila).
 cartel_laser
 carteles_pictos
 mardacor_plantas
@@ -7,3 +7,4 @@ llavero_emoji
 puzzle_svg
 cartel_braille
 piramide_emojis
+taller3d
