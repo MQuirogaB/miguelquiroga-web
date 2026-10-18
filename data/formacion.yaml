@@ -1,0 +1,37 @@
+# Archivos de práctica de /formacion (página oculta: no aparece en menús ni enlaces).
+# Para añadir uno: copia el archivo a static/formacion/<apartado>/ y añade un bloque aquí.
+apartados:
+  - id: impresion-3d
+    titulo: Impresión 3D
+    icono: "🧊"
+    descripcion: Modelos STL para las prácticas de los cursos.
+    archivos:
+      - titulo: Emoji
+        archivo: Emoji.stl
+        imagen: emoji.jpg
+        medidas: "68 × 10 × 68 mm"
+      - titulo: Estatua
+        archivo: Estatua.stl
+        imagen: estatua.jpg
+        medidas: "86 × 60 × 120 mm"
+      - titulo: Military whistle
+        archivo: Military_whistle.stl
+        imagen: military-whistle.jpg
+        medidas: "116 × 25 × 25 mm"
+      - titulo: Tartaruga
+        archivo: Tartaruga.stl
+        imagen: tartaruga.jpg
+        medidas: "32 × 45 × 19 mm"
+  - id: corte-laser
+    titulo: Corte láser
+    icono: "✂️"
+    descripcion: Imágenes para las prácticas de corte y grabado.
+    archivos:
+      - titulo: El Principito
+        archivo: El_Principito.png
+        imagen: el-principito.jpg
+        medidas: "962 × 962 px"
+      - titulo: Mickey
+        archivo: Mickey.png
+        imagen: mickey.jpg
+        medidas: "660 × 611 px"

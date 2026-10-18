@@ -1473,3 +1473,22 @@ details.star-toggle-sm summary::after { color: var(--teal); }
   padding: 4px 10px; border-radius: 999px;
 }
 .mini-card .mc-go:hover { background: var(--accent); color: #fff; }
+
+/* /formacion — página oculta de descargas */
+.fm { max-width: 980px; margin: 0 auto; padding: 8px 0 40px; }
+.fm-head h1 { text-align: left; margin-bottom: 4px; }
+.fm-head p { color: var(--ink-light); margin: 0 0 8px; }
+.fm-sec { margin-top: 34px; }
+.fm-sec h2 { font-size: 22px; margin: 0 0 4px; }
+.fm-sub { color: var(--ink-light); margin: 0 0 14px; font-size: 14.5px; }
+.fm-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+.fm-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
+.fm-img { background: #fff; border-bottom: 1px solid var(--border); height: 176px; padding: 8px; box-sizing: border-box; }
+.fm-img img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.fm-body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+.fm-body h3 { margin: 0; font-size: 16px; }
+.fm-meta { margin: 0; font-size: 12.5px; color: var(--ink-light); }
+.fm-desc { margin: 2px 0 0; font-size: 13.5px; }
+.fm-dl { margin-top: auto; align-self: flex-start; background: var(--accent); color: #fff; text-decoration: none; font-weight: 700; font-size: 14px; padding: 9px 16px; border-radius: 10px; }
+.fm-dl:hover { background: var(--accent-dark); }
+.fm-body .fm-dl { margin-top: 10px; }
