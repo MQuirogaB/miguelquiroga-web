@@ -11,7 +11,7 @@
 <div class="cat-group">
 {{ range $d.categorias }}
 <details class="cat-acc"><summary><span class="cat-icon">{{ .icono }}</span><span class="cat-title">{{ .titulo }}</span><span class="cat-count">{{ len .items }}</span></summary><div class="cat-acc-body"><div class="mini-grid">
-{{- range .items }}<div class="mini-card has-go"><a class="mc-main" href="{{ $base }}{{ .id }}/"><span class="mc-icon">{{ .icono }}</span><span class="mc-title">{{ .titulo }}</span><span class="mc-desc">{{ .desc }}</span></a><a class="mc-go" href="{{ .url }}" target="_blank" rel="noopener" aria-label="Ir a la web de {{ .titulo }}">Ir a la web ↗</a></div>{{ end -}}
+{{- range .items }}<div class="mini-card has-go"><a class="mc-main" href="{{ $base }}{{ .id }}/"><span class="mc-icon">{{ .icono }}</span>{{ if in .etiquetas "Hecho por mí" }}<img class="mc-own" src="{{ "images/logo.png" | relURL }}" alt="Hecho por mí" title="Hecho por mí" width="22" height="22">{{ end }}<span class="mc-title">{{ .titulo }}</span><span class="mc-desc">{{ .desc }}</span></a><a class="mc-go" href="{{ .url }}" target="_blank" rel="noopener" aria-label="Ir a la web de {{ .titulo }}">Ir a la web ↗</a></div>{{ end -}}
 </div></div></details>
 {{ end }}
 </div>

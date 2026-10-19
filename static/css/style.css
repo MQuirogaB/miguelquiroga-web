@@ -1492,3 +1492,6 @@ details.star-toggle-sm summary::after { color: var(--teal); }
 .fm-dl { margin-top: auto; align-self: flex-start; background: var(--accent); color: #fff; text-decoration: none; font-weight: 700; font-size: 14px; padding: 9px 16px; border-radius: 10px; }
 .fm-dl:hover { background: var(--accent-dark); }
 .fm-body .fm-dl { margin-top: 10px; }
+
+/* logo en las tarjetas de herramientas hechas por mí (arriba a la derecha, a la altura del emoji) */
+.mini-card .mc-own { position: absolute; top: 16px; right: 12px; width: 22px; height: 22px; object-fit: contain; pointer-events: none; z-index: 1; }
