@@ -97,15 +97,6 @@ categorias:
     etiquetas:
     - Cuttle
     imagen: images/recursos/block-of-text-generator.jpg
-  - id: connected-text
-    titulo: Connected Text
-    url: https://cuttle.xyz/@cuttle/Connected-Text-29M9IXUSr5yr
-    icono: 🔗
-    desc: Une las letras de un texto para cortarlo de una sola pieza
-    larga: Une las letras de un texto para que se corte de una sola pieza, sin letras sueltas. Es útil para nombres colgantes y rótulos.
-    etiquetas:
-    - Cuttle
-    imagen: images/recursos/connected-text.jpg
   - id: llavero-emoji
     titulo: Llavero de emoji
     url: https://miguelquiroga.es/llavero_emoji/
