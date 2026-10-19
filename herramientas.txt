@@ -4,6 +4,7 @@ cartel_laser
 carteles_pictos
 mardacor_plantas
 llavero_emoji
+carteles_svg
 puzzle_svg
 cartel_braille
 piramide_emojis

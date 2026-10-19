@@ -115,6 +115,15 @@ categorias:
     etiquetas:
     - Hecho por mí
     imagen: images/recursos/llavero-emoji.jpg
+  - id: palabra-para-laser
+    titulo: Palabra para láser
+    url: https://miguelquiroga.es/carteles_svg/
+    icono: 🔤
+    desc: Escribes una palabra y obtienes el contorno de las letras en negro y un reborde de corte en rojo, en SVG para láser
+    larga: 'Escribe una palabra o una frase, elige tipografía y tamaño, y descarga un SVG listo para el láser: el contorno de las letras en negro y, alrededor, un reborde de corte en rojo a la distancia que tú elijas (con casilla y deslizador). Puedes cambiar las esquinas del reborde, unir las letras para que salga en una sola pieza, cortar también alrededor de los huecos (o, a, e…) y dibujar las letras como contorno o como relleno. Todo ocurre en el navegador.'
+    etiquetas:
+    - Hecho por mí
+    imagen: images/recursos/palabra-para-laser.jpg
   - id: cartel-laser
     titulo: Cartel láser
     url: https://miguelquiroga.es/cartel_laser/
