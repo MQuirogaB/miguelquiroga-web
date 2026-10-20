@@ -8,6 +8,8 @@ SITIO="${1:-public}"
 LISTA="$(dirname "$0")/../herramientas.txt"
 TMP="$(mktemp -d)"
 fallos=0
+UMAMI_ID="7746ca97-b2bd-4630-9ba6-501cebc3faa5"
+UMAMI_TAG="<script defer src=\"https://cloud.umami.is/script.js\" data-website-id=\"$UMAMI_ID\"></script>"
 while read -r repo; do
   [[ -z "$repo" || "$repo" == \#* ]] && continue
   origen="$TMP/$repo"
@@ -32,6 +34,12 @@ while read -r repo; do
   fi
   mkdir -p "$SITIO/$repo"
   cp -r "$carpeta/." "$SITIO/$repo/"
+  # Analítica (Umami): se inserta antes de </head> en cada página de la herramienta (sin tocar el repo de la herramienta)
+  while IFS= read -r -d '' pagina; do
+    if ! grep -q "$UMAMI_ID" "$pagina" && grep -qi '</head>' "$pagina"; then
+      UMAMI_TAG="$UMAMI_TAG" perl -0pi -e 's{</head>}{$ENV{UMAMI_TAG}</head>}i' "$pagina"
+    fi
+  done < <(find "$SITIO/$repo" -type f -name '*.html' -print0)
   echo "OK  $repo -> $SITIO/$repo/ ($(find "$SITIO/$repo" -type f | wc -l) archivos)"
 done < "$LISTA"
 rm -rf "$TMP"
