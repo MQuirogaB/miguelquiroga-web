@@ -171,3 +171,12 @@ categorias:
     etiquetas:
     - Cuttle
     imagen: images/recursos/walking-man-automaton.jpg
+  - id: puzle-de-formulacion
+    titulo: Puzle de formulación
+    url: https://miguelquiroga.es/puzzle_formulacion/
+    icono: ⚗️
+    desc: Piezas de cationes y aniones que encajan por su carga, para enseñar formulación; SVG para láser y STL para 3D
+    larga: 'Elige cationes y aniones de una lista larga (compuestos binarios) y ve cómo se construyen las piezas: cada ion tiene tantas pestañas o huecos como su carga, de modo que solo encajan las combinaciones correctas. Ajusta tamaño, tolerancia, grosor y texto, y descarga un SVG para cortar con láser (corte en rojo, texto grabado en negro) o un STL para imprimir en 3D (en relieve o incrustado). Todo ocurre en el navegador.'
+    etiquetas:
+    - Hecho por mí
+    imagen: images/recursos/puzzle-formulacion.jpg
