@@ -171,6 +171,10 @@ categorias:
     etiquetas:
     - Cuttle
     imagen: images/recursos/walking-man-automaton.jpg
+- id: ciencias
+  icono: 🔬
+  titulo: Ciencias
+  items:
   - id: puzle-de-formulacion
     titulo: Puzle de formulación
     url: https://miguelquiroga.es/puzzle_formulacion/
