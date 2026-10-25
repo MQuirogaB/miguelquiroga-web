@@ -10,3 +10,4 @@ cartel_braille
 piramide_emojis
 puzzle_formulacion
 taller3d
+dados_formulacion
