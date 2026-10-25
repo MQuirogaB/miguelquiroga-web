@@ -184,3 +184,12 @@ categorias:
     etiquetas:
     - Hecho por mí
     imagen: images/recursos/puzzle-formulacion.jpg
+     - id: dados-de-formulacion
+       titulo: Dados de formulación
+       url: https://miguelquiroga.es/dados_formulacion/
+       icono: 🎲
+       desc: Un dado de cationes y otro de aniones (6, 8 o 10 caras) para tirar y formular el compuesto que sale; STL para 3D y SVG para láser
+       larga: 'Un dado de cationes y otro de aniones, con un ion en cada cara. Tira los dos y formula el compuesto que sale. Elige cuántas caras tiene (6, 8 o 10), pon un ion en cada una y descarga el STL para imprimir los dados en 3D o el desarrollo plano en SVG para cortarlo con láser. Todo ocurre en el navegador.'
+       etiquetas:
+       - Hecho por mí
+       imagen: images/recursos/dados-formulacion.jpg
