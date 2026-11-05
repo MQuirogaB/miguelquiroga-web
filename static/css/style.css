@@ -1512,3 +1512,5 @@ details.star-toggle-sm summary::after { color: var(--teal); }
 .fm-sw-item { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px; }
 .fm-sw-item p { margin: 0; flex: 1; min-width: 220px; }
 .fm-sw-item .fm-dl { margin: 0; }
+.fm-split-corte-laser { border-left: 3px solid var(--accent); border-image: linear-gradient(to bottom, var(--accent), var(--blue)) 1; }
+@media (max-width: 640px) { .fm-split-corte-laser { border-left: 0; border-top: 3px solid var(--accent); border-image: linear-gradient(to right, var(--accent), var(--blue)) 1; } }
