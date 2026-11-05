@@ -1495,3 +1495,16 @@ details.star-toggle-sm summary::after { color: var(--teal); }
 
 /* logo en las tarjetas de herramientas hechas por mí (arriba a la derecha, a la altura del emoji) */
 .mini-card .mc-own { position: absolute; top: 16px; right: 12px; width: 22px; height: 22px; object-fit: contain; pointer-events: none; z-index: 1; }
+
+/* ---------- /formacion: portada con dos tarjetas ---------- */
+.fm-split { display: flex; min-height: 55vh; margin-top: 22px; border: 1px solid var(--border); border-radius: 16px; overflow: hidden; }
+.fm-split-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 24px; text-align: center; text-decoration: none; transition: flex .3s; }
+.fm-split-item:hover, .fm-split-item:focus-visible { flex: 1.6; }
+.fm-split-item h2 { margin: 0; font-size: 30px; }
+.fm-split-impresion-3d { background: var(--accent-soft); color: var(--accent-dark); }
+.fm-split-corte-laser { background: var(--blue-soft); color: var(--blue); }
+.fm-ico svg { width: 72px; height: 72px; display: block; }
+.fm-ico-sm svg { width: 30px; height: 30px; display: block; }
+.fm-ico svg, .fm-ico-sm svg { fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.fm-h1 { display: flex; align-items: center; gap: 10px; }
+@media (max-width: 640px) { .fm-split { flex-direction: column; min-height: 0; } .fm-split-item { padding: 40px 24px; } }

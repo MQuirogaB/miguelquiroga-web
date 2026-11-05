@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="fm">
+  <header class="fm-head">
+    <h1>🎓 Archivos de práctica</h1>
+    <p>Descarga aquí los archivos que usaremos en clase.</p>
+  </header>
+  <div class="fm-split">
+    {{ range site.Data.formacion.apartados }}
+    <a class="fm-split-item fm-split-{{ .id }}" href="{{ relURL (printf "formacion/%s/" .id) }}">
+      <span class="fm-ico" aria-hidden="true">{{ partial "fm-icon.html" .id }}</span>
+      <h2>{{ .titulo }}</h2>
+    </a>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

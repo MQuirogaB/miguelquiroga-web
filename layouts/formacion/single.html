@@ -1,15 +1,13 @@
 {{ define "main" }}
-{{ $d := site.Data.formacion }}
+{{ $id := .Params.apartado }}
 <article class="fm">
-  <header class="fm-head">
-    <h1>🎓 Archivos de práctica</h1>
-    <p>Descarga aquí los archivos que usaremos en clase.</p>
-  </header>
-  {{ range $d.apartados }}
+  {{ range where site.Data.formacion.apartados "id" $id }}
   {{ $ap := . }}
+  <header class="fm-head">
+    <h1 class="fm-h1"><span class="fm-ico-sm" aria-hidden="true">{{ partial "fm-icon.html" .id }}</span>{{ .titulo }}</h1>
+    {{ with .descripcion }}<p>{{ . }}</p>{{ end }}
+  </header>
   <section class="fm-sec" id="{{ .id }}">
-    <h2>{{ .icono }} {{ .titulo }}</h2>
-    {{ with .descripcion }}<p class="fm-sub">{{ . }}</p>{{ end }}
     <div class="fm-grid">
       {{ range .archivos }}
       {{ $path := printf "formacion/%s/%s" $ap.id .archivo }}

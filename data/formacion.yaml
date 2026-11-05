@@ -3,7 +3,6 @@
 apartados:
   - id: impresion-3d
     titulo: Impresión 3D
-    icono: "🧊"
     descripcion: Modelos STL para las prácticas de los cursos.
     archivos:
       - titulo: Emoji
@@ -24,7 +23,6 @@ apartados:
         medidas: "32 × 45 × 19 mm"
   - id: corte-laser
     titulo: Corte láser
-    icono: "✂️"
     descripcion: Imágenes para las prácticas de corte y grabado.
     archivos:
       - titulo: El Principito
