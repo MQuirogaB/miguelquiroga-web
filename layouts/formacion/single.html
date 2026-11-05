@@ -8,6 +8,7 @@
     {{ with .descripcion }}<p>{{ . }}</p>{{ end }}
   </header>
   <section class="fm-sec" id="{{ .id }}">
+    <h2>Archivos</h2>
     <div class="fm-grid">
       {{ range .archivos }}
       {{ $path := printf "formacion/%s/%s" $ap.id .archivo }}
@@ -24,6 +25,19 @@
       {{ end }}
     </div>
   </section>
+  {{ with .software }}
+  <section class="fm-sec" id="software">
+    <h2>Software</h2>
+    <div class="fm-sw">
+      {{ range . }}
+      <div class="fm-sw-item">
+        <p>{{ .texto }}</p>
+        <a class="fm-dl" href="{{ .url }}" target="_blank" rel="noopener">⬇ Descargar</a>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
   {{ end }}
 </article>
 {{ end }}

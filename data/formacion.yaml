@@ -21,6 +21,11 @@ apartados:
         archivo: Tartaruga.stl
         imagen: tartaruga.jpg
         medidas: "32 × 45 × 19 mm"
+    software:
+      - texto: "Para la Creality K1 (la nueva de Polos Creativos), baja este:"
+        url: https://www.creality.com/es/download
+      - texto: "Si tienes la Creality CR-200B, baja este:"
+        url: https://www.crealitycloud.com/es/downloads/software/creality-slicer/Windows
   - id: corte-laser
     titulo: Corte láser
     descripcion: Imágenes para las prácticas de corte y grabado.
@@ -33,3 +38,6 @@ apartados:
         archivo: Mickey.png
         imagen: mickey.jpg
         medidas: "660 × 611 px"
+    software:
+      - texto: "Inkscape, para preparar y editar los diseños:"
+        url: https://inkscape.app/es/descargar/

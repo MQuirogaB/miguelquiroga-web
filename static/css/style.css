@@ -1508,3 +1508,7 @@ details.star-toggle-sm summary::after { color: var(--teal); }
 .fm-ico svg, .fm-ico-sm svg { fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
 .fm-h1 { display: flex; align-items: center; gap: 10px; }
 @media (max-width: 640px) { .fm-split { flex-direction: column; min-height: 0; } .fm-split-item { padding: 40px 24px; } }
+.fm-sw { display: flex; flex-direction: column; gap: 12px; }
+.fm-sw-item { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px; }
+.fm-sw-item p { margin: 0; flex: 1; min-width: 220px; }
+.fm-sw-item .fm-dl { margin: 0; }
